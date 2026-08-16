@@ -1,0 +1,3357 @@
+{
+  "title": "",
+  "passages": [
+    {
+      "pid": "1",
+      "name": "Introdução ",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/fb/15/8a/fb158afc280d63039445ee6f24a49ca3.jpg\" width=\"225\" heigth=\"225\">\n(set: $vontade to 7) (set: $força to 7)(set: $intelecto to 7)(set: $descanso to 3)(set: $vida to 9)(set: $moedas to 15)\n==><==\n\nTimérius, viaja há três meses pela estrada que desde Canis, na costa norte de Quimera em direção ao sul. Seu objetivo principal é chegar ao ducado de Quidrae, que fica depois de Om Sin Nacem, uma região decadente com um pequeno porto. Lá ele reforçaria suas energias e tentaria ganhar algum dinheiro para passar pelo portão da cidade da Duquesa. Não está muito esperançoso enquanto a isso. Depois de seu exílio, foi permitido que levasse apenas sua roupa do corpo, sua espada, sua adaga de prata e uma parca quantidade de moedas de cobre. Gastou-as em poucos dias, depois passou fome por uma semana. Até encontrar pessoas bondosas que lhe deram o que comer e deixaram algumas moedas em sua posse, em troca de alguns poucos trabalhos de carpintaria. Partiu porque não queria se tornar apenas um agricultor que desistiu de tudo e se camuflou na pele de um qualquer. Ele sabia que tinha um propósito. Deveria reencontrar sua esposa, nos calabouços do Granducado de Quidrae.\n\n\n(button:)[[Avançar|Roubaram sua Adaga de Prata]]\n\n\n(button:)[[Voltar para o Menu|Menu]]\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">\n\n\n",
+      "links": [
+        "Avançar|Roubaram sua Adaga de Prata",
+        "Voltar para o Menu|Menu",
+        "Atributos"
+      ],
+      "variables": [
+        "$descanso",
+        "$força",
+        "$intelecto",
+        "$moedas",
+        "$vida",
+        "$vontade"
+      ]
+    },
+    {
+      "pid": "2",
+      "name": "Roubaram sua Adaga de Prata",
+      "tags": [
+        "E-1"
+      ],
+      "text": "\n==><==\n<img src=\"https://i.pinimg.com/originals/83/2f/c2/832fc2413d710155b057d88119a90b84.jpg\" width=\"225\" heigth=\"300\">\n\nTimérius acorda e está na beira da estrada. \n\nTinha dormido na mesma hora em que encostou a cabeça na grama. \n\nLevantou ainda exausto. \n\nAo despertar um pouco mais, percebe que sua adaga de prata sumiu. Levanta num pulo e começa a procurar entre os arbustos e moitas. Nada. \n\nSeu objeto mais valioso sumiu. E agora?\n\nPor ser um presente do próprio falecido GrãoDuque de Quidrae, por agradecimento à sua bravura incontestável, não houve quem o proibisse de levá-la. \n\nAgora, tudo parecia ainda mais difícil. \n\nDesiludido e sentindo o peso de uma montanha em seus ombros, \n\ncontinua seu caminho até a vila de Om Sin Nacem, na periferia da capital do ducado.\n\n\n(button:)[[Avançar|Vagou pela Estrada]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">\n\n(button:)[[Atributos]]\n",
+      "links": [
+        "Avançar|Vagou pela Estrada",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "3",
+      "name": "Vagou pela Estrada",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/7a/73/df/7a73dfbe7d54ff4459aeb680dc5cfa12.jpg\" width=\"300\" heigth=\"400\">\n\nDepois de andar durante metade da manhã sem passar por nenhuma viva alma, Timérius vê um grupo de tartarugas sentadas na beira da estrada.\n\n<img src=\"https://i.pinimg.com/736x/0f/4b/45/0f4b455cbf82af602e4f0078d0f0681f.jpg\" width=\"300\" heigth=\"300\">\n\n\n Falar com as (button:)[[tartarugas|Se aproximou das Tartarugas]]\n \n \n(button:)[[Continuar|Vila Om Sin Nacem]] na estrada. \n\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">\n\n<!--Comment Text-->",
+      "links": [
+        "tartarugas|Se aproximou das Tartarugas",
+        "Continuar|Vila Om Sin Nacem",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "4",
+      "name": "Se aproximou das Tartarugas",
+      "tags": [
+        "Tartarugas"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/736x/3d/42/f3/3d42f305a5cae4fc710850fcc2725750.jpg\" width=\"250\" heigth=\"250\">\n\nEstavam ali alguns clãs diferentes de tartarugas. \n\nUm desses clãs parecia mais desconfiado do que a maioria. Dentre elas, a maior e que se encntrava bem no centro das suas familiares, perguntou:\n\n- O que você quer, lobo?\n    \n<img src=\"https://i.pinimg.com/originals/69/16/45/69164543558372bd16e0d19acfae33f2.jpg\" width=\"150\" heigth=\"200\">\n\nEle as observa e se aproxima com cautela. Pediria alguma informação? \n\nSó queria chegar na capital e falar com a Duquesa, mas não parecia que isso iria acontecer tão rápido.\n\n\n(button:)[[Falar algo|Falou com as Tartarugas]]\n\n\n\n(button:)[[Continuar|Vila Om Sin Nacem]] \n\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">\n",
+      "links": [
+        "Falar algo|Falou com as Tartarugas",
+        "Continuar|Vila Om Sin Nacem",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "5",
+      "name": "Saída da Vila Om Sin",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\n<img src=\"https://storage.googleapis.com/pai-images/0ce931c3bab144eaadefde00ac6df97b.jpeg\" width=\"300\" heigth=\"300\">\n\n(button:)[[Continuar pela estrada em direção a capital |Estrada para a capital]]\n\n(button:)[[R. Praia / Pensão]] \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Continuar pela estrada em direção a capital |Estrada para a capital",
+        "R. Praia / Pensão",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "6",
+      "name": "Falou com as Tartarugas",
+      "tags": [
+        "Tartarugas"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/c8/8c/a1/c88ca161be7c135e3e5496d08063dc55.jpg\" width=\"150\" heigth=\"200\">\n\nTimérius pergunta sobre alguém que tenha passado com pressa ou se havia visto uma adaga bonita de prata por ai.\n\nCom um sorrizo no canto da boca e om os olhos arregalados, a velha tartaruga pede alguma moeda pela informação.(click: \"moeda\") \n\n\n[ Quantas moedas Ender vai oferecer?\n\n<img src=\"https://i.pinimg.com/originals/ff/25/af/ff25afaa17d0f60cf382c48c16236895.jpg\" width=\"250\" heigth=\"250\">\n\n(button:)[[Uma moeda de cobre|Pagou 1 Moeda]] ou (button:)[[Duas moedas de cobre|Pagou 2 Moedas]]]\n\nEnder não aceita dar dinheiro por informação. Afinal teria que se alimentar com as escassas economias que guarda no bolso.\nTimério quer convencê-la a dizer algo de graça. (click: \"convencê-la\")\n\n[ O que Ender vai fazer?\n\n<img src=\"https://i.pinimg.com/originals/d1/93/4d/d1934dc658487e0285d20b51af05b9d4.jpg\" width=\"150\" height=\"200\">\n\n(button:)[[Insistir um pouco|Usou 1 de Vontade]] ou (button:)[[Ser mais contundente|Usou 2 de Vontade]]]\n\n\nDesistir e continuar até a\n(button:)[[Vila Om Sin Nacem]]\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">\n",
+      "links": [
+        "Uma moeda de cobre|Pagou 1 Moeda",
+        "Duas moedas de cobre|Pagou 2 Moedas",
+        "Insistir um pouco|Usou 1 de Vontade",
+        "Ser mais contundente|Usou 2 de Vontade",
+        "Vila Om Sin Nacem",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "7",
+      "name": "StoryInit",
+      "tags": [],
+      "text": "<<cacheaudio \"music\" \"Steampunk Music.mp4\">>",
+      "links": [],
+      "variables": []
+    },
+    {
+      "pid": "8",
+      "name": "Variáveis",
+      "tags": [],
+      "text": "(set: $vida to 10)\n\n<<set $forca = 7>><<set $destreza = 5>><<set $vontade = 5>><<set $intelecto = 5>><<set $vida = 10>><<set $moedas = 15>><<set $tempo = 0>><<set $equipamento= \" \">><<set $notas = \" \">>\n\n",
+      "links": [],
+      "variables": [
+        "$destreza",
+        "$equipamento",
+        "$forca",
+        "$intelecto",
+        "$moedas",
+        "$notas",
+        "$tempo",
+        "$vida",
+        "$vontade"
+      ]
+    },
+    {
+      "pid": "9",
+      "name": "dados",
+      "tags": [],
+      "text": "<<set $v1 = \"1\">>\n<<set $v2 = \"olá\">>\n<<set $v3 =  $v1 +$v2>>\n $v3",
+      "links": [],
+      "variables": [
+        "$v1",
+        "$v2",
+        "$v3"
+      ]
+    },
+    {
+      "pid": "10",
+      "name": " $v3",
+      "tags": [],
+      "text": "$v3",
+      "links": [],
+      "variables": [
+        "$v3"
+      ]
+    },
+    {
+      "pid": "11",
+      "name": "Foi a Taverna",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "\n==><==\n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,(hsl:0,0,0.5333,0.4),1,#ffffff))[Taverna da Guilda Burlesca]\n{(if: $tempo > 10)[[Alerta! Alguém está te procurando!]]}\n\n\n<img src=\"https://cdn.leonardo.ai/users/41d776f7-6d49-496b-89c2-ccf86ea17bbf/generations/d97d6b6a-b246-4a66-8644-e13d841cd1c3/DreamShaper_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_0.jpg\" width=\"250\" height=\"250\">\n\n\n(if: $tempo < 1)\n[No hall da Guilda Burlesca.\n\nEnder adentra na taverna. O local está cheio de lobos, macacos, gatos e humanos, todos conversando alto e se divertindo naquela tarde como outra qualquer. Assim que percebem Ender chegando, o falatório diminui por alguns segundos. Logo depois, tudo volta ao normal, mas isso para ele pode ser um indício de que o reconhecem. Ender, antes 'O Digno', agora 'O Exilado'.]\\\n(else:)[Sempre a mesma bagunça na Guilda Burlesca.]\n(set: $tempo to $tempo + 1)\n\n<img src=\"https://storage.googleapis.com/pai-images/71696282b1d84ed7a890bde866e2047f.jpeg\" width=\"250\" height=\"250\">\n\nPode se sentar num dos balcões ou mesas espalhadas pelo espaçoso recinto. O lugar lhe parece peculiar, com suas paredes cheias de figuras estranhas, quadros e objetos estranhos,  e ficou curioso para conhecer mais.\n(button:)[[ Sentar|Sentar]] numa das mesas. \n\n\n<img src=\"https://cdn.leonardo.ai/users/41d776f7-6d49-496b-89c2-ccf86ea17bbf/generations/7aab3129-904b-40cb-9dc2-e34f96ea4226/DreamShaper_v7_a_wold_panterawoman_clerk_serving_drinks_behind_3.jpg?w=512\" width=\"250\" height=\"250\">\n\nTambém percebeu a presença dos donos do local. Ou melhor, das donas. Várias híbridas de humanos com algum clã felino comandavam a baderna dos clientes assíduos. Talvez pudesse conseguir alguma informação útil. Como exemplo, uma nova pista sobre o ladrão ou como conseguir algum dinheiro para passar pelos guardas na entrada da capital.\nIr até o (button:)[[balcão|balcão]] do bar.\nOu falar diretamente com a [[gata|Gâmia]]que conta o dinheiro.\n\n\n<img src=\"https://cdn.leonardo.ai/users/41d776f7-6d49-496b-89c2-ccf86ea17bbf/generations/eca38242-8012-4403-a701-c83052a48272/DreamShaper_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_2.jpg\" width=\"250\" height=\"250\">\n\nPercebe também que existe uma saida pelos fundos da taverna, que leva a um beco. Se o larápio o viu quando chegou, sairia por ali sem ser notado. É bom investigar isso...\nIr até os (button:)[[fundos|fundos]] da taverna \n\n\n(if: (history:) contains \"aceitar missão\")\n[<img src=\"https://cdn.leonardo.ai/users/41d776f7-6d49-496b-89c2-ccf86ea17bbf/generations/d97d6b6a-b246-4a66-8644-e13d841cd1c3/DreamShaper_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_3.jpg?w=512\" width=\"250\" height=\"250\">\n\nHaviam muitas coisas penduradas na parede pelo lugar. Folhetins antigos e novos se rasgavam e envelheciam por todos os lados. Se queria saber mais sobre a história local e desse ducado tão distante de seu lar, essa poderia ser uma distração construtiva. \nAndar pelo (button:)[[estabelecimento.|ENCONTROS]]]\n\n\n(button:)[[Centrinho do Condado|Foi ao Centrinho do Antigo Condado]] \n\n\n---\n###MAPA\n(click: \"MAPA\")[4- A Tavena fica no Antigo Condado\n\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\" width=\"250\" height=\"250\">]\n\n\n(button:)[[Atributos]]",
+      "links": [
+        "Alerta! Alguém está te procurando!",
+        " Sentar|Sentar",
+        "balcão|balcão",
+        "gata|Gâmia",
+        "fundos|fundos",
+        "estabelecimento.|ENCONTROS",
+        "Centrinho do Condado|Foi ao Centrinho do Antigo Condado",
+        "Atributos"
+      ],
+      "variables": [
+        "$tempo",
+        "_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_0",
+        "_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_2",
+        "_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_3",
+        "_v7_a_wold_panterawoman_clerk_serving_drinks_behind_3"
+      ]
+    },
+    {
+      "pid": "12",
+      "name": "Estrada para a capital",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\nAo sair da taverna, Ender andou por uns vinte minutos até avistar um soldado no meio da estrada. Um guarda da Duquesa Lorna. Estavam há poucos quilômetros da capital do Ducado, a cidade de Lorna. Dalí já era possível ser vista no alto da montanha. Quando se aproximou do posto militar, o soldado o mandou parar.\n\t- Aonde vai forasteiro? Para passar deve ter uma carta de recomendação ou uma moeda de ouro? Tens algum dos dois?\n    \n    Sua quantidade de moedas é $moedas\n    \n(button:)[[Tem cinquenta moedas de cobre |Passar pelo guarda]]\n\n(button:)[[Não tem cinquenta moedas de cobre, muito menos uma de ouro |Não tem moedas]] \n\n(button:)[[Volltar para a Vila Om Sin|Saída da Vila Om Sin]]\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">\n    ",
+      "links": [
+        "Tem cinquenta moedas de cobre |Passar pelo guarda",
+        "Não tem cinquenta moedas de cobre, muito menos uma de ouro |Não tem moedas",
+        "Volltar para a Vila Om Sin|Saída da Vila Om Sin",
+        "Atributos"
+      ],
+      "variables": [
+        "$moedas"
+      ]
+    },
+    {
+      "pid": "13",
+      "name": "Sentar",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "==><==\nEle senta numa das mesas no meio das pessoas para se enturmar e ver se conhecem o ladrão de sua faca.\n(button:)[[Beber algo |Beber]]\n(button:)[[Conversar com alguém |Sozinho na mesa]]\n(button:)[[Voltar |Foi a Taverna]]",
+      "links": [
+        "Beber algo |Beber",
+        "Conversar com alguém |Sozinho na mesa",
+        "Voltar |Foi a Taverna"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "14",
+      "name": "Loja",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/3a/64/85/3a6485c64b9f45a7bc4c113f55ea9915.jpg\" width=\"300\" heigth=\"400\">\n\nNa loja, Ender tem algumas opções:\n(button:)[[Faca]]\n(button:)[[Escudo]]\n(button:)[[Espada velha]]\n(button:)[[Foi ao Centrinho do Antigo Condado]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Faca",
+        "Escudo",
+        "Espada velha",
+        "Foi ao Centrinho do Antigo Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "15",
+      "name": "ENCONTROS",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "\n[[História do local |História]]\n{(if: (history:) contains \"Gavião\")[[pista do gavião]]\n(if: (history:) contains \"Elefante\")[[pista do elefante]]\n(if: (history:) contains \"Mulher lagarto\")[[pista da mulher lagarto]]\n(if: (history:) contains \"Macaco velho\")[[pista do macaco velho]]\n(if: (history:) contains \"Macaca\")[[pista da macaca]]\n(if: (history:) contains \"Mulher de capuz\")[[pista da mulher de capuz]]\n}\n###[[Ver se encontra alguém por ai|personagens aleatórios]]\n\n[[Um velho jabuti para ao lado de Ender |Jabuti]]",
+      "links": [
+        "História do local |História",
+        "pista do gavião",
+        "pista do elefante",
+        "pista da mulher lagarto",
+        "pista do macaco velho",
+        "pista da macaca",
+        "pista da mulher de capuz",
+        "Ver se encontra alguém por ai|personagens aleatórios",
+        "Um velho jabuti para ao lado de Ender |Jabuti"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "16",
+      "name": "fundos",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "==><==\n###Fundos da Taverna.\n\n(if: (history:) contains \"Timérius recupera a adaga\")[Uma pequena capivara está parada ao lado da porta dos fundos da taverna. Quando o vê, ela acena ao lobo. Falar com a (button:)[[capivara]]]\n\n(if: (history:) contains \"Desequilibra Tamivi\")[Uma pequena capivara está parada ao lado da porta dos fundos da taverna. Quando o vê, ela acena ao lobo. Falar com a (button:)[[capivara]]]\n\n(if: (history:) contains \"Timérius fugiu de Tamivi\")[Uma pequena capivara está parada ao lado da porta dos fundos da taverna. Quando o vê, ela acena ao lobo. Falar com a (button:)[[capivara - Sem adaga]]]\n\n(if: (history:)contains \"Vila Om Sin Nacem\")[\nÉ um lugar tranquilo. Um canto do Condado. Algumas casas, mas nada que chame a atenção de Timérius\n(button:)[[voltar|Foi a Taverna]] \n<img src=\"https://i.pinimg.com/originals/ed/1e/d5/ed1ed5473a998f3216774c7c8d01c2a6.jpg\"width=\"300\" height=\"225\">]\n\n(else-if:(history:) contains \"Foi a Taverna\")[\n<img src=\"https://i.pinimg.com/originals/2c/2d/38/2c2d384bafdca04db94edbf05cd06e13.jpg\" width=\"300\" heigth=\"225\">\nNo fundo do bar existem mais algumas casas de madeira entre as árvores.\nUma (button:)[[senhora|Senhora vaca]] vaca está sentada num toco de madeira em frente a sua casa\n\nPassando em frente pela última casa do aglomerado, Ender sente de relance que alguém o observa atrás de uns arbustos a cerca de vinte metros de onde está. Será que pode ser o (button:)[[ladrão? |Tamivi]]\n[[Sistema de Combate]]\nEnder não está com paciência de andar por ai. Melhor (button:)[[voltar. |Foi a Taverna]]]\n\n\n(else-if:(history:) contains \"Atacar\" or \"Falar com o ladrão\")\n[Timérius já esteve ali, quando enfrentou Tamívi.\n    (button:)[[voltar|Foi a Taverna]]\n    \n    (button:)[[Casa Amarela|casa]]\n    ]\n\n(button:)[[Parte Norte do Condado]] \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "capivara",
+        "capivara",
+        "capivara - Sem adaga",
+        "voltar|Foi a Taverna",
+        "senhora|Senhora vaca",
+        "ladrão? |Tamivi",
+        "Sistema de Combate",
+        "voltar. |Foi a Taverna",
+        "voltar|Foi a Taverna",
+        "Casa Amarela|casa",
+        "Parte Norte do Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "17",
+      "name": "balcão",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "==><==\nTimérius vai até o balcão da taverna.\n(if: $moedas < 2)[Ender não pode comer nem beber nada. Não tem dinheiro suficiente.]\\\n(else-if: $moedas < 3)[\n-\tBem vindo. - Diz a humana-felina atrás do balcão.\n    Ender a cumprimenta com a cabeça. Olha para os\nlados e se senta. \n\t-\tPor favor, o que tem para beber e comer? - Ender questiona a mulher.\n    -\tDepende de quanto você tem a oferecer?\n    Ender pega do seu bolso duas moedas de cobre. As únicas que sobraram.\n\t-\tSó dá pra comprar (button:)[[ovos|ovos]] ou tomar uma (button:)[[Cerveja|cerveja]].]\\\n(else-if: $moedas < 4)[\n-\tBem vindo. - Diz a humana-felina atrás do balcão.\n    Ender a cumprimenta com a cabeça. Olha para os\nlados e se senta. \n\t-\tPor favor, o que tem para beber e comer? - Ender questiona a mulher.\n    -\tDepende de quanto você tem a oferecer?\n    Ender pega do seu bolso três moedas de cobre. As únicas que sobraram.\n\t-\tSó dá pra comprar (button:)[[ovos|ovos]] ou tomar uma (button:)[[Cerveja|cerveja]] ou um (button:)[[vinho|vinho]].\n    ]\\\n(else-if: $moedas < 5)[\n-\tBem vindo. - Diz a humana-felina atrás do balcão.\n    Ender a cumprimenta com a cabeça. Olha para os\nlados e se senta. \n\t-\tPor favor, o que tem para beber e comer? - Ender questiona a mulher.\n    -\tDepende de quanto você tem a oferecer?\n    Ender pega do seu bolso quatro moedas de cobre. As únicas que sobraram.\n\t-\tSó dá pra comprar (button:)[[ovos|ovos]] ou tomar uma (button:)[[Cerveja|cerveja]] ou um (button:)[[vinho|vinho]].\n    ]\\\n(else:)[\n-\tBem vindo. - Diz a humana-felina atrás do balcão.\n    Ender a cumprimenta com a cabeça. Olha para os\nlados e se senta. \n\t-\tPor favor, o que tem para beber e comer? - Ender questiona a mulher.\n    -\tTemos essas bebidas. (click: \"bebidas\")[O que prefere? O (button:)[[vinho|vinho]] custa 3 cobres e a (button:)[[Cerveja|cerveja]] custa 2. ]\n    \n    - E temos esses pratos. (click: \"pratos\")[O que prefere? O (button:)[[carne|carne]] custa 5 cobres e os (button:)[[ovos|ovos]] custam 2. ]]\n(if:(history:) contains \"aceitar trabalho\")[(button:)[[Conversar sobre a missão|Conversar sobre o trabalho]]]\\\n(else-if:(history:) contains \"trabalho 1\")[Ender ainda tem chance de aceitar a proposta da dona, por uma recompensa um pouco menor (button:)[[segunda chance|segunda chance]]]\n(else:)\n[A distinta senhora dona do bar chama Ender em um canto onde ninguém podia escutá-los e diz que tem um\n(button:)[[trabalho|trabalho 1]] para ele, se assim quizer.]\n\n\n(button:)[[Voltar para o hall|Foi a Taverna]]\n\n(button:)[[Atributos]]",
+      "links": [
+        "ovos|ovos",
+        "Cerveja|cerveja",
+        "ovos|ovos",
+        "Cerveja|cerveja",
+        "vinho|vinho",
+        "ovos|ovos",
+        "Cerveja|cerveja",
+        "vinho|vinho",
+        "vinho|vinho",
+        "Cerveja|cerveja",
+        "carne|carne",
+        "ovos|ovos",
+        "Conversar sobre a missão|Conversar sobre o trabalho",
+        "segunda chance|segunda chance",
+        "trabalho|trabalho 1",
+        "Voltar para o hall|Foi a Taverna",
+        "Atributos"
+      ],
+      "variables": [
+        "$moedas"
+      ]
+    },
+    {
+      "pid": "18",
+      "name": "Beber",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "==><==\nVocê pede uma bebida e fica conversando com a garçonete. Ela não sabe de nada\nVoltar a ficar (button:)[[sozinho na mesa |Sozinho na mesa]]\nVoltar para o (button:)[[hall |Foi a Taverna]]",
+      "links": [
+        "sozinho na mesa |Sozinho na mesa",
+        "hall |Foi a Taverna"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "19",
+      "name": "Sozinho na mesa",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "==><==\nUma (button:)[[Coruja]] velha está dormindo sentada ao  lado. Tentar falar com ela. \n\nUm (button:)[[Lagarto]] o olha de longe com o olhar fixo. Não é um olhar ofensivo, mas Ender fica preocupado.\n\nVoltar para o (button:)[[Hall|Foi a Taverna]]",
+      "links": [
+        "Coruja",
+        "Lagarto",
+        "Hall|Foi a Taverna"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "20",
+      "name": "Coruja",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "==><==\nEnder tentar puxar papo, mas ela é incapaz de responder.\n(button:)[[Voltar à mesa |Sozinho na mesa]]\n(button:)[[Voltar para o hall |Foi a Taverna]]",
+      "links": [
+        "Voltar à mesa |Sozinho na mesa",
+        "Voltar para o hall |Foi a Taverna"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "21",
+      "name": "Lagarto",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "==><==\nConversa com o lagarto de capuz. Ele diz que conhece o ladrão e que Timérius ainda está em perigo. Timérius pergunta se ele trabalha para Gâmia, mas ele diz que não. \n\"Esse é outro lagarto, não eu.\"\nO réptil misterioso vai embora depois disso.\n(button:)[[Voltar à mesa |Sozinho na mesa]]\n(button:)[[Voltar para o hall |Foi a Taverna]]",
+      "links": [
+        "Voltar à mesa |Sozinho na mesa",
+        "Voltar para o hall |Foi a Taverna"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "22",
+      "name": "História",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "[[Voltar |Foi a Taverna]]",
+      "links": [
+        "Voltar |Foi a Taverna"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "23",
+      "name": "Jabuti",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "Ele conta mais um pouco sobre a história local\n[[Voltar |Foi a Taverna]]\n[[ENCONTROS]] ",
+      "links": [
+        "Voltar |Foi a Taverna",
+        "ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "24",
+      "name": "Senhora vaca",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "Ender conversa com a mulher bovina, que lhe dá uma maça.\nVocê ganha um ponto de vida.(set: $vida to $vida +1 )\nSua vida agora é $vida\n(button:)[[contunar explorando e comendo a maça.|continuar com a maça]]\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "contunar explorando e comendo a maça.|continuar com a maça",
+        "Atributos"
+      ],
+      "variables": [
+        "$vida"
+      ]
+    },
+    {
+      "pid": "25",
+      "name": "Picada no mato",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n(if: $chave is 1)[Timérius pega a chave que o ancião Simio lhe deu. Entra com perfeição na fechadura. (button:)[[casa 2|casa2]]]\n(else:)[\nTimérius adentra a mata mais densa pelo caminho, que mal cabe seus pés um ao lado do outro. Mais a frente avista um portão de madeira maciça, mais bem acabado do que qualquer das contruções que viu até agora.\n(button:)[[Timérius tentar forçar a abertura do portão |Portão]]]\n(button:)[[Rua do Visconde / 3]] \n(button:)[[Rua da Pensão / 3]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "casa 2|casa2",
+        "Timérius tentar forçar a abertura do portão |Portão",
+        "Rua do Visconde / 3",
+        "Rua da Pensão / 3",
+        "Atributos"
+      ],
+      "variables": [
+        "$chave"
+      ]
+    },
+    {
+      "pid": "26",
+      "name": "Tamivi",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "==><==\n\n<img src=\"https://i.ibb.co/G33YHHx/Default-A-medieval-albino-werewolf-full-body-showing-teeth-and-2.jpg\" alt=\"Default-A-medieval-albino-werewolf-full-body-showing-teeth-and-2\" border=\"0\" width=\"250\" heigth=\"250\">\n(if: (history:) contains \"aceitar\")\n[Quando o viu, Ender teve certeza. Pela descrição feita pelas tartarugas] \n(click: \"tartarugas\")[ (set: $força to $força + 1)(set: $destreza to $destreza + 1)\nTimérius ganha (text-colour:orange)[1 ponto] de força e (text-colour:orange)[1 ponto] de destreza.\nEla viu quem levou a adaga de Ender para a taverna, mas estava com um capuz sobre a cabeça. Tinha um amuleto dos magos negros no peito. Era um lobo. E tinham quase certeza absoluta que escondia outra lâmina por debaixo da capa. Uma espada longa e fina.\n]\\\n(else:)[\nEle está com um capuz sobre a cabeça, mas Ender viu a sua descendência lupina.]\nEm sua mão esta a adaga de prata. Lembrou de alguém que vira no bar também era de sua espécie. Será que estavam juntos? Será que o observavam desde que chegou ali?\n\n(button:)[[Voltar |fundos]]\n\n(button:)[[conversar com ele |Falar com o ladrão]]\n\n(button:)[[Atacá-lo sem conversar |Atacar]]\n\n(button:)[[Sistema de Combate]] \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Voltar |fundos",
+        "conversar com ele |Falar com o ladrão",
+        "Atacá-lo sem conversar |Atacar",
+        "Sistema de Combate",
+        "Atributos"
+      ],
+      "variables": [
+        "$destreza",
+        "$força"
+      ]
+    },
+    {
+      "pid": "27",
+      "name": "Portão",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\nNão consegue abrir\n\n(button:)[[Picada no mato]] ",
+      "links": [
+        "Picada no mato"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "28",
+      "name": "fundos 2",
+      "tags": [],
+      "text": "Quando voltou, não viu mais ninguém por ali. A velha vaca havia sumido.\n\n[[Voltar |Foi a Taverna]]",
+      "links": [
+        "Voltar |Foi a Taverna"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "29",
+      "name": "Não tem moedas",
+      "tags": [],
+      "text": "\t\n    - Não. Eu não tenho cinquenta moedas de ouro... - diz Ender, não conseguindo olhar nos olhos do homem. Mas eu...\n    - Então pode voltar por onde veio. - o guarda não está com a mínima paciência para escutar Ender - só volte aqui com a minha moeda.\n    Ender, olhando para o chão, pensou em contar-lhe a sua história comovente, mas não parecia que iria comover o guarda da Duquesa.\n    [[Voltar |Saída da Vila Om Sin]]",
+      "links": [
+        "Voltar |Saída da Vila Om Sin"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "30",
+      "name": "Falar com o ladrão",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/be/fe/64/befe64adba5f903de184557acff97125.jpg\" Width=\"300\" heigth=\"300\">\n\nTimérius tenta se aproximar, mas Tamivi usa telecinese para puxar à distancia um galho da árvora acima dele. Isso o distrai, derrubando-o no chão. O ladino corre na direção dele, desfere um golpe em seu braço e foge pelo meio das árvores.\n\n(text-colour:yellow)[***Timérius PERDE 1 de vida***]\n(set: $vida to $vida - 1)\n\n(button:)[[Voltar|fundos]]  \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Voltar|fundos",
+        "Atributos"
+      ],
+      "variables": [
+        "$vida"
+      ]
+    },
+    {
+      "pid": "31",
+      "name": "Atacar",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "==><==\n\n<img src=\"https://i.pinimg.com/originals/f3/ab/00/f3ab007ba3d457da91868bff72caa863.jpg\" width=\"300\" heigth=\"300\">\n\n(set: $ladrao to $ladrao + 1)\nTimérius não perde tempo. Percebera que o lagarto tinha uma espada fina e comprida por dentro da capa. Sabia que aquele tipo de espada só é usado pelo monges pandas. Treinou bastante contra esse tipo de tecnica.  \n\n<img src=\"https://i.pinimg.com/originals/52/ed/fc/52edfc2c18e6cd0b3967e3a9d5fe2547.jpg\" width=\"300\" heigth=\"300\">\n\nTimérius (button:)[[ataca|Ataca de cima pra baixo]] com toda a sua raiva. Com a espada levantada sobre a cabeça, defere um golpe para baixo com força. \n\n<img src= \"https://i.pinimg.com/originals/72/6d/7a/726d7a2bde4a934e61572f206ed7dbef.jpg\" width=\"300\" heigth=\"300\">\n\nTimérius (button:)[[espera|Tomar cuidado]] o primeiro movimento do adversário. A tecnica dos monges pandas é veloz e esse tipo de luta é favorecido pela espada que usam.\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "ataca|Ataca de cima pra baixo",
+        "espera|Tomar cuidado",
+        "Atributos"
+      ],
+      "variables": [
+        "$ladrao"
+      ]
+    },
+    {
+      "pid": "32",
+      "name": "Ataca de cima pra baixo",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "O lagarto espera até o último momento para desviar de Timérius e desferir um golpe na perna direita do soldado exilado.\n(set: $vida to $vida - 1)\n\n(text-colour:yellow)[***Timério PERDEU um ponto de vida***]\n\n(button:)[[Timérius fugiu de Tamivi]] \n\n(button:)[[Continuar o embate|Continua mesmo ferido]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Timérius fugiu de Tamivi",
+        "Continuar o embate|Continua mesmo ferido",
+        "Atributos"
+      ],
+      "variables": [
+        "$vida"
+      ]
+    },
+    {
+      "pid": "33",
+      "name": "Tomar cuidado",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "==><==\n(set: $tempo to $tempo +1 )\n(text-colour:yellow)[***Seu tempo passou***]\n\nTimérius rodeia o lobo albino e os dois se observam. Como previu, o golpe do adversário foi de baixo para cima. Então, fez uma defesa burocrática e certeira, culpa do seu árduo treinamento. Rodopiou sobre os próprios pés e desferiu golpe doloroso na perna esquerda do marginal. Ao atingí-lo, o seu adversário deixou sua guarda do lado esquerdo do corpo desprotegido. Por um momento, vislumbrou por debaixo de sua capa uma pequena sacola de moedas pendurada no cinto. Era possível que fosse fruto de outros roubos. \n\n\nTimérius percebe o cansaço na respiração do inimigo.\n\n###O que fazer?\n\n(button:)[[Esperar|esperar]] outra ação impensada ou a desistência do inimigo\n\nNão pensar duas vezes e tentar (button:)[[Atacá-lo|Ataca pelo flanco]] pelo flanco desprotegido.\n\n(button:)[[Desaquilibrá-lo|Desequilibra Tamivi]] para que caia no chão.\n\n(button:)[[Puxar|Pegar bolsa de moedas]] a bolsa com toda a força, rolando para \no mais longe possível dalí.\n\n(button:)[[Tentar acertar|Timérius recupera a adaga]] um golpe no ladrão com toda as suas forças.\n\n(button:)[[Desistir|fundos]] e voltar para aos fundos da taverna.\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Esperar|esperar",
+        "Atacá-lo|Ataca pelo flanco",
+        "Desaquilibrá-lo|Desequilibra Tamivi",
+        "Puxar|Pegar bolsa de moedas",
+        "Tentar acertar|Timérius recupera a adaga",
+        "Desistir|fundos",
+        "Atributos"
+      ],
+      "variables": [
+        "$tempo"
+      ]
+    },
+    {
+      "pid": "34",
+      "name": "esperar",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "==><==\n(set: $vida = $vida - 1)\n    (text-colour:yellow)[***PERDEU um ponto de vida***]\n    \n- Dê-me a adaga e pode ir. Eu prometo, mas caso não pense com clareza arcará com as devidas consequências. -\nTimérius está ereto e fala com respeito. Ele apenas quer sua adaga de volta para continuar o seu caminho até a capital. Seu pensamento está em Amoret e como deveria estar sofrendo nesse momento.\n- Não! - O marginal rolou no chão e atingiu a perna direita de Timérius com sua própria adaga de prata.\n- Argh! - Ele gritou de dor.\n\n    \n    \n(button:)[[Mesmo com uma dor lancinante que fez escorrer uma lágrima no canto do olho, Timérius partiu para cima do ladino|Continua mesmo ferido]]\n(button:)[[Não parecia ser tão facil assim derrotar o adversário. Timérius resolveu sair dalí para se recompor|Timérius fugiu de Tamivi]]\n    \n(button:)[[Atributos]]\n    \n    <img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Mesmo com uma dor lancinante que fez escorrer uma lágrima no canto do olho, Timérius partiu para cima do ladino|Continua mesmo ferido",
+        "Não parecia ser tão facil assim derrotar o adversário. Timérius resolveu sair dalí para se recompor|Timérius fugiu de Tamivi",
+        "Atributos"
+      ],
+      "variables": [
+        "$vida"
+      ]
+    },
+    {
+      "pid": "35",
+      "name": "Continua mesmo ferido",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/77/1b/ee/771beec1ebf2baa6bf6d871c8e975925.jpg\" width=\"300\" heigth=\"300\">\nTimérius tentou correr, mas o joelho da perna machucada se dobrou de forma involuntária. Mesmo assim conseguiu se aproximar o bastante para fazer um ataque baixo, que foi prontamente defendido pelo lagarto escondido por sua capa. Porém, ao fazê-lo deixou sua guarda do lado esquerdo do corpo desprotegido. \nPor um momento vislumbrou uma pequena sacola de moedas no cinto do meliante. Era possível que fosse fruto de outros roubos. \n(set: $tempo to $tempo +1 )(set: $ladrao = $ladrao + 1)\n\n(text-colour:yellow)[***Seu tempo passou***] \n\nTimérius pode:\n\n(button:)[[Atacá-lo|Ataca pelo flanco]] pelo flanco desprotegido.\n\n(button:)[[Desaquilibrá-lo|Desequilibra Tamivi]] para que caia no chão.\n\n(button:)[[Puxar|Pegar bolsa de moedas]] a bolsa com toda a força, rolando para o mais longe possível dalí.\n\n(button:)[[Tentar acertar|Timérius recupera a adaga]] um golpe no ladrão com toda as suas forças.\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">\n\n",
+      "links": [
+        "Atacá-lo|Ataca pelo flanco",
+        "Desaquilibrá-lo|Desequilibra Tamivi",
+        "Puxar|Pegar bolsa de moedas",
+        "Tentar acertar|Timérius recupera a adaga",
+        "Atributos"
+      ],
+      "variables": [
+        "$ladrao",
+        "$tempo"
+      ]
+    },
+    {
+      "pid": "36",
+      "name": "Timérius fugiu de Tamivi",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "==><==\nParecia não fazer sentido perder tempo com aquele ladrão. Tem coisa mais importante para fazer, como por exemplo conseguir 50 moedas de cobre.\n(set: $tempo to $tempo +1 )\n(text-colour:yellow)[***Seu tempo passou***]\n\n(button:)[[Voltar para os fundos |fundos]]\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Voltar para os fundos |fundos",
+        "Atributos"
+      ],
+      "variables": [
+        "$tempo"
+      ]
+    },
+    {
+      "pid": "37",
+      "name": "Pegar bolsa de moedas",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "==><==\n(set: $moedas = $moedas +25)\n(text-colour:yellow)[***GANHOU vinte e cinco moedas de cobre***]\n\nTimérius tenta pegar a bolsa. A arranca do cinto do inimigo, mas ela rola pelo chão deixando uma trilha de moedas. Num movimento também rápido, o ladino consegue recuperá-la com o restante do conteúdo, dando por perdidas as que cairam. Timérius recolhe as que sobraram. E para a sua surpresa, recolheu vinte e cinco moedas de cobre.\n\n\n(button:)[[Tentar acertar|Timérius recupera a adaga]] um golpe no ladrão com toda as suas forças.\n\n(button:)[[Desistir|fundos]] e voltar para aos fundos da taverna.\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Tentar acertar|Timérius recupera a adaga",
+        "Desistir|fundos",
+        "Atributos"
+      ],
+      "variables": [
+        "$moedas"
+      ]
+    },
+    {
+      "pid": "38",
+      "name": "Ataca pelo flanco",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "(set: $ladrao = $ladrao + 1)\nEnder o ataca, mas o bandido foge.\n\nVoltar para a (button:)[[taverna|Foi a Taverna]] \n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "taverna|Foi a Taverna",
+        "Atributos"
+      ],
+      "variables": [
+        "$ladrao"
+      ]
+    },
+    {
+      "pid": "39",
+      "name": "continuar com a maça",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "Revigorado pelo alimento que ganhou, Ender vê que alguém o observa de trás de uns arbustos.\n\n(button:)[[Quem|Tamivi]] pode ser? \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Quem|Tamivi",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "40",
+      "name": "Desequilibra Tamivi",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "(set: $ladrao to $ladrao + 1)\n(set: $tempo to $tempo +1)\n(set: $adaga to 1)\n(text-colour:yellow)[***Seu tempo passou***]\n\nEnder o ataca, recupera sua adaga, mas o bandido foge ferido.\n\nVoltar para os (button:)[[fundos]] da taverna.\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">\n",
+      "links": [
+        "fundos",
+        "Atributos"
+      ],
+      "variables": [
+        "$adaga",
+        "$ladrao",
+        "$tempo"
+      ]
+    },
+    {
+      "pid": "41",
+      "name": "Timérius recupera a adaga",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "(set: $notas\n(set: $ladrao to $ladrao + 1)\n(set: $tempo to $tempo +1)\nTimérius o ataca com toda a veemência. O bandido cai desacordado. Timérius recupera sua adaga, mais duas moedas de ouro e a espada do adversário. Vai embora deixando-o para trás.\n(set: $adaga to 1)\n\nVoltar aos [[fundos]] da taverna.\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "fundos",
+        "Atributos"
+      ],
+      "variables": [
+        "$adaga",
+        "$ladrao",
+        "$notas",
+        "$tempo"
+      ]
+    },
+    {
+      "pid": "42",
+      "name": "Alerta! Alguém está te procurando!",
+      "tags": [],
+      "text": "==><==\n<!--Caminho Alternativo. Direto da taverna para fora da cidade. Ainda por desenvolver-->\nEnder ficou o máximo de tempo por ali. Agora começaram a reconhecê-lo e ele tem que ir embora. Se resolver insistir em ficar, coisas desagradáveis podem acontecer.\n\nEnder não pode ir embora agora.\n(button:)[[insistir]]\n\nEnder já fez tudo o que dava por ali. Está na hora de ir embora\n(button:)[[Estrada para a capital]] \n\n(button:)[[Foi a Taverna]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "insistir",
+        "Estrada para a capital",
+        "Foi a Taverna",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "43",
+      "name": "insistir",
+      "tags": [],
+      "text": "[[Alerta! Alguém está te procurando!]] ",
+      "links": [
+        "Alerta! Alguém está te procurando!"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "44",
+      "name": "Pagou 1 Moeda",
+      "tags": [
+        "Tartarugas"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/736x/75/3a/f1/753af125b7547eb7db0f1900c36200a8.jpg\" width=\"150\" heigth=\"150\">\n(set: $moedas to $moedas - 1)\n(text-colour:yellow)[***Timérius gastou uma moedas de cobre***]\n\nA tartaruga apenas diz que viu alguém com a faca.\nJá sem paciência, Timérius não quer dar mais moedas. E sua força de vontade não está lá essas coisas.\n(button:)[[Insistir|Usou 1 de Vontade]] em mais informações sem dar dinheiro. O ladrão de sua adaga talvez possa ser um aprendiz de mago negro.\n\nOu continuar na estrada e deixar essas lerdas pra lá. \n\n(button:)[[Vila Om Sin Nacem]] \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Insistir|Usou 1 de Vontade",
+        "Vila Om Sin Nacem",
+        "Atributos"
+      ],
+      "variables": [
+        "$moedas"
+      ]
+    },
+    {
+      "pid": "45",
+      "name": "Pagou 2 Moedas",
+      "tags": [
+        "Tartarugas"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/4b/61/63/4b61638667241d02c57440096b1f8cf8.jpg\" width=\"200\" heigth=\"200\">\n(set: $moedas to $moedas - 2)\n(text-colour:yellow)[***Timérius gastou duas moedas de cobre***]\n\n\nAlgumas delas viram um cara encapuzado com uma espécie de faca como Timérius descreveu. \nEle ainda pode gastar 2 pontos de Vontade e forçar a barra com as tartarugas. Tirar com mais veemência alguma informção que prestasse delas.\n\n[[Gastar 1 ponto de Vontade|Usou 1 de Vontade]]\n\n[[Gastar 2 pontos de Vontade|Usou 2 de Vontade]]\n\n[[Voltar|Falou com as Tartarugas]] \n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">\n\n[[Atributos]]",
+      "links": [
+        "Gastar 1 ponto de Vontade|Usou 1 de Vontade",
+        "Gastar 2 pontos de Vontade|Usou 2 de Vontade",
+        "Voltar|Falou com as Tartarugas",
+        "Atributos"
+      ],
+      "variables": [
+        "$moedas"
+      ]
+    },
+    {
+      "pid": "46",
+      "name": "Usou 1 de Vontade",
+      "tags": [
+        "Tartarugas"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/74/a6/05/74a605010f841d5db0d769f55519e9d4.jpg\"width=\"150\" heigth=\"200\">\n(set: $vontade to $vontade - 1)\n(text-colour:yellow)[***Timérius gastou um ponto de Vontande***]\n\n\nAlguém disse que o cara tinha um amuleto dos magos negros pendurado no pescoço. O capuz não deixava vê-lo direito. Tentava esconder uma lâmina bonita enquanto passou por elas. \nIa na direção da capital.\n(button:)[[Vila Om Sin Nacem]] \n\n\n(button:)[[Atributos]]\n\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Vila Om Sin Nacem",
+        "Atributos"
+      ],
+      "variables": [
+        "$vontade"
+      ]
+    },
+    {
+      "pid": "47",
+      "name": "Usou 2 de Vontade",
+      "tags": [
+        "Tartarugas"
+      ],
+      "text": "==><==\n<img src=\"https://i.ibb.co/C8BqywG/Default-617-5000-Resultados-de-traduo-Resultado-da-traduo-A-grou-3.webp\" alt=\"Default-617-5000-Resultados-de-traduo-Resultado-da-traduo-A-grou-3\" border=\"0\" width=\"200\" heigth=\"150\">\n(set: $vontade to $vontade - 2)\n(text-colour:yellow)[***Timérius gastou dois pontos de Vontande***]\n\nElas viram quem levou a adaga de Timérius para o antigo condado de Om Sin Nacem, mas estava com um capuz sobre a cabeça. Tinha um amuleto dos magos negros no peito. Pelo focinho, era um lobo. E tinham quase certeza absoluta que escondia outra lâmina por debaixo da capa. Uma espada longa e fina. \nTimérius agradece a boa ajuda que lhe deram. \n\n(button:)[[Vila Om Sin Nacem]] \n\nUma velha tartaruga que estava sentada afastada das demais, chama Timérius com um aceno quase impercepitível. Ele ficou em dúvidas se era com ele.\n\n(button:)[[Conversar mais|Conversou mais com a Tartaruga]]\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Vila Om Sin Nacem",
+        "Conversar mais|Conversou mais com a Tartaruga",
+        "Atributos"
+      ],
+      "variables": [
+        "$vontade"
+      ]
+    },
+    {
+      "pid": "48",
+      "name": "Como jogar",
+      "tags": [
+        "Menu"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">\n\n(button:)[[Menu]] ",
+      "links": [
+        "Menu"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "49",
+      "name": "Menu",
+      "tags": [
+        "Menu"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/fd/82/48/fd8248657797d67662bf63df6396748c.jpg\" width=\"225\" height=\"300\">\nVocê não se lembra, mas ao se deitar e dormir, você acorda em um outro mundo. Não uma outra dimensão, mas sim um outro lugar muito, muito distante. Você está de frente para um ser com as feições preocupadas. No entanto, o que mais te impressiona são suas feições. Ao primeiro olhar te remeteu a um lobizômem, porém não como um todo. Ele parece um ser humano. Sim! Ele é um ser humano. Embora tenha cara de lobo.\nVocê percebe que consegue influenciá-lo e ler os seus pensamentos. Percebe também que não parece estar com o seu corpo nesse outro lugar com esse ser estranho. Você apenas flutua por ai. É apenas consciência. O anjo da guarda de Timérius, ou seu algoz.\n(button:)[[Como jogar]] \n\n(button:)[[O Mundo Quimera]]\n\n(button:)[[Começar o Jogo|Introdução ]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">\n",
+      "links": [
+        "Como jogar",
+        "O Mundo Quimera",
+        "Começar o Jogo|Introdução "
+      ],
+      "variables": []
+    },
+    {
+      "pid": "50",
+      "name": "Passar pelo guarda",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\n(if: $moedas > 50)[   -   Pode passar. - diz o soldado da duquesa. (button:)[[Estrada do Ducado|Estrada do Ducado]]]\\\n(else:)[   -   Pode voltar! Agora! E não volta aqui sem cinquenta moedas de cobre.\n(button:)[[Voltar|Estrada para a capital]]]\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Estrada do Ducado|Estrada do Ducado",
+        "Voltar|Estrada para a capital",
+        "Atributos"
+      ],
+      "variables": [
+        "$moedas"
+      ]
+    },
+    {
+      "pid": "51",
+      "name": "Estrada do Ducado",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\nEnder encontra um pequeno aglomerado de casa a beira da estrada onde se localiza um movimentado comércio\n(button:)[[Explorar a área|comércio]]\n(button:)[[Continuar pela estrada do Ducado|Estrada do Ducado 2]]\n\n[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Explorar a área|comércio",
+        "Continuar pela estrada do Ducado|Estrada do Ducado 2",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "52",
+      "name": "comércio",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\n(button:)[[comprar alguma coisa]]\n(button:)[[Um ancião macaco o observa de longe. Ender se lembra o que a velha tartaruga lhe falou.|Ancião Macaco]]\n(button:)[[Estrada do Ducado]] \n\n[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "comprar alguma coisa",
+        "Um ancião macaco o observa de longe. Ender se lembra o que a velha tartaruga lhe falou.|Ancião Macaco",
+        "Estrada do Ducado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "53",
+      "name": "Estrada do Ducado 2",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\n(if: (history:) contains\"ataque 5\")[Ender avista as muralhas do Ducado ao longe, imponente. Prossegue o caminho (button:)[[Fim do capítulo 1]]]\\\n(else-if: $adaga = 1)[(button:)[[ladrão 1]]]\\\n(else:)[Ender reencontra o ladrão (button:)[[ladrão 2]]]\n\n[[Atributos]] \n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Fim do capítulo 1",
+        "ladrão 1",
+        "ladrão 2",
+        "Atributos"
+      ],
+      "variables": [
+        "$adaga"
+      ]
+    },
+    {
+      "pid": "54",
+      "name": "ladrão 2",
+      "tags": [
+        "E-1",
+        "ladrao"
+      ],
+      "text": "==><==\n\n(if: $ladrao is 3)[O ladrão está ferido (button:)[[atacar|atacar]]]\\\n(else:)[O ladrão está sorrindo e com muito figor para enfrentar Ender. (button:)[[Atacar|atacar2]]]\n\n[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "atacar|atacar",
+        "Atacar|atacar2",
+        "Atributos"
+      ],
+      "variables": [
+        "$ladrao"
+      ]
+    },
+    {
+      "pid": "55",
+      "name": "Fim do capítulo 1",
+      "tags": [
+        "Fim"
+      ],
+      "text": "==><==\nFim da Introdução.\n\nEnder reencontra na estrada o cara que o ajudou na teverna.\nEle o acompanha até a capital.\n\n(button:)[[Atributos]] \n\n(button:)[[Menu]]  \n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Atributos",
+        "Menu"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "56",
+      "name": "comprar alguma coisa",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\n(button:)[[comércio]]\n\n[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "comércio",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "57",
+      "name": "Ancião Macaco",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\n(button:)[[jogo]]\n\n(button:)[[comércio]]\n\n[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "jogo",
+        "comércio",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "58",
+      "name": "conversou com as tartarugas",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "==><==\n(set: $força to $força + 1)(set: $destreza to $destreza + 1)\n(text-colour:yellow)[***Timérius ganha um ponto de força e um ponto de destreza***]\n\n(button:)[[Voltar|Tamivi]]\n\n(button:)[[Atacar o meliante|Atacar]]\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Voltar|Tamivi",
+        "Atacar o meliante|Atacar",
+        "Atributos"
+      ],
+      "variables": [
+        "$destreza",
+        "$força"
+      ]
+    },
+    {
+      "pid": "59",
+      "name": "atacar",
+      "tags": [
+        "E-1",
+        "ladrao"
+      ],
+      "text": "==><==\nMorreu\n\n(button:)[[Introdução ]] \n\n[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Introdução ",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "60",
+      "name": "atacar2",
+      "tags": [
+        "E-1",
+        "ladrao"
+      ],
+      "text": "==><==\n[[Derrotou Tamivi]]\n\n[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Derrotou Tamivi",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "61",
+      "name": "vinho",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "(set: $moedas = $moedas - 3)\n(set: $força = $força + 1)\n(set: $vontade = $vontade + 2)\n==><==\nsuas moedas são $moedas\nsua força é $força\nsua vontade é $vontade\nVoltar ao (button:)[[balcão|balcão]]\nOu ir para o (button:)[[hall|Foi a Taverna]]\n",
+      "links": [
+        "balcão|balcão",
+        "hall|Foi a Taverna"
+      ],
+      "variables": [
+        "$força",
+        "$moedas",
+        "$vontade"
+      ]
+    },
+    {
+      "pid": "62",
+      "name": "cerveja",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "(set: $moedas = $moedas - 2)\n(set: $vontade = $vontade + 2)\n==><==\nPagou duas moedas.\nSuas moedas agora são $moedas\nGanhou pontos de vontade.\nSua vontade é $vontade\nVoltar ao (button:)[[balcão|balcão]]\nOu ir para o (button:)[[hall|Foi a Taverna]]",
+      "links": [
+        "balcão|balcão",
+        "hall|Foi a Taverna"
+      ],
+      "variables": [
+        "$moedas",
+        "$vontade"
+      ]
+    },
+    {
+      "pid": "63",
+      "name": "carne",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "(set: $moedas = $moedas - 5)\n(set: $vida = $vida + 2)\n(set: $força = $força + 1)\n(set: $vontade = $vontade + 2)\n==><==\nsuas moedas são $moedas\nsua vida é $vida\nsua força é $força\nsua vontade é $vontade\nVoltar ao (button:)[[balcão|balcão]]\nOu ir para o (button:)[[hall|Foi a Taverna]] ",
+      "links": [
+        "balcão|balcão",
+        "hall|Foi a Taverna"
+      ],
+      "variables": [
+        "$força",
+        "$moedas",
+        "$vida",
+        "$vontade"
+      ]
+    },
+    {
+      "pid": "64",
+      "name": "ovos",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "(set: $moedas = $moedas - 2)\n(set: $vida = $vida + 1)\n(set: $força = $força + 1)\n==><==\nsuas moedas são $moedas\nsua vida é $vida\nsua força é $força\nVoltar ao (button:)[[balcão|balcão]]\nOu ir para o (button:)[[hall|Foi a Taverna]]",
+      "links": [
+        "balcão|balcão",
+        "hall|Foi a Taverna"
+      ],
+      "variables": [
+        "$força",
+        "$moedas",
+        "$vida"
+      ]
+    },
+    {
+      "pid": "65",
+      "name": "trabalho 1",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "==><==\n(button:)[[aceitar|trabalho]]\nou\n(button:)[[voltar|balcão]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "aceitar|trabalho",
+        "voltar|balcão",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "66",
+      "name": "aceitar trabalho",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "==><==\nTimérius pode receber a missão de patrulhar o local e investigar quem está cometendo os crimes misteriosos sem ser visto.\nAgora Timérius também pode andar pelo estabelecimento e conseguir trabalhos em troca de algumas boas moedas, se aceiatar a missão.\n(set: $tempo to $tempo +1)\n(button:)[[Aceitar Trabalho|trabalho]] \n(button:)[[voltar|balcão]]\n\n(button:)[[Atributos]]\n",
+      "links": [
+        "Aceitar Trabalho|trabalho",
+        "voltar|balcão",
+        "Atributos"
+      ],
+      "variables": [
+        "$tempo"
+      ]
+    },
+    {
+      "pid": "67",
+      "name": "segunda chance",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "==><==\n(button:)[[aceitar segunda chance]]",
+      "links": [
+        "aceitar segunda chance"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "68",
+      "name": "O Mundo Quimera",
+      "tags": [
+        "Menu"
+      ],
+      "text": "=><===\n<img src=\"https://i.pinimg.com/originals/94/00/9c/94009cc04e5da433405ffbcf3b02661d.jpg\" width=\"400\" height=\"300\">\n==><==\n(button:)[[História de Timérius]]\n\n(button:)[[Cosmogonia]]\n\n(button:)[[Menu]] \n",
+      "links": [
+        "História de Timérius",
+        "Cosmogonia",
+        "Menu"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "69",
+      "name": "Cosmogonia",
+      "tags": [
+        "Menu"
+      ],
+      "text": "==><==\n(button:)[[O Mundo Quimera]] \n\nAs Luminares.\n\nDizem que os dez mil Deuses Criadores, ao criarem o Universo, também criaram as Luminares para os ajudar. Cada um deles ficou responsável por uma cor, sendo dez as principais cores. Para cada cor foram criadas mil tonalidades diferentes. No começo as Luminares eram feitas de luz e som, mas com o passar do tempo foram se densificando e por fim se tornaram pedras.\nEm Quimera, durante o primeiro império Lupino, cuja a capital sempre foi Cannis, as Minas de Lumi, como eram conhecidas, foram abertas ao longo de todo o vasto território Quimeriano. Cada tonalidade de Lumi dava as pedras certas característica específicas que as tornavam altamente comercializáveis. ",
+      "links": [
+        "O Mundo Quimera"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "70",
+      "name": "História de Timérius",
+      "tags": [
+        "Menu"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/94/32/57/9432575321cae34c54e842034721f2cd.jpg\" width=\"384\" height=\"500\">\nTimérius, o melhor aluno da escola de guardas de sua geração.”\nEssas foram as palavras que o velho lobo Odirrav Odihod, Mago e conselheiro do Rei. Disse antes de anunciar a condenação do soldado e amigo Timérius, O Digno, ao exílio. Sua prometida, a Lady Amoret e seu pai, o próprio duque de Canis, condenados à masmorra imperial, viajariam por duas semanas para morte em vida dentro dos calabouços da capital do reino. O motivo de tudo isso era incerto. Pelos menos para Ender, tudo parecia muito estranho.\nDuas semanas antes, Timérius passava uma manhã tranquila treinando no pátio do castelo com os outros cães da guarda do duque. Até que uma trombeta tocou na torre dos conselheiros. Lá era onde a cúpula do duque se reunia diariamente. Esse anúncio era importante. Por isso alguns soldados, que estavam de prontidão, subiram para escutar as possíveis ordens. Quando voltaram, gritaram o nome do soldado Timérius. Ele olhou para os lados, riu e disse apontando para si mesmo: ‘É sério?’ - disse sem pensar muito. Estava compenetrado nos exercícios. ‘Sim, Timérius de Vilamato, é você mesmo.’ - completou um dos encarregados olhando para o chão, mais sério do que o normal. ‘Tudo bem, ué. Tô indo.’ - Ender não imaginava o porquê dessa convocação, mas subiu assobiando com o pensamento no treino da tarde.\nSempre escutando os conselhos do Mago do Duque, senhor Odirrav Odihod, o qual tratava como um pai, TimériusEnder cresceu como um ídolo para muitos dos soldados mais novos, que almejavam ter seu nome lembrado. O Digno, como era conhecido, foi um menino prodígio e conquistou os maiores títulos entre os infantes de sua época. O melhor no cavalo com a espada, lança e arco. Bateu todos os recordes anteriores das principais competições. Como foi possível? Vontade inabalável e o desejo de ser o melhor sem atrapalhar nenhum de seus amigos. Esse era e sempre foi o seu lema.\nNasceu na corte e casou com a filha do arquiduque. Muito antes disso, já a amava e teve antipatia do pai dela desde o primeiro momento. Mas nada impedia O Digno de conquistar seus propósitos, por mais difíceis que pareciam. Dentre uma dezena de arquiducados que rodeavam a capital, Timérius impôs sua importância e de sua ancestralidade local. O arquiducado de Erno, tinha a tradição de boa colocação nos campeonatos ducais e Timérius não decepcionou em nenhuma de suas participações.\nAo chegar no topo da torre dos conselheiros, um soldado o olhou de soslaio e disse: ‘Entre.’ Timérius conhecia o tal soldado, Ouber de Lipadótia, e estranhou ele nem olhá-lo nos olhos.\n(button:)[[O Mundo Quimera]] ",
+      "links": [
+        "O Mundo Quimera"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "71",
+      "name": "Conversou mais com a Tartaruga",
+      "tags": [
+        "Tartarugas"
+      ],
+      "text": "==><==\n<img src=\"https://i.ibb.co/vdZ930T/Default-617-5000-Resultados-de-traduo-Resultado-da-traduo-A-grou-1.jpg\" alt=\"Default-617-5000-Resultados-de-traduo-Resultado-da-traduo-A-grou-1\" border=\"0\" width=\"200\" heigth=\"150\">\n\nQuando Timérius se aproxima...\n\nAceitar ou não a proposta da tartaruga anciã?\n\n(button:)[[Aceitou sua proposta]]\n\n(button:)[[Não aceitou sua proposta]]\n\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">\n\n[[Atributos]]",
+      "links": [
+        "Aceitou sua proposta",
+        "Não aceitou sua proposta",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "72",
+      "name": "Aceitou sua proposta",
+      "tags": [
+        "Tartarugas"
+      ],
+      "text": "==><==\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/Vui_D7HvVRg?si=SEOqtWASS3CFfjcB\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n(text-colour:yellow)[***Timérius GANHOU dois pontos de Vontande***]\n\nA tartaruga encoraja Timérius. (set: $vontade to $vontade + 2)\nEnder vai com a promessa de voltar com o óleo de carvalho.\n\n\n(button:)[[Vila Om Sin Nacem]] \n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Vila Om Sin Nacem",
+        "Atributos"
+      ],
+      "variables": [
+        "$vontade",
+        "_D7HvVRg"
+      ]
+    },
+    {
+      "pid": "73",
+      "name": "Não aceitou sua proposta",
+      "tags": [
+        "Tartarugas"
+      ],
+      "text": "==><==\n(button:)[[Vila Om Sin Nacem]] \n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Vila Om Sin Nacem",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "74",
+      "name": "Faca",
+      "tags": [
+        "Loja"
+      ],
+      "text": "(set: $faca = 1)\n==><==\n<img src=\"https://i.pinimg.com/originals/eb/0d/a8/eb0da8edd954602490c2b57a55868e9a.jpg\" width=\"300\" heigth=\"400\">\nComprou faca\n(button:)[[Loja]]",
+      "links": [
+        "Loja"
+      ],
+      "variables": [
+        "$faca"
+      ]
+    },
+    {
+      "pid": "75",
+      "name": "Escudo",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/6c/8f/c3/6c8fc3043a84e992c59dc7b783de9e11.jpg\" width=\"300\" heigth=\"400\">\n(set: $escudo = 1)\nComprou escudo\n(button:)[[Loja]]",
+      "links": [
+        "Loja"
+      ],
+      "variables": [
+        "$escudo"
+      ]
+    },
+    {
+      "pid": "76",
+      "name": "Espada velha",
+      "tags": [
+        "Loja"
+      ],
+      "text": "(set: $espada = 1)\n==><==\n<img src=\"https://i.pinimg.com/originals/b5/bf/ef/b5bfef482178a5ddcb63b849ed577b63.jpg\" width=\"300\" heigth=\"400\">\nComprou espada\n(button:)[[Loja]]",
+      "links": [
+        "Loja"
+      ],
+      "variables": [
+        "$espada"
+      ]
+    },
+    {
+      "pid": "77",
+      "name": "Poções",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/64/d9/35/64d935cd200ed76cc7b8fdebcf23657a.jpg\" width=\"300\" heigth=\"400\">\n(button:)[[Poção de Força]]\n(button:)[[Poção de Destreza]]\n(button:)[[Poção de Vida]]\n\n(button:)[[Voltar|Foi ao Centrinho do Antigo Condado]] \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Poção de Força",
+        "Poção de Destreza",
+        "Poção de Vida",
+        "Voltar|Foi ao Centrinho do Antigo Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "78",
+      "name": "Poção de Força",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/78/bb/9c/78bb9cf74ed9be5a059c547bf4797699.jpg\" width=\"300\" heigth=\"400\">\nA Poção de Força custa 15 moedas de cobre e restaura 3 pontos de vida.\nComprar Poção?\n(click:\"Comprar Poção?\")[(button:)[[Sim|sim2]] or  (button:)[[Não|não2]]]\n\n(button:)[[Voltar|Poções]]\n\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">\n(button:)[[Atributos]]",
+      "links": [
+        "Sim|sim2",
+        "Não|não2",
+        "Voltar|Poções",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "79",
+      "name": "Poção de Destreza",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/c8/a2/ec/c8a2ec074325a9f4002b66bd3a6fe1d8.jpg\" width=\"300\" heigth=\"400\">\nA Poção de Destreza custa 10 moedas de cobre e restaura 2 pontos de vida.\nComprar Poção?\n(click:\"Comprar Poção?\")[(button:)[[Sim|sim3]] or  (button:)[[Não|não3]]]\n\n(button:)[[Voltar|Poções]]\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Sim|sim3",
+        "Não|não3",
+        "Voltar|Poções",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "80",
+      "name": "Poção de Vida",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/0e/dd/de/0eddde1b25202d126f2fb646ddeeabd8.jpg\" width=\"300\" heigth=\"400\">\nA Poção de Vida custa 15 moedas de cobre e restaura 2 pontos de vida.\nComprar Poção?\n(click:\"Comprar Poção?\")[(button:)[[Sim|sim1]] or  (button:)[[Não|não1]]]\n\n(button:)[[Voltar|Poções]]\n\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Sim|sim1",
+        "Não|não1",
+        "Voltar|Poções",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "81",
+      "name": "sim1",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n(button:)[[Voltar|Poções]]\n\n",
+      "links": [
+        "Voltar|Poções"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "82",
+      "name": "não1",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n(button:)[[Voltar|Poções]]\n",
+      "links": [
+        "Voltar|Poções"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "83",
+      "name": "sim2",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n(button:)[[Voltar|Poções]]\n",
+      "links": [
+        "Voltar|Poções"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "84",
+      "name": "não2",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n(button:)[[Voltar|Poções]]\n",
+      "links": [
+        "Voltar|Poções"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "85",
+      "name": "sim3",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n(button:)[[Voltar|Poções]]\n",
+      "links": [
+        "Voltar|Poções"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "86",
+      "name": "não3",
+      "tags": [
+        "Loja"
+      ],
+      "text": "==><==\n(button:)[[Voltar|Poções]]\n",
+      "links": [
+        "Voltar|Poções"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "87",
+      "name": "Conversou com as Capivaras",
+      "tags": [],
+      "text": "==><==\nQuando Timérius se aproxima das atarracadas porem ágeis capivaras, as vinte e cinco reagem de uma vez. Uma apreensão toma conta de seus focinhos, enquanto dão um passo para trás de forma coordenada.\n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff))[- O que você quer, lobo? \n- perguntam meia dúzia delas quase ao mesmo tempo.]\n    \n(button:)[[Onde as pessoas costumam ir por aqui?]]\n\n(button:)[[Vocês viram alguém suspeito por aqui, com um capuz, portando uma espada?]]\n\n(button:)[[Vocês são daqui?]]\n\n\n(button:)[[Vila Om Sin Nacem]] ",
+      "links": [
+        "Onde as pessoas costumam ir por aqui?",
+        "Vocês viram alguém suspeito por aqui, com um capuz, portando uma espada?",
+        "Vocês são daqui?",
+        "Vila Om Sin Nacem"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "88",
+      "name": "personagens aleatórios",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "(go-to: (either: \"Elefante\", \"Gavião\", \"Mulher lagarto\", \"Macaco velho\",\"Macaca\", \"Mulher de capuz\", \"vazio 1\", \"vazio 2\" ))\n\n",
+      "links": [],
+      "variables": []
+    },
+    {
+      "pid": "89",
+      "name": "Elefante",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "Elefante\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "90",
+      "name": "Gavião",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "\nGavião\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "91",
+      "name": "Mulher lagarto",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "Mulher lagarto\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "92",
+      "name": "Macaca",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "Macaca\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "93",
+      "name": "Mulher de capuz",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "Mulher de capuz\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "94",
+      "name": "Macaco velho",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "Macaco velho\n\nHá um lugar no meio da floresta onde acontecem coisas estranhas. Há relatos de gritos e brigas no local\n\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "95",
+      "name": "pista do gavião",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "pista do gavião\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "96",
+      "name": "pista da mulher lagarto",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "pista da mulher lagarto\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "97",
+      "name": "pista do elefante",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "pista do elefante\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "98",
+      "name": "pista do macaco velho",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "pista do macaco velho\n\nO ancião tem a chave de um portão que fica no meio da floresta, depois das últimas casas da vila.\nEle deu a chave a Ender\n(set; $chave to 1)\n\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": [
+        "$chave"
+      ]
+    },
+    {
+      "pid": "99",
+      "name": "pista da macaca",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "pista da macaca\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "100",
+      "name": "pista da mulher de capuz",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "pista da mulher de capuz\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "101",
+      "name": "aceitar segunda chance",
+      "tags": [
+        "Balcão"
+      ],
+      "text": "==><==\nEnder recebe a missão de patrulhar o local e investigar quem está cometendo os crimes misteriosos sem ser visto. \nPor não ter aceito de cara da primeira vez, Ender receberá um pouco menos pelo serviço.\nAgora Ender também pode andar pelo estabelecimento e conseguir trabalhos em troca de moedas\n(set: $tempo to $tempo +1)\n(button:)[[voltar|balcão]]",
+      "links": [
+        "voltar|balcão"
+      ],
+      "variables": [
+        "$tempo"
+      ]
+    },
+    {
+      "pid": "102",
+      "name": "casa",
+      "tags": [
+        "ladrao"
+      ],
+      "text": "Timérius olha por cima do muro, mas não vê nada. Foi em frente a essa casa que encontrou Tamivi.\n[[fundos|fundos]]\n\n[[Atributos]]",
+      "links": [
+        "fundos|fundos",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "103",
+      "name": "casa2",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/5e/4a/56/5e4a56d6a28475a9906f34cd4346a146.jpg\" width=\"250\" heigth=\"250\">\nEnder adentra no quintal da residência. Vê luzes dentro da casa e sombras se movendo a espreita. No entanto o entorno da casa de dois andares também preocupa Timérius.\n\n<img src=\"https://i.pinimg.com/originals/6d/c4/b3/6dc4b319c36acdc790f11db2dbdaf180.jpg\" width=\"250\" heigth=\"250\">\n(button:)[[entra na casa|entrar na casa]]\n\n<img src=\"https://i.pinimg.com/originals/a9/25/89/a92589c544706090b6608647bcfcd4f2.jpg\" width=\"250\" heigth=\"250\">\n(button:)[[percorrer o quintal|percorrer o quintal]]\n\n<img src=\"https://i.pinimg.com/originals/9a/10/7f/9a107f94884405001f25c789723d3c3e.jpg\" width=\"250\" heigth=\"250\">\n(button:)[[Picada no mato]]\n\n(if: $resgate is true)(button:)[[caminho altenativo]]\n\n(button:)[[Atributos]]",
+      "links": [
+        "entra na casa|entrar na casa",
+        "percorrer o quintal|percorrer o quintal",
+        "Picada no mato",
+        "caminho altenativo",
+        "Atributos"
+      ],
+      "variables": [
+        "$resgate"
+      ]
+    },
+    {
+      "pid": "104",
+      "name": "entrar na casa",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/5e/88/a6/5e88a626d78ea723b462f16f4bef22a4.jpg\" width=\"250\" heigth=\"250\">\nSubir as escadas até o [[mesanino]] do segundo andar\n(button:)[[Entrar|quarto]] no quarto.\nIr pelo (button:)[[corredor|corredor]].\n\n",
+      "links": [
+        "mesanino",
+        "Entrar|quarto",
+        "corredor|corredor"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "105",
+      "name": "percorrer o quintal",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\nAchou uma chave jogada no chão e guardou no bolso.\n(set: $chave_do_Quintal to 1)\n(button:)[[Entrar na casa|entrar na casa]] forçando a porta dos fundos.\n(button:)[[Escalar]] a lateral da casa e subir direto para o segundo andar.",
+      "links": [
+        "Entrar na casa|entrar na casa",
+        "Escalar"
+      ],
+      "variables": [
+        "$chave_do_Quintal"
+      ]
+    },
+    {
+      "pid": "106",
+      "name": "Vencer o ladrão",
+      "tags": [],
+      "text": "",
+      "links": [],
+      "variables": []
+    },
+    {
+      "pid": "107",
+      "name": "Guardas",
+      "tags": [],
+      "text": "",
+      "links": [],
+      "variables": []
+    },
+    {
+      "pid": "108",
+      "name": "jogo",
+      "tags": [
+        "E-1"
+      ],
+      "text": "==><==\n(button:)[[Ancião Macaco]] \n\n[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Ancião Macaco",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "109",
+      "name": "ladrão 1",
+      "tags": [
+        "E-1",
+        "ladrao"
+      ],
+      "text": "==><==\n(text-colour:yellow)[***Por Ender ter recuperado a sua adaga, ganha 2 pontos de Destreza*** ]\n(set: $destreza = $destreza + 1)\n\n\n(if: $ladrao is 3)[O ladrão está ferido (button:)[[atacar|atacar]]]\\\n(else:)[O ladrão está sorrindo e com muito figor para enfrentar Ender. (button:)[[Atacar|atacar2]]]\n\n[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "atacar|atacar",
+        "Atacar|atacar2",
+        "Atributos"
+      ],
+      "variables": [
+        "$destreza",
+        "$ladrao"
+      ]
+    },
+    {
+      "pid": "110",
+      "name": "quarto",
+      "tags": [
+        "casa-2",
+        "Fim"
+      ],
+      "text": "==><==\nQuando Ender entra no quarto, a porta se fecha e ele fica trancado.\n(if: $chave_do_Quintal > 0)[Ender se lembra que achou uma chave no quintal. Tentar (button:)[[Usar a chave]]?]\\\n(else:)[Um gás começa a entrar por debaixo da porta do quarto e começa a tomar todo o recinto. Ele tenta de todas as maneiras arrombar a porta, até que começa a sufocar e cai no chão desacordado.\n\n\n\n\n*Fim de Jogo*\n\n*Voltar para a (button:)[[Introdução ]]*\n]",
+      "links": [
+        "Usar a chave",
+        "Introdução "
+      ],
+      "variables": [
+        "$chave_do_Quintal"
+      ]
+    },
+    {
+      "pid": "111",
+      "name": "corredor",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\nA casa parece fechada e tudo tem uma camada grossa de poeira. Mesmo assim, Ender não para de admirar cada alto relevo, escultura e rodapé trabalhado. Uma residência de alta classe.\nO corredor termina na (button:)[[cozinha]]. No entanto, antes disso, a esquerda se encontra o (button:)[[banheiro]], e Ender vê que dentro dele existe uma outra porta, provavelmente levando a outro quarto ou a um trocador. À direita, existe um terceiro (button:)[[quarto1]]. Lá dentro está escuro e a porta está entreaberta. O que fazer agora?\n(button:)[[entrar na casa]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "cozinha",
+        "banheiro",
+        "quarto1",
+        "entrar na casa",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "112",
+      "name": "Usar a chave",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\nA chave abre a porta. Ele volta para o (button:)[[corredor]]. ",
+      "links": [
+        "corredor"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "113",
+      "name": "cozinha",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n(button:)[[corredor]] ",
+      "links": [
+        "corredor"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "114",
+      "name": "banheiro",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n(button:)[[corredor]] ",
+      "links": [
+        "corredor"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "115",
+      "name": "quarto1",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n(button:)[[corredor]] ",
+      "links": [
+        "corredor"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "116",
+      "name": "Escalar",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\nConsegue subir mais perde 1 ponto de força\n(set: $força = $força - 1))\n(button:)[[corredor]] ",
+      "links": [
+        "corredor"
+      ],
+      "variables": [
+        "$força"
+      ]
+    },
+    {
+      "pid": "117",
+      "name": "mesanino",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/f0/c3/2b/f0c32b86efe6200898a0489eb8f40c0a.jpg\" width=\"250\" heigth=\"250\">\nAs escadas sólidas e polidas davam um ar de aristocracia para o ambiente. Timérius se pergunta de quem foi essa casa no passado. \n\n<img src=\"https://i.pinimg.com/originals/55/a8/fd/55a8fd1cdcc5476a467e072ff7d58694.jpg\" width=\"250\" heigth=\"250\">\nUm (button:)[[corredor|corredor2]] sombrio se desenha a frente de Ender.\n\n<img src=\"https://i.pinimg.com/originals/24/fc/88/24fc88f13ae8ce783ebd953d032be039.jpg\" width=\"250\" heigth=\"250\">\nUma (button:)[[estante]] se destacou na penumbra a sua frente.\n\n(button:)[[descer|entrar na casa]]",
+      "links": [
+        "corredor|corredor2",
+        "estante",
+        "descer|entrar na casa"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "118",
+      "name": "corredor2",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\nMais uma vez, Ender tem algumas opções. \n\nUm (button:)[[quarto|quarto2]] à direita, com a porta fechada. \n\n(button:)[[Outro|quarto3]] a esquerda. \n\nMais a frente, um (button:)[[banheiro|banheiro2]] do lado direito \n\ne o terceiro (button:)[[dormitório|quarto4]] do segundo andar, \n\ne o quinto da casa, do lado esquerdo.\n\n(button:)[[mesanino]] ",
+      "links": [
+        "quarto|quarto2",
+        "Outro|quarto3",
+        "banheiro|banheiro2",
+        "dormitório|quarto4",
+        "mesanino"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "119",
+      "name": "estante",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/1e/95/b8/1e95b89853a4a600db48d15f745f65f1.jpg\" width=\"250\" heigth=\"250\">\n(button:)[[mesanino]]",
+      "links": [
+        "mesanino"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "120",
+      "name": "quarto2",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n(button:)[[corredor2]] ",
+      "links": [
+        "corredor2"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "121",
+      "name": "quarto3",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n(button:)[[corredor2]] ",
+      "links": [
+        "corredor2"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "122",
+      "name": "banheiro2",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n(button:)[[corredor2]] ",
+      "links": [
+        "corredor2"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "123",
+      "name": "quarto4",
+      "tags": [
+        "casa-2"
+      ],
+      "text": "==><==\n(button:)[[corredor2]] ",
+      "links": [
+        "corredor2"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "124",
+      "name": "Vila Om Sin Nacem",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "\n==><==\n\n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,(hsl:0,0,0.5333,0.4),1,#ffffff))[Vila Om Sin Nacem]\n####Entrada leste da região conhecida como (text-colour:green)[(button:)[Om Sin Nacem] ]\nTudo parece quieto. \nUma neblina cobre a região. Na estrada à sua frente, não conseguia ver mais do que vultos passando ao longe e algumas silhuteas opacas das casas.\n{(click: \"Om Sin Nacem\")[(dialog:\"Há cinquenta anos, viveu nessa região o Visconde Om Sin Nacem, um gavião muito respeitado e admirado. Depois de seu falecimento, toda a região foi dividida e vendida em lotes pelos funcionários de seu castelo, generosamente escolhidos seus herdeiros. Além do que, o Visconde não tinha nenhum parente próximo, ou que gostasse a ponto de deixar sua riquesa.\")]\n(if:(history:) contains \"Conversou com as Capivaras\")[]\n(else:)[\nUm grupo de capivaras está passando muito apressada, na direção contrária de Timérius. Ele pode tentar \n(button:)[[conversar com as capivaras|Conversou com as Capivaras]]]}\n\n\nPara onde Timérius vai?\n\nSeguir descendo pela (button:)[[rua da praia - 2|Rua da Praia/1]] que beira o Rio Om Sin.\n\nIr pela (button:)[[rua do Condado - 3|Rua do Condado/1]] que adentra o bairro, em direção ao portão do antigo Condado. \n\nUma [[Senhora Hipopótamo]] está chorando a beira da rua.\n\n\nAtravessar o rio pela \n (button:)[[Ponte]] \n\n\n---\n###MAPA\n(click: \"MAPA\")[1 - Entrada da Vila\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\" width=\"200\" height=\"200\">]\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "conversar com as capivaras|Conversou com as Capivaras",
+        "rua da praia - 2|Rua da Praia/1",
+        "rua do Condado - 3|Rua do Condado/1",
+        "Senhora Hipopótamo",
+        "Ponte",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "125",
+      "name": "Rua Central do Condado",
+      "tags": [],
+      "text": "==><==\n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,(hsl:0,0,0.5333,0.4),1,#ffffff))[Rua Central do Antigo Condado]\n(button:)[Sobre o lugar - 1]\n{(click: \"Sobre o lugar - 1\")[(dialog:\"A rua central do antigo condado se extende de leste a oeste no interior das muralhas. O terreno e a vegetação são semelhantes ao resto da região. Como se fosse um grande bosque habitado. Entre as árvores, lá estão as residências dos distintos moradores.\")]}\n(button:)[Sobre o lugar - 2]\n{(click: \"Sobre o lugar - 2\")[(dialog:\"\nE todos que moram dentro do muro se sentem verdadeiros felizardos. Na verdade, a maioria é descendente dos antigos empregados de Om Sin Nacem, que herdaram e dividiram o condado após a sua partida. Porém, nos últimos tempos, o orgulho de ser um morador da região havia se transformado medo e reclusão. Tudo por causa de alguns sumiços e mortes não explicadas.\")]}\n\nSair pela (button:)[[Entrada Leste do Condado]] onde há o cruzamento da Rua Central do Condado com a Rua da Torre. A Rua da Torre vai desde a praia até as montanhas ao norte da região.\n\nIr até a (button:)[[Entrada Oeste do Condado]] onde há o cruzamento entre a Rua Central do Condado e a Rua do Visconde, como é conhecida. Essa rua também sobe o bairro, desde a praia.\n\nAndar pelo (button:)[[Centrinho do Condado|Foi ao Centrinho do Antigo Condado]] onde estão as lojas e estabelecimentos comerciais.\n\nIr a (button:)[[Parte Norte do Condado]] onde se localizam algumas residências e a muralha norte.\n\nIr a (button:)[[Parte Sul do Condado]] onde se localizam residências e uma saída para a Rua da Praia e o porto do rio Om Sin.\n\n(button:)[[Nas Redondesas do Castelo do Lord Ós]]\n\n###MAPA\n(click: \"MAPA\")[\n\n4 - Centro do Antigo Condado de Om Sin Nacem\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Entrada Leste do Condado",
+        "Entrada Oeste do Condado",
+        "Centrinho do Condado|Foi ao Centrinho do Antigo Condado",
+        "Parte Norte do Condado",
+        "Parte Sul do Condado",
+        "Nas Redondesas do Castelo do Lord Ós",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "126",
+      "name": "Rua do Condado/1",
+      "tags": [
+        "Andar-pela-vila",
+        "Rua-A"
+      ],
+      "text": "==><==\n###Perto do Condado\nA rua segue para oeste em direção aos muros do antigo condado. Para leste, é a entrada da vila.\nOlhando para o norte, Timérius vê algumas casas no meio do campo. Alguns moinhos também.\nA neblina cobre tudo e não dá  para saber se é de manhã ou de tarde. A luz do Sol está fraca, por trás de uma grossa camada de nuvens cinzas.\n\n (button:)[[Oeste - Direção do Condado|R. Condado / Torre]]\n\n (button:)[[Leste - Entrada da Vila|Vila Om Sin Nacem]] \n\n (button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n1, 2 - Rua do Condado\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Oeste - Direção do Condado|R. Condado / Torre",
+        "Leste - Entrada da Vila|Vila Om Sin Nacem",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "127",
+      "name": "Foi ao Centrinho do Antigo Condado",
+      "tags": [
+        "Mercado"
+      ],
+      "text": "==><==\n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,(hsl:0,0,0.5333,0.4),1,#ffffff))[Centrinho do Condado.]\n{<img src=\"https://i.pinimg.com/originals/7f/91/7e/7f917ef64ab72775bf76c8b6d6ddc7e6.jpg\" width=\"150\" heigth=\"200\">}\n\nA muralha antiga ainda conserva resquícios de sua imponência. \nSeus portões, que não fecham mais, dão espaço a (button:)[[Rua Central do Condado]]\n\nBem a vista de quem adentra o local, está a (button:)[[loja de armas|Loja]] \n\nAo lado dela a loja de (button:)[[Poções]]\n\nUm pouco mais afastada da rua principal estão a (button:)[[peixaria]] e o (button:)[[açougue]]\n\nA (button:)[[padaria]] e a (button:)[[mercearia]] estão a alguns metros a frente.\n\nUm pouco escondida entre umas casas, Timérius vê um estabelecimento com uma placa escrita (button:)[[Lutas e apostas]]\n\nMas o princpal lugar que chama mais a atenção de Timérius é a (button:)[[Taverna|Foi a Taverna]] que parece o local mais frequentado do antigo condado.\n\n(button:)[[Nas Redondesas do Castelo do Lord Ós]]\n   \nVoltar pela (button:)[[Rua Central do Condado]]\n\n(button:)[[Atributos]]\n\n---\n###MAPA\n(click: \"MAPA\")[4- Centrinho do Antigo Condado\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\" width=\"250\" height=\"250\">]",
+      "links": [
+        "Rua Central do Condado",
+        "loja de armas|Loja",
+        "Poções",
+        "peixaria",
+        "açougue",
+        "padaria",
+        "mercearia",
+        "Lutas e apostas",
+        "Taverna|Foi a Taverna",
+        "Nas Redondesas do Castelo do Lord Ós",
+        "Rua Central do Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "128",
+      "name": "R. Condado / Torre",
+      "tags": [
+        "Andar-pela-vila",
+        "Rua-A",
+        "esquina"
+      ],
+      "text": "==><==\nTimérius continua até alcançar a\n[[Entrada Leste do Condado]]\n\nVirar à (button:)[[esquerda|Rua da Torre/1]] na rua 1.\nVirar à (button:)[[direita|Rua da Torre/2]]\n(button:)[[Voltar|Rua do Condado/1]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n2 - Rua do Condado com Rua da Torre\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Entrada Leste do Condado",
+        "esquerda|Rua da Torre/1",
+        "direita|Rua da Torre/2",
+        "Voltar|Rua do Condado/1",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "129",
+      "name": "Entrada Leste do Condado",
+      "tags": [],
+      "text": "==><==\n(button:)[[Voltar|R. Condado / Torre]] \n\n(button:)[[Rua Central do Condado]] \n\n(button:)[[Muralha Leste]] \n\n(button:)[[Muralha Sul]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n2, 4 - Rua do Condado com Rua da Torre\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Voltar|R. Condado / Torre",
+        "Rua Central do Condado",
+        "Muralha Leste",
+        "Muralha Sul",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "130",
+      "name": "R.Visconde / Condado",
+      "tags": [
+        "Andar-pela-vila",
+        "Rua-A",
+        "esquina"
+      ],
+      "text": "==><==\n(button:)[[Subir|Rua do Visconde / 2]] à segunda parte da Rua 2.\n(button:)[[Descer|Rua do Visconde / 1]] à primeira parte da Rua 2.\nSeguir reto pela (button:)[[Rua do Condado/2]]\n(button:)[[Entrada Oeste do Condado]]\n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n6 - Muralha Norte\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Subir|Rua do Visconde / 2",
+        "Descer|Rua do Visconde / 1",
+        "Rua do Condado/2",
+        "Entrada Oeste do Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "131",
+      "name": "R. Pensão / Condado",
+      "tags": [
+        "Andar-pela-vila",
+        "Rua-A",
+        "esquina"
+      ],
+      "text": "==><==\nSuba a (button:)[[Rua 3|Rua da Pensão / 2]]\nou desça para a (button:)[[esquerda|Rua da Pensão / 1]]\n(button:)[[Voltar|Rua do Condado/2]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n12 - Rua da Pensão com Rua do Condado\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Rua 3|Rua da Pensão / 2",
+        "esquerda|Rua da Pensão / 1",
+        "Voltar|Rua do Condado/2",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "132",
+      "name": "Rua da Torre/1",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n\n(button:)[[R. Condado / Torre]] \n(button:)[[Rua da Praia/1]] \n\n\n---\n###MAPA\n(click: \"MAPA\")[\n\n2, 3 - Rua da Torre/1\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "R. Condado / Torre",
+        "Rua da Praia/1",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "133",
+      "name": "Rua da Torre/2",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n(button:)[[R. Torre / Moinhos]]\n(button:)[[R. Condado / Torre]] \n(button:)[[Brejo das Capivaras]]\n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n7 - Rua da Torre/2\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "R. Torre / Moinhos",
+        "R. Condado / Torre",
+        "Brejo das Capivaras",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "134",
+      "name": "Rua da Torre/3",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\nFinal da Rua da Torre.\n\n(button:)[[R. Torre / Moinhos]] \n\n(button:)[[Caminho subindo a montanha]]\n\n###MAPA\n(click: \"MAPA\")[\n\n22 - Rua da Torre / 3\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "R. Torre / Moinhos",
+        "Caminho subindo a montanha"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "135",
+      "name": "Rua do Visconde / 1",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n(button:)[[Voltar|R.Visconde / Condado]] \n(button:)[[Parte Sul do Condado]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n6, 8 - Rua do Visconde / 1\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Voltar|R.Visconde / Condado",
+        "Parte Sul do Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "136",
+      "name": "Rua do Visconde / 2",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n(button:)[[R.Visconde / Condado]] \n(button:)[[R. Moinhos / Visconde]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n10 - Rua do Visconde / 2\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "R.Visconde / Condado",
+        "R. Moinhos / Visconde",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "137",
+      "name": "Rua do Visconde / 3",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\nCasa do antigo (button:)[[Dono|Casa do Dono da Taverna]] da taverna.\nNo fim da rua tem uma (button:)[[Picada|Picada no mato]]  no meio do mato adentando a mata fechada.\n\n(button:)[[R. Moinhos / Visconde]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n18 - Rua do Visconde / 3\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Dono|Casa do Dono da Taverna",
+        "Picada|Picada no mato",
+        "R. Moinhos / Visconde",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "138",
+      "name": "Rua da Pensão / 1",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n(button:)[[R. Pensão / Condado]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n12, 9 - Rua da Pensão / 1\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "R. Pensão / Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "139",
+      "name": "Rua da Pensão / 2",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n(button:)[[R. Pensão / Condado]] \n\n(button:)[[R.Moinhos / Pensão]] \n\n(button:)[[Aglomerado de casas 3]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n13 - Rua da Pensão / 3\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "R. Pensão / Condado",
+        "R.Moinhos / Pensão",
+        "Aglomerado de casas 3",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "140",
+      "name": "R. Pensão / Colina",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n(button:)[[R.Moinhos / Pensão]] \n\n(button:)[[Rua C]]\n\n(button:)[[Rua da Pensão / 3]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n17 - Rua da Pensão com Rua da Colina\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "R.Moinhos / Pensão",
+        "Rua C",
+        "Rua da Pensão / 3",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "141",
+      "name": "Rua do Condado/2",
+      "tags": [
+        "Andar-pela-vila",
+        "Rua-A"
+      ],
+      "text": "==><==\n(button:)[[R. Pensão / Condado]] \n(button:)[[Voltar|R.Visconde / Condado]] ,\n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n6, 12 - Rua do Condado\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "R. Pensão / Condado",
+        "Voltar|R.Visconde / Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "142",
+      "name": "Rua dos Moinhos/1",
+      "tags": [
+        "Andar-pela-vila",
+        "Rua-B"
+      ],
+      "text": "==><==\n(button:)[[Torre Antiga]] \n\n(button:)[[Barracão]] \n\n(button:)[[R. Torre / Moinhos]] \n\n(button:)[[R. Moinhos / Visconde]] \n\n###MAPA\n(click: \"MAPA\")[\n\n14 - Rua dos Moinhos\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Torre Antiga",
+        "Barracão",
+        "R. Torre / Moinhos",
+        "R. Moinhos / Visconde"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "143",
+      "name": "Rua dos Moinhos/2",
+      "tags": [
+        "Andar-pela-vila",
+        "Rua-B"
+      ],
+      "text": "==><==\n(button:)[[R. Moinhos / Visconde]] \n\n(button:)[[R.Moinhos / Pensão]]\n\n(button:)[[Aglomerado de casas 3]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n16 - Rua dos Moinhos\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "R. Moinhos / Visconde",
+        "R.Moinhos / Pensão",
+        "Aglomerado de casas 3",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "144",
+      "name": "R. Torre / Moinhos",
+      "tags": [
+        "Andar-pela-vila",
+        "Rua-B",
+        "esquina"
+      ],
+      "text": "==><==\nVirar na (button:)[[Rua B|Rua dos Moinhos/1]]\nOu continuar reto, subindo a (button:)[[Rua 1|Rua da Torre/3]].\n(button:)[[Rua da Torre/2]] \n(button:)[[Torre Antiga]]\n(button:)[[Barracão]] de lona do Lord Ós. Uma grande cerca de madeira o rodeia.\n\n###MAPA\n(click: \"MAPA\")[\n\n11- Rua da Torre com Rua dos Moinhos\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]\n",
+      "links": [
+        "Rua B|Rua dos Moinhos/1",
+        "Rua 1|Rua da Torre/3",
+        "Rua da Torre/2",
+        "Torre Antiga",
+        "Barracão"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "145",
+      "name": "Casa do Dono da Taverna",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n(button:)[[Cama]]\n(button:)[[Cozinha]]\n\n(button:)[[Rua do Visconde / 3]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Cama",
+        "Cozinha",
+        "Rua do Visconde / 3",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "146",
+      "name": "Rua C",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n(button:)[[R. Pensão / Colina]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "R. Pensão / Colina",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "147",
+      "name": "R. Moinhos / Visconde",
+      "tags": [
+        "Andar-pela-vila",
+        "Rua-B",
+        "esquina"
+      ],
+      "text": "==><==\n(button:)[[Rua dos Moinhos/1]] \n\n(button:)[[Rua dos Moinhos/2]] \n\n(button:)[[Rua do Visconde / 2]] \n\n(button:)[[Rua do Visconde / 3]]\n\n(button:)[[Ruinas]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n15 - Rua dos Moinhos com Rua do Visconde\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Rua dos Moinhos/1",
+        "Rua dos Moinhos/2",
+        "Rua do Visconde / 2",
+        "Rua do Visconde / 3",
+        "Ruinas",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "148",
+      "name": "Rua da Pensão / 3",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n(button:)[[Picada no mato]] \n(button:)[[R. Pensão / Colina]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n13 - Rua da Pensão / 4\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Picada no mato",
+        "R. Pensão / Colina",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "149",
+      "name": "R.Moinhos / Pensão",
+      "tags": [
+        "Andar-pela-vila",
+        "Rua-B",
+        "esquina"
+      ],
+      "text": "==><==\n(button:)[[Rua dos Moinhos/2]] \n\n(button:)[[Rua da Pensão / 2]] \n\n(button:)[[R. Pensão / Colina]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n17 - Rua dos Moinhos com Rua da Pensão\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Rua dos Moinhos/2",
+        "Rua da Pensão / 2",
+        "R. Pensão / Colina",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "150",
+      "name": "açougue",
+      "tags": [
+        "Mercado"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/45/a7/65/45a765d010ea5caf1b1ab890ced63dcc.jpg\" width=\"300\" heigth=\"400\">\n\n(button:)[[comprar carne]]\n\n(button:)[[Foi ao Centrinho do Antigo Condado]] \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "comprar carne",
+        "Foi ao Centrinho do Antigo Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "151",
+      "name": "padaria",
+      "tags": [
+        "Mercado"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/f1/90/a8/f190a884ca10604367ac4a30711ef386.jpg\" width=\"300\" heigth=\"400\">\n\n(button:)[[comprar pão]]\n\n(button:)[[Voltar|Foi ao Centrinho do Antigo Condado]] \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "comprar pão",
+        "Voltar|Foi ao Centrinho do Antigo Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "152",
+      "name": "mercearia",
+      "tags": [
+        "Mercado"
+      ],
+      "text": "O (button:)[[Óleo de Carvalho]] que a velha Tartaruga queria.\n\n(button:)[[Voltar|Foi ao Centrinho do Antigo Condado]] \n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Óleo de Carvalho",
+        "Voltar|Foi ao Centrinho do Antigo Condado"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "153",
+      "name": "Lutas e apostas",
+      "tags": [
+        "Mercado"
+      ],
+      "text": "==><==\nTimérius vê um lagarto apostando e assistindo a uma luta. [[Falar com ele|Capanga Lagarto]]\n\n(button:)[[Voltar ao centrinho|Foi ao Centrinho do Antigo Condado]]  ",
+      "links": [
+        "Falar com ele|Capanga Lagarto",
+        "Voltar ao centrinho|Foi ao Centrinho do Antigo Condado"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "154",
+      "name": "peixaria",
+      "tags": [
+        "Mercado"
+      ],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/21/00/b7/2100b7c8f870841e983c6e2be69d5395.jpg\" width=\"300\" heigth=\"400\">\n\n(button:)[[Comprar peixe]]\n\n(button:)[[Voltar|Foi ao Centrinho do Antigo Condado]] \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Comprar peixe",
+        "Voltar|Foi ao Centrinho do Antigo Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "155",
+      "name": "Porto Om Sin",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\nPossível final alternativo\n(button:)[[Rua da Praia/2]] \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Rua da Praia/2",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "156",
+      "name": "Rua da Praia/1",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n (button:)[[Norte - Rua da Torre|Rua da Torre/1]]\n A rua da Torre sobe o bairro para o norte, em direção as montanhas. Passa em frente a entrada do antigo condado e continua, passando pela velha torre de vigília (que lhe dá o nome) e indo até o sopé das montanhas no extremo norte da região.\n \n \n (button:)[[ Rua da Praia|Rua da Praia/2]]\n A rua da Praia beira o rio Om Sin. Ali ficam alguns estabelecimentos, além de um pequeno porto.\n\n\n(button:)[[Entrada da Vila|Vila Om Sin Nacem]] \n\n\n###MAPA\n(click: \"MAPA\")[\n\n3 - Rua da Praia\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"250\" height=\"250\">]\n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Norte - Rua da Torre|Rua da Torre/1",
+        " Rua da Praia|Rua da Praia/2",
+        "Entrada da Vila|Vila Om Sin Nacem",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "157",
+      "name": "Rua da Praia / 3",
+      "tags": [
+        "Andar-pela-vila"
+      ],
+      "text": "==><==\n(button:)[[Parte Sul do Condado]] \n\n(button:)[[Rua do Visconde / 1]] \n\n(button:)[[Rua da Praia/2]] \n\n(button:)[[R. Praia / Pensão]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n8 - Rua da Praia\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">\n",
+      "links": [
+        "Parte Sul do Condado",
+        "Rua do Visconde / 1",
+        "Rua da Praia/2",
+        "R. Praia / Pensão",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "158",
+      "name": "Muralha Leste",
+      "tags": [],
+      "text": "==><==\n(button:)[[Parte Norte do Condado]] \n(button:)[[Entrada Leste do Condado]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n4 -Muralha Leste\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Parte Norte do Condado",
+        "Entrada Leste do Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "159",
+      "name": "Pensão do Castelo Abandonado",
+      "tags": [],
+      "text": "==><==\n(button:)[[R. Praia / Pensão]] \n(button:)[[Portaria]]\n(button:)[[Escadas]]\n\n(button:)[[Atributos]]",
+      "links": [
+        "R. Praia / Pensão",
+        "Portaria",
+        "Escadas",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "160",
+      "name": "Aglomerado de Casas 1",
+      "tags": [],
+      "text": "==><==\n(button:)[[Rua C]]\n\n(button:)[[Atributos]]",
+      "links": [
+        "Rua C",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "161",
+      "name": "Aldeia dos Felinos",
+      "tags": [],
+      "text": "==><==\n(button:)[[Rua do Visconde / 3]]\n\n(button:)[[Atributos]]",
+      "links": [
+        "Rua do Visconde / 3",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "162",
+      "name": "Aglomerado de casas 3",
+      "tags": [],
+      "text": "==><==\n(button:)[[Rua da Pensão / 2]]\n\n(button:)[[Rua dos Moinhos/2]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Rua da Pensão / 2",
+        "Rua dos Moinhos/2",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "163",
+      "name": "Entrada Oeste do Condado",
+      "tags": [],
+      "text": "==><==\nVoltar para a (button:)[[Rua Central do Condado]]\nIr até o cruzamento fora da muralha. A rua do Visconde, descendo, leva a praia e, subindo, leva a peuqenos vilarejos e depois às montanhas. Se aproximar do (button:)[[cruzamento|R.Visconde / Condado]]\n\nA (button:)[[Muralha Oeste]] se encontra com a muralha Sul e fica perto da saida para o porto.\nSeguindo a muralha, chega-se a parte (button:)[[Norte|Muralha Norte]] de antiga muralha do condado.\n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n4, 6 - Entrada Oeste do Condado\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Rua Central do Condado",
+        "cruzamento|R.Visconde / Condado",
+        "Muralha Oeste",
+        "Norte|Muralha Norte",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "164",
+      "name": "Parte Norte do Condado",
+      "tags": [],
+      "text": "==><==\n(button:)[[Rua Central do Condado]] \n\n(button:)[[Muralha Norte]] \n\n(button:)[[Muralha Leste]] \n\n(button:)[[Fundos da taverna|fundos]]\n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n4 - Parte Norte do Condado\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Rua Central do Condado",
+        "Muralha Norte",
+        "Muralha Leste",
+        "Fundos da taverna|fundos",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "165",
+      "name": "Parte Sul do Condado",
+      "tags": [],
+      "text": "==><==\nSaída do condado específica da carga. Mas de vez em quando dá pra passar por aqui.\n\n(button:)[[Rua Central do Condado]] \n\n(button:)[[Rua da Praia/2]] \n\n(button:)[[Rua da Praia / 3]] \n\n(button:)[[Muralha Sul]] \n\n(button:)[[Muralha Oeste]]\n\n(button:)[[Rua do Visconde / 1]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n4, 5 - Parte Sul do Condado\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Rua Central do Condado",
+        "Rua da Praia/2",
+        "Rua da Praia / 3",
+        "Muralha Sul",
+        "Muralha Oeste",
+        "Rua do Visconde / 1",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "166",
+      "name": "Rua da Praia/2",
+      "tags": [],
+      "text": "==><==\n(button:)[[Leste - Início da rua da Praia|Rua da Praia/1]] \nO começo da rua da praia tem ligação com a rua da Torre e também com a entrada da vila.\n\n\n(button:)[[Norte - Entrada Sul do Condado|Parte Sul do Condado]]\n\n\n(button:)[[Oeste - Final da rua da Praia|Rua da Praia / 3]]\n\n\n(button:)[[Porto Om Sin]] \n\n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n4 - Muralha Norte\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Leste - Início da rua da Praia|Rua da Praia/1",
+        "Norte - Entrada Sul do Condado|Parte Sul do Condado",
+        "Oeste - Final da rua da Praia|Rua da Praia / 3",
+        "Porto Om Sin",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "167",
+      "name": "Portaria",
+      "tags": [],
+      "text": "==><==\n(button:)[[Pensão do Castelo Abandonado]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Pensão do Castelo Abandonado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "168",
+      "name": "Escadas",
+      "tags": [],
+      "text": "==><==\n(button:)[[Segundo Andar]]\n(button:)[[Pensão do Castelo Abandonado]] ",
+      "links": [
+        "Segundo Andar",
+        "Pensão do Castelo Abandonado"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "169",
+      "name": "Segundo Andar",
+      "tags": [],
+      "text": "==><==\n(button:)[[Terceiro Andar]]\n(button:)[[Corredor 1 Pensão]]\n(button:)[[Escadas]] ",
+      "links": [
+        "Terceiro Andar",
+        "Corredor 1 Pensão",
+        "Escadas"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "170",
+      "name": "Terceiro Andar",
+      "tags": [],
+      "text": "==><==\n(button:)[[Torre]]\n(button:)[[Corredor 2 Pensão]]\n(button:)[[Segundo Andar]] ",
+      "links": [
+        "Torre",
+        "Corredor 2 Pensão",
+        "Segundo Andar"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "171",
+      "name": "Torre",
+      "tags": [],
+      "text": "==><==\n(button:)[[Terceiro Andar]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Terceiro Andar",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "172",
+      "name": "Corredor 1 Pensão",
+      "tags": [],
+      "text": "==><==\n(button:)[[Quarto Vago 1]]\n(button:)[[Segundo Andar]] ",
+      "links": [
+        "Quarto Vago 1",
+        "Segundo Andar"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "173",
+      "name": "Corredor 2 Pensão",
+      "tags": [],
+      "text": "==><==\n(button:)[[Quarto Vago 2]]\n(button:)[[Terceiro Andar]] ",
+      "links": [
+        "Quarto Vago 2",
+        "Terceiro Andar"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "174",
+      "name": "Quarto Vago 1",
+      "tags": [],
+      "text": "==><==\n(button:)[[Corredor 1 Pensão]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Corredor 1 Pensão",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "175",
+      "name": "Quarto Vago 2",
+      "tags": [],
+      "text": "==><==\n(button:)[[Corredor 2 Pensão]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Corredor 2 Pensão",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "176",
+      "name": "Muralha Norte",
+      "tags": [],
+      "text": "==><==\n(button:)[[Entrada Oeste do Condado]] \n(button:)[[Parte Norte do Condado]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n4 - Muralha Norte\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Entrada Oeste do Condado",
+        "Parte Norte do Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "177",
+      "name": "Muralha Oeste",
+      "tags": [],
+      "text": "==><==\n(button:)[[Parte Sul do Condado]] \n(button:)[[Entrada Oeste do Condado]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n4, 5, 6 - Muralha Norte\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Parte Sul do Condado",
+        "Entrada Oeste do Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "178",
+      "name": "Muralha Sul",
+      "tags": [],
+      "text": "==><==\n(button:)[[Entrada Leste do Condado]] \n(button:)[[Parte Sul do Condado]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n4, 5, 2 - Muralha Norte\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]",
+      "links": [
+        "Entrada Leste do Condado",
+        "Parte Sul do Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "179",
+      "name": "Cama",
+      "tags": [],
+      "text": "(set: $tempo = $tempo + 1)\n(set: $descanso = 5)\n==><==\n(button:)[[Casa do Dono da Taverna]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Casa do Dono da Taverna",
+        "Atributos"
+      ],
+      "variables": [
+        "$descanso",
+        "$tempo"
+      ]
+    },
+    {
+      "pid": "180",
+      "name": "Cozinha",
+      "tags": [],
+      "text": "==><==\n(button:)[[Casa do Dono da Taverna]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Casa do Dono da Taverna",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "181",
+      "name": "Comprar peixe",
+      "tags": [],
+      "text": "(set: $peixe = 1)\n==><==\n<img src=\"https://i.pinimg.com/originals/ae/d8/cb/aed8cba5d4dc0ab9a41361aa0a020b0a.jpg\" width=\"300\" heigth=\"400\">\n\n###Comprou peixe\n\n(button:)[[Foi ao Centrinho do Antigo Condado]] \n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Foi ao Centrinho do Antigo Condado"
+      ],
+      "variables": [
+        "$peixe"
+      ]
+    },
+    {
+      "pid": "182",
+      "name": "comprar pão",
+      "tags": [],
+      "text": "(set: $pão = 1)\n==><==\n<img src=\"https://i.pinimg.com/originals/92/fc/81/92fc81523eeb979a6a40d82a48ff185b.jpg\" width=\"300\" heigth=\"400\">\n\n###Comprou pão\n\n(button:)[[Voltar|Foi ao Centrinho do Antigo Condado]] \n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Voltar|Foi ao Centrinho do Antigo Condado"
+      ],
+      "variables": [
+        "$pão"
+      ]
+    },
+    {
+      "pid": "183",
+      "name": "comprar carne",
+      "tags": [],
+      "text": "==><==\n<img src=\"https://i.pinimg.com/originals/bf/52/af/bf52af5923f121d69c7bc31b8cdb2dd1.jpg\" width=\"300\" heigth=\"400\">\n(set: $carne = 1)\n###Comprou carne\n\n(button:)[[Voltar|Foi ao Centrinho do Antigo Condado]] \n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Voltar|Foi ao Centrinho do Antigo Condado"
+      ],
+      "variables": [
+        "$carne"
+      ]
+    },
+    {
+      "pid": "184",
+      "name": "Óleo de Carvalho",
+      "tags": [],
+      "text": "(set: $óleodecarvalho to 1)\n\n###Comprou Óleo de Carvalho\n\n(button:)[[mercearia]] \n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "mercearia"
+      ],
+      "variables": [
+        "$óleodecarvalho"
+      ]
+    },
+    {
+      "pid": "185",
+      "name": "Torre Antiga",
+      "tags": [],
+      "text": "==><==\n(button:)[[R. Torre / Moinhos]] \n\n(button:)[[Rua dos Moinhos/1]] ",
+      "links": [
+        "R. Torre / Moinhos",
+        "Rua dos Moinhos/1"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "186",
+      "name": "Barracão",
+      "tags": [],
+      "text": "==><==\n(button:)[[R. Torre / Moinhos]] \n\n(button:)[[Rua dos Moinhos/1]] ",
+      "links": [
+        "R. Torre / Moinhos",
+        "Rua dos Moinhos/1"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "187",
+      "name": "Caminho subindo a montanha",
+      "tags": [],
+      "text": "==><==\n(button:)[[Mina abandonada]]\n\n(button:)[[Rua da Torre/3]] ",
+      "links": [
+        "Mina abandonada",
+        "Rua da Torre/3"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "188",
+      "name": "Mina abandonada",
+      "tags": [],
+      "text": "==><==\n(button:)[[Caminho subindo a montanha]] ",
+      "links": [
+        "Caminho subindo a montanha"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "189",
+      "name": "Ponte",
+      "tags": [],
+      "text": "==><==\n(button:)[[Vila Om Sin Nacem]] \n\n(button:)[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Vila Om Sin Nacem",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "190",
+      "name": "Brejo das Capivaras",
+      "tags": [],
+      "text": "==><==\n\n(button:)[[Rua da Torre/2]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "Rua da Torre/2",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "191",
+      "name": "R. Praia / Pensão",
+      "tags": [],
+      "text": "==><==\n(button:)[[Saída da Vila Om Sin]] \n\n(button:)[[Rua da Pensão / 1]] \n\n(button:)[[Rua da Praia / 3]] \n\n(button:)[[Pensão do Castelo Abandonado]] \n\n(button:)[[Atributos]]\n\n###MAPA\n(click: \"MAPA\")[\n\n9 - Rua da Praia / 4\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\"\nwidth=\"300\" height=\"300\">]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\"width=\"150\" heigth=\"150\">",
+      "links": [
+        "Saída da Vila Om Sin",
+        "Rua da Pensão / 1",
+        "Rua da Praia / 3",
+        "Pensão do Castelo Abandonado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "192",
+      "name": "Aglomerado 5",
+      "tags": [],
+      "text": "==><==\n(button:)[[R. Moinhos / Visconde]] \n\n(button:)[[Atributos]]",
+      "links": [
+        "R. Moinhos / Visconde",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "193",
+      "name": "Ruinas",
+      "tags": [],
+      "text": "==><==\n(button:)[[R. Moinhos / Visconde]] ",
+      "links": [
+        "R. Moinhos / Visconde"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "194",
+      "name": "Untitled Passage 1",
+      "tags": [],
+      "text": "",
+      "links": [],
+      "variables": []
+    },
+    {
+      "pid": "195",
+      "name": "Sistema de Combate",
+      "tags": [],
+      "text": "(set: _chances to 3)\n(set: _ferido to 0)\n(set: _inimigo to 1)\n(set: _modificadorForça to 1)\n(if: _chances >= 1)[\n(link-rerun: \"Combate\")[\n(set:_combate to (random: 1, 3) + _modificadorForça)\nSeu ataque é ''(text-colour:red)[_combate]''(set: _chances to _chances - 1)\n(if: _ferido >= 4)[Timéius tem (text-colour:red)[_ferido] ferimentos. Morreu (link-goto:\"Introdução\")]\n(else-if: _inimigo <= 0)[Ender o ataca com toda a veemência. O bandido cai desacordado. Ender recupera sua adaga, mais duas moedas de ouro e a espada do adversário. Vai embora deixando-o para trás.[[fundos]]]\n(else-if: _combate <= 2) [Foi ferido!!! Vai continuar? ou [[voltar|fundos]](set: _ferido to _ferido + 1)(if: _ferido >= 3)[Timéius tem (text-colour:red)[_ferido] ferimentos. O inimigo espera até o último momento para desviar de Timérius e desferir um golpe certeiro. O que vai fazer? Vai continuar? ou [[voltar|fundos]]]]\n(else-if:_combate <= 4) [Conseguiu se aproximar o bastante para fazer um ataque baixo, que foi prontamente defendido pelo lobo branco escondido pelo capuz. Porém, ao fazê-lo, o inimigo deixou sua guarda do lado esquerdo do corpo desprotegido. Por um momento, Timérius vislumbrou uma pequena sacola de moedas no cinto do meliante. Era possível que fosse fruto de outros roubos.]\n(else-if: _combate <= 6)[[[Acertou!!!|Ganhou]]]\nTiméius tem (text-colour:red)[_ferido] ferimentos.\n(else-if: _ferido >= 3)[ Timérius se feriu muito. Continuar seria um erro. (link:[[Timérius foge dalí.->fundos]])]\n]]\n(else:)[[[volta|fundos]]]\n\n  ",
+      "links": [
+        "fundos",
+        "voltar|fundos",
+        "voltar|fundos",
+        "[Acertou!!!|Ganhou",
+        "Timérius foge dalí.->fundos",
+        "[volta|fundos"
+      ],
+      "variables": [
+        "_chances",
+        "_combate",
+        "_ferido",
+        "_inimigo",
+        "_modificadorForça"
+      ]
+    },
+    {
+      "pid": "196",
+      "name": "Ganhou",
+      "tags": [],
+      "text": "[[Voltar|Sistema de Combate]] ",
+      "links": [
+        "Voltar|Sistema de Combate"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "197",
+      "name": "Untitled Passage",
+      "tags": [],
+      "text": "<img src=\"https://lh4.googleusercontent.com/eXO2N3cFmEVg0gP2taAU3htWKq3etuLO4aik6_087LaGCKv4ERiameIPPgyV-ig4zllVUyurx7I1rlSrsCBfJUasCJ2b5qZpxjk5zXqL75ySunAefM8GdJRzQD-MHm6bIA=w1280\">\n\n(set: $nota to \"oi,\")\n(set: $nota to $nota + \" \" + \"tchau\")\n(set: $nota to $nota + \" \" + \"ei\")\n==><==\n(dropdown: bind $arma, \"espada\", \"faca\", \"escudo\")\n(link-rerun: \"Arma:\")[  $arma]\n\n(checkbox: 2bind $botão,\"botão\")\n(if: $botão is true)[[Ir->ir]]\nSua anotações são : $nota\n\n[[Atributos]] ",
+      "links": [
+        "Ir->ir",
+        "Atributos"
+      ],
+      "variables": [
+        "$arma",
+        "$botão",
+        "$nota",
+        "_087LaGCKv4ERiameIPPgyV"
+      ]
+    },
+    {
+      "pid": "198",
+      "name": "ir",
+      "tags": [],
+      "text": "",
+      "links": [],
+      "variables": []
+    },
+    {
+      "pid": "199",
+      "name": "caminho altenativo",
+      "tags": [],
+      "text": "==><==\n(button:)[[casa2]] \n\n(button:)[[Torre Abandonada]]\n\n(button:)[[Rua da Pensão / 3]] ",
+      "links": [
+        "casa2",
+        "Torre Abandonada",
+        "Rua da Pensão / 3"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "200",
+      "name": "Torre Abandonada",
+      "tags": [],
+      "text": "==><==\n(button:)[[caminho altenativo]] \n(button:)[[Rua C]] ",
+      "links": [
+        "caminho altenativo",
+        "Rua C"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "201",
+      "name": "Conversar sobre o trabalho",
+      "tags": [],
+      "text": "==><==\n(button:)[[balcão]] ",
+      "links": [
+        "balcão"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "202",
+      "name": "trabalho",
+      "tags": [],
+      "text": "(set: $missão to $missão + 1)\n==><==\nTimérius irá ganhar doze moedas de cobre por dia para investigar a onda de sinistros episódios que ronda a região. Tudo por debaixo dos panos, isto é, Gamya disse que o Lord Ós não pode saber de jeito nenhum. Portanto, Timérius deve conversar com os moradores sem levantar suspeitas e não se expor muito por ai. \n1º Trabalho: Conversar com a família de Siona, que mora na rua da Colina. Ela fica no extremo noroeste da região, um pouco afastada do centro da vila. Primeiro, deve-se chegar a rua da pensão, a rua mais a oeste, e virar para norte até a rua da colina, a esquerda. Lá existem algumas casas, todas moradias do clã felino ao qual Siona faz parte.\n\n(button:)[[Taverna|Foi a Taverna]]\n\n(button:)[[Atributos]]",
+      "links": [
+        "Taverna|Foi a Taverna",
+        "Atributos"
+      ],
+      "variables": [
+        "$missão"
+      ]
+    },
+    {
+      "pid": "203",
+      "name": "Atributos",
+      "tags": [
+        "Atributos"
+      ],
+      "text": "==><==\n\n##(b4r:\"none\",\"none\",\"dashed\")+(b4r-colour:(hsl:0,0,1,0.6),(hsl:0,0,1,0.6),(hsl:0,0,1,0.65),white)[Atributos Atuais]\n\n\n###(bg:(hsl:60,0.8039,0.5,0.2))[Timérius está (if: $descanso is 3)[descansado](else-if: $descanso is 2)[um pouco cansado](else-if: $descanso is 1)[ muito cansado](else-if: $descanso is 0)[ desacordado]]\n\n\n(set:$vida to it)(meter: bind $vida, 10, \"X\", \"vida: $vida\", (gradient: 90, 0, red, 1, blue))\n{\n<br>(if: $vontade is 7)[(set:$vontade to it)(meter: bind $vontade, 7, \"X\", \"vontade: $vontade\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $vontade is 6)[(set:$vontade to it)(meter: bind $vontade, 7, \"X\", \"vontade: $vontade\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $vontade is 5)[(set:$vontade to it)(meter: bind $vontade, 7, \"X\", \"vontade: $vontade\", (gradient: 90, 0, red, 1, blue)) ']\n(else-if: $vontade is 4)[(set:$vontade to it)(meter: bind $vontade, 7, \"X\", \"vontade: $vontade\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $vontade is 3)[(set:$vontade to it)(meter: bind $vontade, 7, \"X\", \"vontade: $vontade\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $vontade is 2)[(set:$vontade to it)(meter: bind $vontade, 7, \"X\", \"vontade: $vontade\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $vontade is 1)[(set:$vontade to it)(meter: bind $vontade, 7, \"X\", \"vontade: $vontade\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $vontade is 0)[(set:$vontade to it)(meter: bind $vontade, 7, \"X\", \"vontade: $vontade\", (gradient: 90, 0, red, 1, blue)) ]<br>\n\n<br>(if: $força is 7)[(set:$força to it)(meter: bind $força, 7, \"X\", \"força: $força\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $força is 6)[(set:$força to it)(meter: bind $força, 7, \"X\", \"força: $força\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $força is 5)[(set:$força to it)(meter: bind $força, 7, \"X\", \"força: $força\", (gradient: 90, 0, red, 1, blue)) ']\n(else-if: $força is 4)[(set:$força to it)(meter: bind $força, 7, \"X\", \"força: $força\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $força is 3)[(set:$força to it)(meter: bind $força, 7, \"X\", \"força: $força\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $força is 2)[(set:$força to it)(meter: bind $força, 7, \"X\", \"força: $força\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $força is 1)[(set:$força to it)(meter: bind $força, 7, \"X\", \"força: $força\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $força is 0)[(set:$força to it)(meter: bind $força, 7, \"X\", \"força: $força\", (gradient: 90, 0, red, 1, blue)) ]<br>\n\n<br>(if: $intelecto is 7)[(set:$intelecto to it)(meter: bind $intelecto, 7, \"X\", \"intelecto: $intelecto\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $intelecto is 6)[(set:$intelecto to it)(meter: bind $intelecto, 7, \"X\", \"intelecto: $intelecto\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $intelecto is 5)[(set:$intelecto to it)(meter: bind $intelecto, 7, \"X\", \"intelecto: $intelecto\", (gradient: 90, 0, red, 1, blue)) ']\n(else-if: $intelecto is 4)[(set:$intelecto to it)(meter: bind $intelecto, 7, \"X\", \"intelecto: $intelecto\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $intelecto is 3)[(set:$intelecto to it)(meter: bind $intelecto, 7, \"X\", \"intelecto: $intelecto\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $intelecto is 2)[(set:$intelecto to it)(meter: bind $intelecto, 7, \"X\", \"intelecto: $intelecto\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $intelecto is 1)[(set:$intelecto to it)(meter: bind $intelecto, 7, \"X\", \"intelecto: $intelecto\", (gradient: 90, 0, red, 1, blue)) ]\n(else-if: $intelecto is 0)[(set:$intelecto to it)(meter: bind $intelecto, 7, \"X\", \"intelecto: $intelecto\", (gradient: 90, 0, red, 1, blue)) ]<br>\n}\n\nRecursos: \n(click: \"Recursos:\")[{\n[<br>Moedas => $moedas<br>\n<br>Tempo => $tempo<br>]\n---\n(if: $faca > 0)[Faca => $faca]\n(if: $espada > 0)[Espada => $espada]\n(if: $escudo > 0)[Escudo => $escudo]\n(if: $adaga > 0)[Adaga => $adaga]\n(if: $poçãoVontade> 0)[Poção de Vontade => $poçãoVontade  [[Usar Poção|Tomar poção de vontade]]]\n(if: $poçãoForça> 0)[Poção de Força => $poçãoForça  [[Usar Poção|Tomar poção de força]]]\n(if: $poçãoVida> 0)[Poção de Vida => $poçãoVida  [[Usar Poção|Tomar poção de vida]]]}]\n---\nHistórico:\n<==>\n(click: \"Histórico:\")[(history:)]\n---\n==><==\n###(link-undo: \" voltar \")\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">\n\n\n\n\n",
+      "links": [
+        "Usar Poção|Tomar poção de vontade",
+        "Usar Poção|Tomar poção de força",
+        "Usar Poção|Tomar poção de vida"
+      ],
+      "variables": [
+        "$adaga",
+        "$descanso",
+        "$escudo",
+        "$espada",
+        "$faca",
+        "$força",
+        "$intelecto",
+        "$moedas",
+        "$poçãoForça",
+        "$poçãoVida",
+        "$poçãoVontade",
+        "$tempo",
+        "$vida",
+        "$vontade"
+      ]
+    },
+    {
+      "pid": "204",
+      "name": "Tomar poção de vontade",
+      "tags": [],
+      "text": "(set: $poçãoVontade to $poçãoVontade -1)\n(if: $vontade <= 9)[(set: $vontade to $vontade +1)]\n\n###Tomou a poção de Vontade\n###Vontade => $vontade\n\n###(link-undo: \" voltar \")",
+      "links": [],
+      "variables": [
+        "$poçãoVontade",
+        "$vontade"
+      ]
+    },
+    {
+      "pid": "205",
+      "name": "Tomar poção de força",
+      "tags": [],
+      "text": "(set: $poçãoForça to $poçãoForça -1)\n(if: $força <= 9)[(set: $força to $força +1)]\n\n###Tomou a poção de Força\n###Força => $força",
+      "links": [],
+      "variables": [
+        "$força",
+        "$poçãoForça"
+      ]
+    },
+    {
+      "pid": "206",
+      "name": "Tomar poção de vida",
+      "tags": [],
+      "text": "(set: $poçãoVida to $poçãoVida -1)\n(if: $vida <= 9)[(set: $vida to $vida +1)]\n\n###Tomou a poção de Vida\n###Vida => $vida",
+      "links": [],
+      "variables": [
+        "$poçãoVida",
+        "$vida"
+      ]
+    },
+    {
+      "pid": "207",
+      "name": "Onde as pessoas costumam ir por aqui?",
+      "tags": [],
+      "text": "==><==\n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff))[Elas vão por todos os lugares, ué.]\n\n(button:)[[Vocês viram alguém suspeito por aqui, com um capuz, portando uma espada?]]\n\n(button:)[[Vocês são daqui?]]\n\n",
+      "links": [
+        "Vocês viram alguém suspeito por aqui, com um capuz, portando uma espada?",
+        "Vocês são daqui?"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "208",
+      "name": "Vocês viram alguém suspeito por aqui, com um capuz, portando uma espada?",
+      "tags": [],
+      "text": "==><==\n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff))[Metade das pessoas usam capuz e outra metade tem uma espada. \nComo vamos saber?]\n\n(button:)[[Vocês são daqui?]]\n\n",
+      "links": [
+        "Vocês são daqui?"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "209",
+      "name": "Vocês são daqui?",
+      "tags": [],
+      "text": "==><==\n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff))[Oh! Sim! Somos daqui mesmo. O que quer saber?]\n\n(button:)[[Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.]]\n\n(button:)[[Queria encontrar o ladrão de minha adaga]]\n\n(button:)[[Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?]]\n\n\n\n",
+      "links": [
+        "Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.",
+        "Queria encontrar o ladrão de minha adaga",
+        "Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "210",
+      "name": "Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.",
+      "tags": [],
+      "text": "==><==\n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff))[Você pode ir até a Pensão do Castelo Abandonado.]\nEla fica no final da rua da Praia, quase na saída da Vila, em direção ao Ducado.\n(if:(history:) contains \"Queria encontrar o ladrão de minha adaga\")[]\n(else:)[\n(button:)[[Queria encontrar o ladrão de minha adaga]]]\n\n(if:(history:) contains \"Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?\")[]\n(else:)[\n(button:)[[Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?]]]\n\nAgradecer e continuar até a\n(button:)[[Vila Om Sin Nacem]] \n\n\n",
+      "links": [
+        "Queria encontrar o ladrão de minha adaga",
+        "Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?",
+        "Vila Om Sin Nacem"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "211",
+      "name": "Queria encontrar o ladrão de minha adaga",
+      "tags": [],
+      "text": "==><==\nNós não nos metemos em confusões, mas \n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff))[talvez na taverna da Guilda Burlesca você possa saber de algo.]\n\n(if:(history:) contains \"Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.\")[]\n(else:)[\n(button:)[[Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.]]]\n\n(if:(history:) contains \"Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?\")[]\n(else:)[\n(button:)[[Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?]]]\n\nAgradecer e continuar até a\n(button:)[[Vila Om Sin Nacem]] \n",
+      "links": [
+        "Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.",
+        "Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?",
+        "Vila Om Sin Nacem"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "212",
+      "name": "Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?",
+      "tags": [],
+      "text": "==><==\n###(text-colour:black)+(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff))[Converse com a dona da taverna.] \nA Guilda Burlesca, como é chamado o estabelecimento, fica lá dentro da muralha do antigo condado. Talvez ela possa te arrumar alguma coisa para fazer.\n(if:(history:) contains \"Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.\")[]\n(else:)[\n(button:)[[Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.]]]\n(if:(history:) contains \"Queria encontrar o ladrão de minha adaga\")[]\n(else:)[\n(button:)[[Queria encontrar o ladrão de minha adaga]]]\n\nAgradecer e continuar até a\n(button:)[[Vila Om Sin Nacem]] \n\n",
+      "links": [
+        "Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.",
+        "Queria encontrar o ladrão de minha adaga",
+        "Vila Om Sin Nacem"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "213",
+      "name": "vazio 1",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "Não encontrou ninguém.\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "214",
+      "name": "vazio 2",
+      "tags": [
+        "estabelecimento"
+      ],
+      "text": "\n[[voltar|ENCONTROS]] ",
+      "links": [
+        "voltar|ENCONTROS"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "215",
+      "name": "link & GoTo",
+      "tags": [],
+      "text": "<!--Cria um link com o nome da passagem randomizada anteriormente, isto é, já mostra a passagem que foi randomizada-->\n##(link-goto: (either:\"1\",\"A1\"))\n\n<!--Cria um link nomeado(qq nome), que leva a uma passagem randomizada posteriormente, isto é, não mostra para qual passagem será a próxima-->\n#(link:\"ir para\")[(go-to:(either:\"1\",\"A1\", \"2\"))]",
+      "links": [],
+      "variables": []
+    },
+    {
+      "pid": "216",
+      "name": "2",
+      "tags": [],
+      "text": "2",
+      "links": [],
+      "variables": []
+    },
+    {
+      "pid": "217",
+      "name": "1",
+      "tags": [],
+      "text": "1",
+      "links": [],
+      "variables": []
+    },
+    {
+      "pid": "218",
+      "name": "A1",
+      "tags": [],
+      "text": "[[A1]]",
+      "links": [
+        "A1"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "219",
+      "name": "Derrotou Tamivi",
+      "tags": [],
+      "text": "==><==\n(button:)[[Estrada do Ducado 2]] \n\n[[Atributos]]\n\n<img src=\"https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg\" width=\"150\" heigth=\"150\">",
+      "links": [
+        "Estrada do Ducado 2",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "220",
+      "name": "Untitled Passage 2",
+      "tags": [],
+      "text": "",
+      "links": [],
+      "variables": []
+    },
+    {
+      "pid": "221",
+      "name": "Gâmia",
+      "tags": [],
+      "text": "==><==\n\"Bem movimentado aqui, não é?\"\nComenta ao se aproximar do balcão.\n\"É o estabelecimento mais cheio da região, pessoas das vilas próximas e até do Ducado vem pra cá se divertir. Mas, e você? O que deseja?\"\n\"Eu gostaria de falar com o dono do lugar, por favor. É urgente.\"\n\"A dona, você quis dizer. Sou eu, Gâmia. O que está procurando?\"\nTimérius explica sua situação. Gâmia não acredita muito que ele é o que diz ser. Um soldado do ducado de Canis exilado que procura sua adaga de prata roubada. Mas o manda procurar pelo salão da taverna ou pelo centrinho seu capanga particular, que poderia o ajudar. Um lagarto.\n\n\n\n(button:)[[Voltar|Foi a Taverna]] \n",
+      "links": [
+        "Voltar|Foi a Taverna"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "222",
+      "name": "Capanga Lagarto",
+      "tags": [],
+      "text": "O capanga de Gâmia diz que viu alguém com as descrições dadas pelas tartarugas. Achava que o tinha visto na parte norte do condado, perto da taverna, com certeza.\n\n[[Voltar|Lutas e apostas]] ",
+      "links": [
+        "Voltar|Lutas e apostas"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "223",
+      "name": "Nas Redondesas do Castelo do Lord Ós",
+      "tags": [],
+      "text": "==><==\n\n(button:)[[Sul do Castelo]]\n(button:)[[Leste do Castelo]]\n(button:)[[Norte do Castelo]]\n(button:)[[Oeste do Castelo]]\n\n\n(button:)[[Rua Central do Condado]] \n(button:)[[Foi ao Centrinho do Antigo Condado]] \n\n(button:)[[Atributos]]\n\n---\n==><==\n###MAPA\n(click: \"MAPA\")[4- Centrinho do Antigo Condado\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\" width=\"250\" height=\"250\">]",
+      "links": [
+        "Sul do Castelo",
+        "Leste do Castelo",
+        "Norte do Castelo",
+        "Oeste do Castelo",
+        "Rua Central do Condado",
+        "Foi ao Centrinho do Antigo Condado",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "224",
+      "name": "Senhora Hipopótamo",
+      "tags": [],
+      "text": "==><==\n\nA senhora chora porque seu filho sumiu. Ele trabalha no açougue, como o resto da família. Um dia à noite, ele não voltou para casa. Já faz uma semana.\nTimérius converça com a matrona, porém, no momento, não pode fazer nada.\n\n(button:)[[Vila Om Sin Nacem]] ",
+      "links": [
+        "Vila Om Sin Nacem"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "225",
+      "name": "capivara",
+      "tags": [],
+      "text": "[[fundos]] ",
+      "links": [
+        "fundos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "226",
+      "name": "capivara - Sem adaga",
+      "tags": [],
+      "text": "[[fundos]] ",
+      "links": [
+        "fundos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "227",
+      "name": "Sul do Castelo",
+      "tags": [],
+      "text": "(button:)[[Nas Redondesas do Castelo do Lord Ós]] \n\n(button:)[[Leste do Castelo]]\n\n(button:)[[Oeste do Castelo]]\n\n(button:)[[Atributos]]\n\n---\n###MAPA\n(click: \"MAPA\")[4- Centrinho do Antigo Condado\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\" width=\"250\" height=\"250\">]",
+      "links": [
+        "Nas Redondesas do Castelo do Lord Ós",
+        "Leste do Castelo",
+        "Oeste do Castelo",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "228",
+      "name": "Norte do Castelo",
+      "tags": [],
+      "text": "(button:)[[Nas Redondesas do Castelo do Lord Ós]] \n\n(button:)[[Leste do Castelo]]\n\n(button:)[[Oeste do Castelo]]\n\n(button:)[[Atributos]]\n\n---\n###MAPA\n(click: \"MAPA\")[4- Centrinho do Antigo Condado\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\" width=\"250\" height=\"250\">]",
+      "links": [
+        "Nas Redondesas do Castelo do Lord Ós",
+        "Leste do Castelo",
+        "Oeste do Castelo",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "229",
+      "name": "Leste do Castelo",
+      "tags": [],
+      "text": "(button:)[[Nas Redondesas do Castelo do Lord Ós]] \n\n(button:)[[Sul do Castelo]]\n\n(button:)[[Norte do Castelo]]\n\n(button:)[[Atributos]]\n\n---\n###MAPA\n(click: \"MAPA\")[4- Centrinho do Antigo Condado\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\" width=\"250\" height=\"250\">]",
+      "links": [
+        "Nas Redondesas do Castelo do Lord Ós",
+        "Sul do Castelo",
+        "Norte do Castelo",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "230",
+      "name": "Oeste do Castelo",
+      "tags": [],
+      "text": "(button:)[[Nas Redondesas do Castelo do Lord Ós]] \n\n(button:)[[Sul do Castelo]]\n\n(button:)[[Norte do Castelo]]\n\n(button:)[[Atributos]]\n\n---\n###MAPA\n(click: \"MAPA\")[4- Centrinho do Antigo Condado\n\n<img src=\"https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg\" width=\"250\" height=\"250\">]",
+      "links": [
+        "Nas Redondesas do Castelo do Lord Ós",
+        "Sul do Castelo",
+        "Norte do Castelo",
+        "Atributos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "231",
+      "name": "Hall do 1º Andar",
+      "tags": [],
+      "text": "==><==\n(button:)[[Escadaria Principal]] \n\n(button:)[[Corredor Leste]] \n\n(button:)[[Corredor Oeste]] ",
+      "links": [
+        "Escadaria Principal",
+        "Corredor Leste",
+        "Corredor Oeste"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "232",
+      "name": "Escadaria Principal",
+      "tags": [],
+      "text": "==><==\n(button:)[[Hall do 1º Andar]] \n\n(button:)[[Hall do 2º Andar]] ",
+      "links": [
+        "Hall do 1º Andar",
+        "Hall do 2º Andar"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "233",
+      "name": "Corredor Leste",
+      "tags": [],
+      "text": "==><==\n(button:)[[Hall do 1º Andar]] \n\n(button:)[[Sala de Recepções Leste]] \n\n(button:)[[Salão Principal]] \n\n(button:)[[Escritório do Lord Ós]] \n\n(button:)[[Sala de Jantar Principal]] ",
+      "links": [
+        "Hall do 1º Andar",
+        "Sala de Recepções Leste",
+        "Salão Principal",
+        "Escritório do Lord Ós",
+        "Sala de Jantar Principal"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "234",
+      "name": "Corredor Oeste",
+      "tags": [],
+      "text": "==><==\n(button:)[[Hall do 1º Andar]] \n\n(button:)[[Sala de Recepções Oeste]] \n\n(button:)[[Salão Principal]] \n\n(button:)[[Aposentos dos subordinados]] \n\n[[Cozinha Principal]] ",
+      "links": [
+        "Hall do 1º Andar",
+        "Sala de Recepções Oeste",
+        "Salão Principal",
+        "Aposentos dos subordinados",
+        "Cozinha Principal"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "235",
+      "name": "Sala de Recepções Leste",
+      "tags": [],
+      "text": "==><==\n(button:)[[Corredor Leste]] ",
+      "links": [
+        "Corredor Leste"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "236",
+      "name": "Sala de Recepções Oeste",
+      "tags": [],
+      "text": "==><==\n(button:)[[Corredor Oeste]] ",
+      "links": [
+        "Corredor Oeste"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "237",
+      "name": "Salão Principal",
+      "tags": [],
+      "text": "==><==\n(button:)[[Corredor Leste]] \n\n(button:)[[Corredor Oeste]] \n\n(button:)[[Sala de Jantar Principal]] ",
+      "links": [
+        "Corredor Leste",
+        "Corredor Oeste",
+        "Sala de Jantar Principal"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "238",
+      "name": "Cozinha Principal",
+      "tags": [],
+      "text": "==><==\n(button:)[[Sala de Recepções Oeste]] \n\n(button:)[[Corredor Oeste]] \n\n(button:)[[Salão Principal]] \n\n(button:)[[Área de limpesa da cozinha com saída para o pátio]] ",
+      "links": [
+        "Sala de Recepções Oeste",
+        "Corredor Oeste",
+        "Salão Principal",
+        "Área de limpesa da cozinha com saída para o pátio"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "239",
+      "name": "Sala de Jantar Principal",
+      "tags": [],
+      "text": "==><==\n(button:)[[Salão Principal]] \n\n(button:)[[Varanda da sala de jantar]] \n\n(button:)[[Corredor Leste]] ",
+      "links": [
+        "Salão Principal",
+        "Varanda da sala de jantar",
+        "Corredor Leste"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "240",
+      "name": "Pátio dos Fundos",
+      "tags": [],
+      "text": "==><==\n\n(button:)[[Área de limpesa da cozinha com saída para o pátio]] \n\n(button:)[[Varanda da sala de jantar]] ",
+      "links": [
+        "Área de limpesa da cozinha com saída para o pátio",
+        "Varanda da sala de jantar"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "241",
+      "name": "Área de limpesa da cozinha com saída para o pátio",
+      "tags": [],
+      "text": "==><==\n(button:)[[Cozinha Principal]] \n\n(button:)[[Pátio dos Fundos]] \n\n(button:)[[Aposentos dos subordinados]] ",
+      "links": [
+        "Cozinha Principal",
+        "Pátio dos Fundos",
+        "Aposentos dos subordinados"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "242",
+      "name": "Varanda da sala de jantar",
+      "tags": [],
+      "text": "==><==\n\n(button:)[[Sala de Jantar Principal]] \n\n(button:)[[Escritório do Lord Ós]] \n\n(button:)[[Pátio dos Fundos]] ",
+      "links": [
+        "Sala de Jantar Principal",
+        "Escritório do Lord Ós",
+        "Pátio dos Fundos"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "243",
+      "name": "Aposentos dos subordinados",
+      "tags": [],
+      "text": "==><==\n(button:)[[Área de limpesa da cozinha com saída para o pátio]] \n\n(button:)[[Corredor Oeste]] ",
+      "links": [
+        "Área de limpesa da cozinha com saída para o pátio",
+        "Corredor Oeste"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "244",
+      "name": "Escritório do Lord Ós",
+      "tags": [],
+      "text": "==><==\n(button:)[[Varanda da sala de jantar]] \n\n(button:)[[Corredor Leste]] \n\n(button:)[[Escada para os Porões do Castelo]] ",
+      "links": [
+        "Varanda da sala de jantar",
+        "Corredor Leste",
+        "Escada para os Porões do Castelo"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "245",
+      "name": "Hall do 2º Andar",
+      "tags": [],
+      "text": "==><==\n(button:)[[Escadaria Principal]] \n\n(button:)[[Corredor do 2º Andar]] ",
+      "links": [
+        "Escadaria Principal",
+        "Corredor do 2º Andar"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "246",
+      "name": "Corredor do 2º Andar",
+      "tags": [],
+      "text": "[[Hall do 2º Andar]] ",
+      "links": [
+        "Hall do 2º Andar"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "247",
+      "name": "Escada para os Porões do Castelo",
+      "tags": [],
+      "text": "==><==\n(button:)[[Escritório do Lord Ós]] \n\n(button:)[[Corredor do Porão]] ",
+      "links": [
+        "Escritório do Lord Ós",
+        "Corredor do Porão"
+      ],
+      "variables": []
+    },
+    {
+      "pid": "248",
+      "name": "Corredor do Porão",
+      "tags": [],
+      "text": "==><==\n(button:)[[Escada para os Porões do Castelo]] ",
+      "links": [
+        "Escada para os Porões do Castelo"
+      ],
+      "variables": []
+    }
+  ]
+}

@@ -1,102 +1,183 @@
-// Direção Quimera em Blocos: atlas narrativo legível, molduras fortes, cores de estado e ações explícitas.
+// Direção Quimera em Blocos: o aplicativo apresenta o storyfile original como um atlas narrativo, mantendo texto, caminhos e variáveis.
 import { useMemo, useState } from "react";
-import { Compass, FileText, Map, Search, ScrollText, Shield, Sparkles, Swords } from "lucide-react";
+import { BookOpen, Compass, FileText, Map as MapIcon, Search, Shield, Sparkles, Swords } from "lucide-react";
+import storyData from "@/data/storyMap.json";
 
 const mapImage = "/manus-storage/quimera-map-bg_59444783.jpg";
-const enderImage = "/manus-storage/ender-portrait_74343876.png";
-const tamiviImage = "/manus-storage/tamivi-portrait_31c4a2d8.png";
 const markImage = "/manus-storage/quimera-mark_94657664.png";
+const fallbackImage = "/manus-storage/ender-portrait_74343876.png";
 
-type Tab = "busca" | "mapa" | "notas";
-type Scene = "estrada" | "tamivi" | "consequencia";
+type Value = number | string | boolean;
+type Tab = "busca" | "mapa" | "notas" | "atributos";
+type Passage = { pid: string; name: string; tags: string[]; text: string; links: string[]; variables: string[] };
+type LinkOption = { label: string; target: string };
 
-const locations = [
-  { id: 1, name: "Estrada do Ducado", type: "Rota", available: true, text: "A estrada que leva ao portão de Quidrae." },
-  { id: 2, name: "Om Sin Nacem", type: "Porto", available: true, text: "Um pequeno porto e a próxima pista de Ender." },
-  { id: 3, name: "Fundos da Taverna", type: "Pista", available: true, text: "Arbustos, silêncio e alguém observando." },
-  { id: 4, name: "Casa do Quintal", type: "Local", available: true, text: "Um muro baixo esconde uma passagem estreita." },
-  { id: 5, name: "Mercado", type: "Comércio", available: true, text: "Suprimentos, rumores e moedas trocadas." },
-  { id: 6, name: "Pensão", type: "Abrigo", available: false, text: "Ainda não descoberta." },
-  { id: 7, name: "Portão da Duquesa", type: "Objetivo", available: false, text: "Cinquenta moedas compram a passagem." },
-  { id: 8, name: "Quidrae", type: "Destino", available: false, text: "O ducado onde a esposa de Ender está presa." },
-];
+const passages = storyData.passages as Passage[];
+const initialPassage = passages.find((passage) => passage.name.trim() === "Introdução") ?? passages[0];
+const byName = new Map<string, Passage>(passages.map((passage) => [passage.name.trim(), passage] as [string, Passage]));
+const originalLocations = ["Introdução", "Roubaram sua Adaga de Prata", "Vagou pela Estrada", "Se aproximou das Tartarugas", "Vila Om Sin Nacem", "Foi a Taverna", "fundos", "Loja"];
 
-const baseNotes = ["Ender procura a esposa nos calabouços de Quidrae.", "O portão da cidade exige cinquenta moedas de cobre."];
+function normalizeName(value: string) { return value.trim().replace(/^.*->/, "").replace(/^.*→/, "").trim(); }
+function isMechanicalPassage(name: string) { return /^(Sistema de Combate|Ganhou)$/i.test(name.trim()); }
+function parseLinks(passage: Passage): LinkOption[] {
+  return passage.links.map((raw) => {
+    const pieces = raw.split("|");
+    const label = pieces[0].replace(/^\s*button:\s*/i, "").trim() || pieces[1] || raw;
+    const target = normalizeName((pieces[1] ?? pieces[0]).replace(/\.$/, ""));
+    return { label, target };
+  }).filter((link) => byName.has(link.target) && !isMechanicalPassage(link.target) && !/sistema de combate/i.test(link.label));
+}
+function evalValue(raw: string, vars: Record<string, Value>): Value {
+  const value = raw.trim().replace(/[\]\[]/g, "");
+  if (/^true$/i.test(value)) return true;
+  if (/^false$/i.test(value)) return false;
+  if (/^[-+]?\d+(\.\d+)?$/.test(value)) return Number(value);
+  const variable = value.match(/^\$([\wÀ-ÿ_]+)/);
+  if (variable) return vars[variable[1]] ?? 0;
+  return value.replace(/^['"]|['"]$/g, "");
+}
+function applySets(text: string, current: Record<string, Value>) {
+  const next = { ...current };
+  const patterns = [
+    /\(set:\s*\$([\wÀ-ÿ_]+)\s+to\s+([^\)]+)\)/g,
+    /<<set\s+\$([\wÀ-ÿ_]+)\s*=\s*([^>]+)>>/g,
+  ];
+  for (const pattern of patterns) {
+    let match: RegExpExecArray | null;
+    while ((match = pattern.exec(text)) !== null) {
+      const key = match[1];
+      const expression = match[2].trim();
+      const operation = expression.match(/^\$([\wÀ-ÿ_]+)\s*([+-])\s*(\d+(?:\.\d+)?)/);
+      if (operation) {
+        const base = Number(next[operation[1]] ?? 0);
+        next[key] = operation[2] === "+" ? base + Number(operation[3]) : base - Number(operation[3]);
+      } else next[key] = evalValue(expression, next);
+    }
+  }
+  return next;
+}
+function evaluateCondition(condition: string, vars: Record<string, Value>, visited: string[]) {
+  const historyMatch = condition.match(/\(history:\)\s+contains\s+["']([^"']+)/i);
+  if (historyMatch) return visited.includes(historyMatch[1].trim());
+  const comparison = condition.match(/\$([\wÀ-ÿ_]+)\s*(is|>=|<=|>|<|contains|doesNotContain)\s*([^\]]+)/i);
+  if (!comparison) return true;
+  const left = vars[comparison[1]] ?? 0;
+  const right = evalValue(comparison[3], vars);
+  switch (comparison[2]) {
+    case "is": return left === right;
+    case ">=": return Number(left) >= Number(right);
+    case "<=": return Number(left) <= Number(right);
+    case ">": return Number(left) > Number(right);
+    case "<": return Number(left) < Number(right);
+    case "contains": return String(left).includes(String(right));
+    case "doesNotContain": return !String(left).includes(String(right));
+    default: return true;
+  }
+}
+function extractBracket(text: string, start: number) {
+  let depth = 0;
+  for (let index = start; index < text.length; index += 1) {
+    if (text[index] === "[") depth += 1;
+    if (text[index] === "]") {
+      depth -= 1;
+      if (depth === 0) return { content: text.slice(start + 1, index), end: index + 1 };
+    }
+  }
+  return { content: text.slice(start + 1), end: text.length };
+}
+function resolveConditionals(raw: string, vars: Record<string, Value>, visited: string[]) {
+  let text = raw;
+  let match = text.match(/\(if:\s*([^\)]*)\)/i);
+  while (match && match.index !== undefined) {
+    const macroStart = match.index;
+    const openBracket = text.indexOf("[", macroStart + match[0].length);
+    if (openBracket < 0) break;
+    const first = extractBracket(text, openBracket);
+    const after = text.slice(first.end);
+    const elseMatch = after.match(/^\s*\(else:\)\s*/i);
+    let replacement = evaluateCondition(match[1], vars, visited) ? first.content : "";
+    let consumed = first.end;
+    if (elseMatch) {
+      const elseOpen = first.end + elseMatch[0].length;
+      const second = extractBracket(text, elseOpen);
+      if (!evaluateCondition(match[1], vars, visited)) replacement = second.content;
+      consumed = second.end;
+    }
+    text = text.slice(0, macroStart) + replacement + text.slice(consumed);
+    match = text.match(/\(if:\s*([^\)]*)\)/i);
+  }
+  return text;
+}
+function cleanStoryText(raw: string, vars: Record<string, Value>, visited: string[]) {
+  return resolveConditionals(raw, vars, visited)
+    .replace(/<img[^>]*>/gi, "")
+    .replace(/<!--[\\s\\S]*?-->/g, "")
+    .replace(/<<[^>]*>>/g, "")
+    .replace(/\(set:[^\)]*\)/gi, "")
+    .replace(/\((?:button|click|link-goto|link|go-to|replace|append|else-if|else|if|either|history|text-colour|bg|meter|cacheaudio)[^\)]*\)/gi, "")
+    .replace(/\[\[[^\]]+\]\]/g, "")
+    .replace(/==>\s*<==/g, "")
+    .replace(/\{\s*\}/g, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .replace(/Timérius|Timério|Timéius/g, "Ender")
+    .replace(/\s+\n/g, "\n")
+    .trim();
+}
+function firstImage(raw: string) { return raw.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1] ?? null; }
+function readableName(name: string) { return name.replace(/Timérius|Timério|Timéius/g, "Ender").replace(/\s+/g, " ").trim() || "Passagem"; }
 
 export default function Home() {
+  const [passageName, setPassageName] = useState(initialPassage.name.trim());
   const [tab, setTab] = useState<Tab>("busca");
-  const [scene, setScene] = useState<Scene>("estrada");
-  const [selectedLocation, setSelectedLocation] = useState(1);
-  const [notes, setNotes] = useState(baseNotes);
+  const [vars, setVars] = useState<Record<string, Value>>({ vida: 9, vontade: 7, força: 7, intelecto: 7, descanso: 3, moedas: 15, tempo: 0, notas: "", equipamento: "" });
+  const [visited, setVisited] = useState<string[]>([initialPassage.name.trim()]);
+  const [notes, setNotes] = useState<string[]>(["Ender procura a esposa nos calabouços do Granducado de Quidrae."]);
   const [noteDraft, setNoteDraft] = useState("");
-  const [status, setStatus] = useState("Ender está na estrada para Om Sin Nacem.");
-  const [stats, setStats] = useState({ vida: 9, vontade: 7, moedas: 15 });
+  const [searchQuery, setSearchQuery] = useState("");
 
-  const currentLocation = useMemo(() => locations.find((location) => location.id === selectedLocation) ?? locations[0], [selectedLocation]);
+  const passage = byName.get(passageName) ?? initialPassage;
+  const options = useMemo(() => parseLinks(passage), [passage]);
+  const storyText = cleanStoryText(passage.text, vars, visited);
+  const image = firstImage(passage.text);
+  const locationIndex = Math.max(0, originalLocations.findIndex((name) => name === passageName));
 
-  function chooseNarrative(choice: "atacar" | "esperar" | "fugir") {
-    if (choice === "atacar") {
-      setScene("tamivi");
-      setStatus("Tamivi recua um passo. O combate começa como uma leitura de intenções.");
-      setStats((current) => ({ ...current, vida: Math.max(1, current.vida - 1), vontade: current.vontade + 1 }));
-      setNotes((current) => [...current, "Tamivi usa telecinese e carrega uma adaga escondida."]);
-    }
-    if (choice === "esperar") {
-      setScene("tamivi");
-      setStatus("Ender espera. O ladrão revela a mão antes de revelar o nome.");
-      setNotes((current) => [...current, "Esperar revelou que Tamivi está ferido."]);
-    }
-    if (choice === "fugir") {
-      setScene("consequencia");
-      setStatus("Ender deixa os fundos da taverna. A pista permanece aberta.");
-      setSelectedLocation(3);
+  function goTo(target: string) {
+    const nextPassage = byName.get(target);
+    if (!nextPassage) return;
+    setVars((current) => applySets(nextPassage.text, current));
+    setPassageName(nextPassage.name.trim());
+    setVisited((current) => [...current.slice(-30), nextPassage.name.trim()]);
+    if (/atribut|variáve|moeda|poção|espada|faca|escudo|adaga|missão|chave/i.test(nextPassage.name + nextPassage.text)) {
+      setNotes((current) => current.includes(nextPassage.name.trim()) ? current : [...current, `Registro: ${nextPassage.name.trim()}`]);
     }
   }
-
-  function addNote() {
-    if (!noteDraft.trim()) return;
-    setNotes((current) => [...current, noteDraft.trim()]);
-    setNoteDraft("");
-  }
+  function addNote() { if (noteDraft.trim()) { setNotes((current) => [...current, noteDraft.trim()]); setNoteDraft(""); } }
+  function setTool(next: Tab) { setTab(next); }
 
   return (
     <main className="quimera-shell">
       <header className="topbar">
-        <div className="brand-lockup">
-          <img src={markImage} alt="Marca de Mundo Quimera" className="brand-mark" />
-          <div><span className="eyebrow">MUNDO QUIMERA</span><h1>1 — A estrada até Quidrae</h1></div>
-        </div>
-        <div className="chapter-meta"><span>CAPÍTULO 1</span><strong>Ender</strong></div>
+        <div className="brand-lockup"><img src={markImage} alt="Marca de Mundo Quimera" className="brand-mark" /><div><span className="eyebrow">MUNDO QUIMERA · STORYFILE ORIGINAL</span><h1>1 — {readableName(passage.name)}</h1></div></div>
+        <div className="chapter-meta"><span>CAPÍTULO 1 · {passages.length} PASSAGENS</span><strong>Ender</strong></div>
       </header>
 
       <section className="game-frame">
         <div className="dynamic-panel">
-          <div className="panel-toolbar"><span><Compass size={16} /> {currentLocation.type}</span><span>{status}</span><span className="route-code">R-01 · 47°N / 12°L</span><span className="state-pill"><Sparkles size={14} /> narrativa</span></div>
-          <div className="panel-content"><div className="field-note">FICHA DE CAMPO<br /><strong>Q-01</strong><br />observação ativa</div>
-            {scene === "estrada" && <>
-              <div className="scene-portrait"><img src={enderImage} alt="Ender, viajante exilado" /></div>
-              <div className="story-copy"><p className="scene-kicker">REGISTRO DE ROTA · QUIDRAE</p><h2>O caminho não pede licença.</h2><p>Ender viaja há três meses pela estrada que sai de Canis, na costa norte de Quimera. Carrega uma espada, uma adaga de prata e a certeza de que sua esposa está presa nos calabouços de Quidrae.</p><p>Nos fundos da taverna, alguém observa entre os arbustos. A presença não parece disposta a conversar.</p></div>
-            </>}
-            {scene === "tamivi" && <>
-              <div className="scene-portrait tamivi"><img src={tamiviImage} alt="Tamivi, ladrão misterioso" /></div>
-              <div className="story-copy"><p className="scene-kicker">ENCONTRO — TAMIVI</p><h2>Leia o movimento antes da lâmina.</h2><p>Tamivi inclina o corpo e uma folha sobe do chão. Não é um truque de mão: há telecinese no ar. O ladrão parece ferido, mas ainda tem espaço para transformar uma conversa em fuga.</p><div className="choice-list"><button onClick={() => { setStatus("Ender desequilibra Tamivi e recupera a adaga."); setNotes((current) => [...current, "A adaga de Ender foi recuperada."]); }}>Desequilibrar Tamivi</button><button onClick={() => { setStatus("Tamivi escapa entre as árvores, deixando a bolsa para trás."); setStats((current) => ({ ...current, moedas: current.moedas + 2 })); }}>Pegar a bolsa de moedas</button><button onClick={() => { setScene("consequencia"); setStatus("Ender encerra o confronto antes que a ferida piore."); }}>Sair dali</button></div></div>
-            </>}
-            {scene === "consequencia" && <div className="consequence"><div className="event-stamp"><Swords size={25} /> COMBATE NARRATIVO</div><h2>A consequência fica no mapa.</h2><p>Ender não venceu por números. Ele escolheu o momento, leu o medo de Tamivi e saiu com uma pista — talvez uma adaga, talvez uma bolsa, talvez apenas a certeza de que não está sozinho nesta estrada.</p><button className="primary-action" onClick={() => { setScene("estrada"); setStatus("Ender está na estrada para Om Sin Nacem."); }}>Continuar a viagem</button></div>}
+          <div className="panel-toolbar"><span><Compass size={16} /> {passage.tags[0] || "Rota"}</span><span>Passagem {passage.pid} · {readableName(passage.name)}</span><span className="route-code">VISITADAS {visited.length} · VARIÁVEIS {Object.keys(vars).length}</span><span className="state-pill"><Sparkles size={14} /> original</span></div>
+          <div className="panel-content"><div className="field-note">FICHA DE CAMPO<br /><strong>{String(passage.pid).padStart(2, "0")}</strong><br />texto preservado</div>
+            <div className="scene-portrait">{image ? <img src={image} onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = fallbackImage; }} alt={`Ilustração original de ${readableName(passage.name)}`} /> : <div className="portrait-placeholder"><BookOpen size={44} /><span>PASSAGEM<br />SEM ILUSTRAÇÃO</span></div>}</div>
+            <div className="story-copy original-story"><p className="scene-kicker">REGISTRO ORIGINAL · {passage.tags.join(" · ") || "NARRATIVA"}</p><h2>{readableName(passage.name)}</h2><div className="story-text">{storyText.split("\n\n").map((paragraph, index) => <p key={`${paragraph.slice(0, 20)}-${index}`}>{paragraph}</p>)}</div><div className="choice-list">{options.slice(0, 8).map((option) => <button key={`${option.label}-${option.target}`} onClick={() => goTo(option.target)}>{option.label}</button>)}</div>{options.length > 8 && <p className="more-options">+ {options.length - 8} escolhas adicionais nesta passagem</p>}</div>
           </div>
-          <div className="panel-footer"><button className="arrow-btn" onClick={() => setScene("estrada")} aria-label="Voltar">←</button><span>Passagem {scene === "estrada" ? "1" : scene === "tamivi" ? "2" : "3"} de 3</span><button className="arrow-btn" onClick={() => setScene(scene === "estrada" ? "tamivi" : scene === "tamivi" ? "consequencia" : "estrada")} aria-label="Avançar">→</button></div>
+          <div className="panel-footer"><button className="arrow-btn" onClick={() => visited.length > 1 && setPassageName(visited[visited.length - 2])} aria-label="Voltar">←</button><span>{passage.pid} / {passages.length} · {options.length} caminhos</span><button className="arrow-btn" onClick={() => options[0] && goTo(options[0].target)} aria-label="Avançar">→</button></div>
         </div>
 
-        <nav className="tabbar" aria-label="Ferramentas de exploração">
-          <button className={tab === "mapa" ? "tab active" : "tab"} onClick={() => setTab("mapa")}><Map size={20} />Mapa</button>
-          <button className={tab === "busca" ? "tab active" : "tab"} onClick={() => setTab("busca")}><Search size={20} />Busca</button>
-          <button className={tab === "notas" ? "tab active" : "tab"} onClick={() => setTab("notas")}><FileText size={20} />Notas</button>
-        </nav>
+        <nav className="tabbar" aria-label="Ferramentas de exploração"><button className={tab === "mapa" ? "tab active" : "tab"} onClick={() => setTool("mapa")}><MapIcon size={20} />Mapa</button><button className={tab === "busca" ? "tab active" : "tab"} onClick={() => setTool("busca")}><Search size={20} />Busca</button><button className={tab === "notas" ? "tab active" : "tab"} onClick={() => setTool("notas")}><FileText size={20} />Notas</button></nav>
 
-        {tab === "mapa" && <section className="tool-panel map-view"><div className="dossier-tag">MAPA-MÃE · FOLHA 01</div><div className="map-image-wrap"><img src={mapImage} alt="Mapa ilustrado de Quimera" /><span className="map-pin pin-one">1</span><span className="map-pin pin-three">3</span><span className="map-pin pin-seven">7</span></div><div className="tool-copy"><p className="scene-kicker">MAPA DE QUIMERA</p><h2>Você está aqui: estrada do ducado.</h2><p>Os locais descobertos ficam marcados em laranja. O próximo objetivo está além do portão.</p></div></section>}
-        {tab === "busca" && <section className="tool-panel search-view"><div className="dossier-tag">ÍNDICE DE LOCAIS · REGISTRO DE ENDEREÇOS</div><div className="tool-heading"><div><p className="scene-kicker">BUSCA DE LOCAIS</p><h2>Escolha um lugar para investigar.</h2></div><span className="count-badge">{locations.filter((location) => location.available).length} descobertos</span></div><div className="location-grid">{locations.map((location) => <button key={location.id} className={location.id === selectedLocation ? "location-card selected" : "location-card"} disabled={!location.available} onClick={() => { setSelectedLocation(location.id); setStatus(`Ender observa ${location.name.toLowerCase()}.`); }}><span className="location-number">{location.id}</span><strong>{location.name}</strong><small>{location.available ? location.type : "bloqueado"}</small></button>)}</div><div className="selected-location"><span className="selected-icon"><ScrollText size={18} /></span><div><strong>{currentLocation.name}</strong><p>{currentLocation.text}</p></div></div></section>}
-        {tab === "notas" && <section className="tool-panel notes-view"><div className="dossier-tag">CADERNO DE BORDO · ANOTAÇÕES DE CAMPO</div><div className="tool-heading"><div><p className="scene-kicker">CADERNO DE ENDER</p><h2>Notas da investigação.</h2></div><span className="count-badge">{notes.length} registros</span></div><div className="notes-list">{notes.map((note, index) => <div className="note-row" key={`${note}-${index}`}><span>0{index + 1}</span><p>{note}</p></div>)}</div><div className="note-entry"><input value={noteDraft} onChange={(event) => setNoteDraft(event.target.value)} onKeyDown={(event) => event.key === "Enter" && addNote()} placeholder="Registrar uma nova pista..." /><button onClick={addNote}>Adicionar</button></div></section>}
+        {tab === "mapa" && <section className="tool-panel map-view"><div className="dossier-tag">MAPA-MÃE · PASSAGENS DO STORYFILE</div><div className="map-image-wrap"><img src={mapImage} alt="Mapa ilustrado de Quimera" /><span className="map-pin pin-one">{String(passage.pid).slice(-1)}</span><span className="map-pin pin-three">{Math.max(1, locationIndex + 1)}</span><span className="map-pin pin-seven">Q</span></div><div className="tool-copy"><p className="scene-kicker">ATLAS DE EXPLORAÇÃO</p><h2>{readableName(passage.name)}</h2><p>O mapa permanece como camada de orientação enquanto a passagem original conduz o próximo movimento de Ender.</p><div className="map-record"><strong>VISITADAS</strong><span>{visited.length} passagens</span><strong>CAMINHOS</strong><span>{options.length} disponíveis</span></div></div></section>}
+        {tab === "busca" && <section className="tool-panel search-view"><div className="dossier-tag">ÍNDICE DE LOCAIS · PASSAGENS ORIGINAIS</div><div className="tool-heading"><div><p className="scene-kicker">BUSCA DE PASSAGENS</p><h2>Escolha um lugar ou momento para investigar.</h2></div><span className="count-badge">{passages.length} registros</span></div><div className="location-grid">{originalLocations.map((name, index) => { const exists = byName.has(name); return <button key={name} className={name === passageName ? "location-card selected" : "location-card"} disabled={!exists} onClick={() => exists && goTo(name)}><span className="location-number">{index + 1}</span><strong>{readableName(name)}</strong><small>{exists ? (byName.get(name)?.tags[0] || "narrativa") : "em investigação"}</small></button>; })}</div><div className="passage-directory"><div className="directory-heading"><strong>Índice integral do capítulo</strong><input value={searchQuery} onChange={(event) => setSearchQuery(event.target.value)} placeholder="Buscar por nome, tag ou número..." /></div><div className="directory-list">{passages.filter((item) => !isMechanicalPassage(item.name) && `${item.pid} ${item.name} ${item.tags.join(" ")}`.toLowerCase().includes(searchQuery.toLowerCase())).map((item) => <button key={`${item.pid}-${item.name}`} className={item.name.trim() === passageName ? "directory-item current" : "directory-item"} onClick={() => goTo(item.name.trim())}><span>{item.pid.padStart(3, "0")}</span><strong>{readableName(item.name)}</strong><small>{item.tags.join(" · ") || "sem tag"}</small></button>)}</div></div><div className="selected-location"><span className="selected-icon"><BookOpen size={18} /></span><div><strong>{readableName(passage.name)}</strong><p>{passage.tags.length ? `Tags originais: ${passage.tags.join(", ")}.` : "Passagem sem tag registrada no storyfile."}</p></div></div></section>}
+        {tab === "notas" && <section className="tool-panel notes-view"><div className="dossier-tag">CADERNO DE BORDO · REGISTRO DE CONSEQUÊNCIAS</div><div className="tool-heading"><div><p className="scene-kicker">NOTAS DE ENDER</p><h2>O que a história deixou para trás.</h2></div><span className="count-badge">{notes.length} registros</span></div><div className="notes-list">{notes.map((note, index) => <div className="note-row" key={`${note}-${index}`}><span>{String(index + 1).padStart(2, "0")}</span><p>{note}</p></div>)}</div><div className="note-entry"><input value={noteDraft} onChange={(event) => setNoteDraft(event.target.value)} onKeyDown={(event) => event.key === "Enter" && addNote()} placeholder="Registrar uma pista sem alterar o texto original..." /><button onClick={addNote}>Adicionar</button></div></section>}
 
-        <div className="status-strip"><span className="seal-mark">Q</span><div><span>VIDA</span><strong>{stats.vida}/9</strong></div><div><span>VONTADE</span><strong>{stats.vontade}/7</strong></div><div><span>MOEDAS</span><strong>{stats.moedas}</strong></div><div className="objective"><Shield size={16} /><span>Objetivo: alcançar Quidrae</span></div></div>
+        <section className="status-strip"><span className="seal-mark">Q</span><div><span>VIDA</span><strong>{String(vars.vida ?? 0)}</strong></div><div><span>VONTADE</span><strong>{String(vars.vontade ?? 0)}</strong></div><div><span>FORÇA</span><strong>{String(vars.força ?? vars.forca ?? 0)}</strong></div><div><span>MOEDAS</span><strong>{String(vars.moedas ?? 0)}</strong></div><div className="objective"><Shield size={16} /><span>História original preservada · {visited.length} passagens visitadas</span></div></section>
       </section>
     </main>
   );
