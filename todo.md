@@ -8,3 +8,4 @@
 - [x] Integrar mapa, busca, notas, atributos, inventário e economia ao estado narrativo.
 - [x] Validar links, condicionais, compras, combate narrativo e caminhos de retorno.
 - [x] Executar build e testes de navegador antes da entrega.
+- [x] Remover setas laterais e impedir avanço/retorno de passagem fora das escolhas narrativas.
