@@ -51,6 +51,6 @@
 - [x] Destacar automaticamente o instalador compatível com o sistema do jogador.
 - [x] Diagnosticar a abertura lenta ou falha de inicialização dos instaladores.
 - [x] Regenerar e revalidar os instaladores após a correção; release v1.0.4 publicado e seis links verificados.
-- [ ] Adicionar tela de carregamento inicial ao aplicativo desktop.
-- [ ] Preparar configuração e documentação de assinatura digital.
+- [x] Adicionar tela de carregamento inicial ao aplicativo desktop; release v1.0.5 publicado.
+- [x] Preparar configuração e documentação de assinatura digital; certificados ainda necessários para assinar.
 - [x] Documentar instalação, distribuição e limitações de assinatura.
