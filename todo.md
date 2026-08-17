@@ -25,4 +25,8 @@
 - [x] Centralizar imagens no eixo do texto.
 - [x] Remover o botão de Atributos do cabeçalho.
 - [x] Corrigir erro ao abrir Atributos pela barra inferior.
+- [x] Substituir a imagem anterior pelo mapa numerado enviado pelo usuário.
+- [x] Mapear pontos numerados com locais e referências do storyfile.
+- [x] Remover o índice livre de 248 passagens da Busca.
+- [x] Mostrar somente destinos reais e contextuais com quantidade variável.
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.
