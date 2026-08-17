@@ -9,3 +9,6 @@
 - [x] Validar links, condicionais, compras, combate narrativo e caminhos de retorno.
 - [x] Executar build e testes de navegador antes da entrega.
 - [x] Remover setas laterais e impedir avanço/retorno de passagem fora das escolhas narrativas.
+- [x] Separar o botão de atributos das escolhas narrativas.
+- [x] Criar painel visual para variáveis, atributos, recursos e inventário.
+- [x] Validar atualização do painel após escolhas do jogador.

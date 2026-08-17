@@ -76,3 +76,26 @@ button:disabled { cursor: not-allowed; }
 
 @media (max-width: 760px) { .field-note { display: none; }.route-code { display: none !important; }.dossier-tag { font-size: .6rem; } .quimera-shell { padding: 12px 10px 30px; }.topbar { box-shadow: 4px 4px 0 #1d2425; padding: 10px 12px; }.brand-mark { width: 42px; height: 42px; }.chapter-meta { display: none; }.dynamic-panel { border-width: 5px; box-shadow: 4px 4px 0 #1d2425; }.panel-toolbar { flex-wrap: wrap; gap: 8px; }.panel-toolbar > span:nth-child(2) { order: 3; flex-basis: 100%; }.panel-content { grid-template-columns: 1fr; padding: 24px 18px; gap: 20px; }.scene-portrait { width: 145px; }.story-copy { text-align: center; }.choice-list { justify-content: center; }.story-copy h2 { font-size: 2rem; }.location-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }.directory-heading { align-items: stretch; flex-direction: column; }.directory-heading input { min-width: 0; }.directory-list { grid-template-columns: 1fr; max-height: 260px; }.location-card { min-height: 98px; padding: 9px; }.map-view { grid-template-columns: 1fr; }.status-strip { flex-wrap: wrap; gap: 12px; }.objective { width: 100%; margin-left: 0; }.note-entry { flex-direction: column; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }
+
+/* Ficha visual de atributos: ferramenta independente da narrativa. */
+.attribute-launcher { display: inline-flex; align-items: center; justify-content: center; gap: 6px; border: 2px solid #f2f52b; background: #f2f52b; color: #1d2425; padding: 7px 10px; font-family: monospace; font-weight: 800; text-transform: uppercase; font-size: .68rem; box-shadow: 3px 3px 0 #1d2425; }
+.attribute-launcher:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 #1d2425; }
+.attributes-view { background: #f7f3eb; }
+.attribute-layout { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 14px; }
+.attribute-card { border: 3px solid #1d2425; background: #fff; padding: 16px; box-shadow: 4px 4px 0 #b5aa96; }
+.attribute-card.primary { background: #e4dfd4; }
+.attribute-card-head { display: flex; justify-content: space-between; gap: 10px; border-bottom: 2px solid #1d2425; padding-bottom: 8px; margin-bottom: 14px; font-family: monospace; }
+.attribute-card-head span, .stat-grid span, .stat-row span, .meter-list span { font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.attribute-card-head strong { font-family: 'Bree Serif', serif; font-size: 1.1rem; }
+.stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.stat-row div, .stat-grid div { border: 2px solid #1d2425; background: #f2f52b; padding: 9px; }
+.stat-row strong, .stat-grid strong { display: block; font-family: 'Bree Serif', serif; font-size: 1.55rem; line-height: 1; margin-top: 5px; }
+.meter-list { display: grid; gap: 10px; margin-top: 18px; }
+.meter { height: 12px; background: #b5aa96; border: 2px solid #1d2425; margin-top: 4px; }
+.meter i { display: block; height: 100%; background: #2697e8; }
+.meter i.meter-will { background: #777d00; }
+.stat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.inventory-card p { border-top: 1px solid #b5aa96; padding-top: 9px; margin: 10px 0 0; line-height: 1.35; }
+.inventory-card b { font-family: monospace; text-transform: uppercase; font-size: .7rem; }
+@media (max-width: 900px) { .attribute-layout { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .attribute-launcher { display: none; } }
