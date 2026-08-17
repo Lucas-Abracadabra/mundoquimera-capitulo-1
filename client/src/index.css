@@ -237,3 +237,18 @@ body { background: var(--petrol-deep); }
 .quimera-shell { width: 100%; max-width: none; min-height: 100vh; margin: 0; background: var(--petrol-deep); padding-inline: clamp(12px, 2.2vw, 32px); }
 .topbar, .game-frame, .tabbar, .tool-panel, .status-strip { width: 100%; }
 @media (max-width: 640px) { .quimera-shell { padding-inline: 8px; } }
+
+/* Downloads desktop: ficha de distribuição honesta, sem links fictícios. */
+.download-dossier { width: 100%; margin: 18px 0 0; padding: 18px 20px; border: 3px solid var(--ink); background: linear-gradient(135deg, #e8d8b8, #f7f0df); color: var(--ink); box-shadow: 5px 5px 0 var(--ink); }
+.download-dossier-head { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+.download-dossier h2 { margin: 2px 0 4px; color: var(--petrol-deep); font: 700 clamp(1.45rem, 2.5vw, 2.1rem) 'Cormorant Garamond', Georgia, serif; }
+.download-dossier p { margin: 0; }
+.download-trigger { display: inline-flex; align-items: center; gap: 8px; flex: 0 0 auto; padding: 10px 14px; border: 3px solid var(--ink); background: linear-gradient(#e1bd68, #b88935); color: var(--ink); box-shadow: 3px 3px 0 var(--ink); font: 700 1.05rem 'Cormorant Garamond', serif; cursor: pointer; }
+.download-trigger:hover { background: var(--gold-light); transform: translateY(-2px); }
+.download-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 16px; padding-top: 14px; border-top: 2px solid var(--wine); }
+.download-card { display: flex; flex-direction: column; justify-content: space-between; gap: 12px; min-height: 102px; padding: 12px; border: 2px solid var(--ink); background: rgba(196,154,69,.2); }
+.download-card strong { display: block; color: var(--petrol-deep); font: 700 1.35rem 'Cormorant Garamond', serif; }
+.download-card span { display: block; margin-top: 2px; font-size: .98rem; line-height: 1.15; }
+.download-card small { align-self: flex-start; padding: 4px 7px; border: 2px solid var(--ink); background: var(--moss); color: var(--paper-light); font: 700 .64rem 'Space Mono', monospace; }
+.download-note { grid-column: 1 / -1; color: var(--wine); font: .75rem 'Space Mono', monospace; }
+@media (max-width: 700px) { .download-dossier-head { align-items: stretch; flex-direction: column; } .download-trigger { justify-content: center; } .download-grid { grid-template-columns: 1fr; } .download-card { min-height: 0; } }

@@ -1,6 +1,6 @@
 // Direção Quimera em Blocos: o aplicativo apresenta o storyfile original como um atlas narrativo, mantendo texto, caminhos e variáveis.
 import { useEffect, useMemo, useState } from "react";
-import { BookOpen, Compass, FileText, Map as MapIcon, Search, Shield, Sparkles, Swords } from "lucide-react";
+import { BookOpen, Compass, Download, FileText, Map as MapIcon, Search, Shield, Sparkles, Swords } from "lucide-react";
 import storyData from "@/data/storyMap.json";
 
 const mapImage = "/manus-storage/quimera-map-numbered_c7c8104b.jpg";
@@ -234,6 +234,7 @@ export default function Home() {
   const [notes, setNotes] = useState<string[]>(["Ender procura a esposa nos calabouços do Granducado de Quidrae."]);
   const [noteDraft, setNoteDraft] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
+  const [showDownloads, setShowDownloads] = useState(false);
 
   const passage = byName.get(passageName) ?? initialPassage;
   const options = useMemo(() => parseLinks(passage), [passage]);
@@ -279,6 +280,8 @@ export default function Home() {
           </div>
           <div className="panel-footer"><span className="passage-progress">{passage.pid} / {passages.length} · {options.length} caminhos disponíveis</span><span className="choice-hint"><Swords size={15} /> avance pelas escolhas da passagem</span></div>
         </div>
+
+        {passageName.trim() === "Menu" && <section className="download-dossier" aria-label="Downloads do aplicativo"><div className="download-dossier-head"><div><p className="scene-kicker">VERSÃO DE CAMPO</p><h2>Levar Quimera com você</h2><p>O aplicativo desktop está sendo preparado para Windows, macOS e Linux.</p></div><button className="download-trigger" onClick={() => setShowDownloads((current) => !current)} aria-expanded={showDownloads}><Download size={18} /> {showDownloads ? "Fechar downloads" : "Baixar aplicativo"}</button></div>{showDownloads && <div className="download-grid">{[{ label: "Windows", detail: "Instalador .exe e versão portátil", status: "Em preparação" }, { label: "macOS", detail: "Arquivo .dmg e pacote .zip", status: "Em preparação" }, { label: "Linux", detail: "AppImage e pacote .deb", status: "Pacotes validados localmente" }].map((item) => <div className="download-card" key={item.label}><div><strong>{item.label}</strong><span>{item.detail}</span></div><small>{item.status}</small></div>)}<p className="download-note">Os links de download serão ativados assim que os artefatos forem publicados. Nenhum botão aponta para um arquivo inexistente.</p></div>}</section>}
 
         <nav className="tabbar" aria-label="Ferramentas de exploração"><button className={tab === "atributos" ? "tab active" : "tab"} onClick={() => setTool("atributos")}><Shield size={20} />Atributos</button><button className={tab === "mapa" ? "tab active" : "tab"} onClick={() => setTool("mapa")}><MapIcon size={20} />Mapa</button><button className={tab === "busca" ? "tab active" : "tab"} onClick={() => setTool("busca")}><Search size={20} />Busca</button><button className={tab === "notas" ? "tab active" : "tab"} onClick={() => setTool("notas")}><FileText size={20} />Notas</button></nav>
 

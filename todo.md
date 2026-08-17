@@ -44,4 +44,5 @@
 - [x] Remover a faixa lateral bege e ocupar toda a largura da tela.
 - [x] Configurar o empacotamento desktop multiplataforma.
 - [ ] Gerar artefatos instaláveis para Windows, macOS e Linux; Linux AppImage e Debian já validados localmente.
+- [x] Adicionar botão e painel de downloads no Menu Principal.
 - [x] Documentar instalação, distribuição e limitações de assinatura.
