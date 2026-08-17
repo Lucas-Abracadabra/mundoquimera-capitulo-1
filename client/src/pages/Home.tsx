@@ -16,7 +16,7 @@ const fallbackImage = pinterestFallback;
 
 type Value = number | string | boolean;
 type Tab = "busca" | "mapa" | "notas" | "atributos";
-type Passage = { pid: string; name: string; tags: string[]; text: string; links: string[]; variables: string[] };
+type Passage = { pid: string; name: string; tags: string[]; text: string; links: string[]; variables: string[]; images?: string[] };
 type LinkOption = { label: string; target: string };
 
 const passages = storyData.passages as Passage[];
@@ -130,11 +130,12 @@ function cleanStoryText(raw: string, vars: Record<string, Value>, visited: strin
     .replace(/\s+\n/g, "\n")
     .trim();
 }
-function firstImage(raw: string) {
-  const source = raw.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1] ?? null;
-  if (!source) return null;
+function resolveImage(source: string) {
   const key = source.split("/").pop() ?? "";
   return pinterestAssetByKey[key] ?? source;
+}
+function passageImages(passage: Passage) {
+  return (passage.images ?? []).map(resolveImage);
 }
 function readableName(name: string) { return name.replace(/Timérius|Timério|Timéius/g, "Ender").replace(/\s+/g, " ").trim() || "Passagem"; }
 
@@ -150,7 +151,7 @@ export default function Home() {
   const passage = byName.get(passageName) ?? initialPassage;
   const options = useMemo(() => parseLinks(passage), [passage]);
   const storyText = cleanStoryText(passage.text, vars, visited);
-  const image = firstImage(passage.text);
+  const images = passageImages(passage);
   const locationIndex = Math.max(0, originalLocations.findIndex((name) => name === passageName));
 
   useEffect(() => {
@@ -181,7 +182,7 @@ export default function Home() {
         <div className="dynamic-panel">
           <div className="panel-toolbar"><span><Compass size={16} /> {passage.tags[0] || "Rota"}</span><span>Passagem {passage.pid} · {readableName(passage.name)}</span><span className="route-code">VISITADAS {visited.length} · VARIÁVEIS {Object.keys(vars).length}</span><span className="state-pill"><Sparkles size={14} /> original</span></div>
           <div className="panel-content"><div className="field-note">FICHA DE CAMPO<br /><strong>{String(passage.pid).padStart(2, "0")}</strong><br />texto preservado</div>
-            <div className="scene-portrait">{image ? <img src={image} onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = fallbackImage; }} alt={`Ilustração original de ${readableName(passage.name)}`} /> : <div className="portrait-placeholder"><BookOpen size={44} /><span>PASSAGEM<br />SEM ILUSTRAÇÃO</span></div>}</div>
+            <div className={images.length > 1 ? "scene-portrait image-gallery" : "scene-portrait"}>{images.length > 0 ? images.map((image, index) => <img key={`${image}-${index}`} src={image} onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = fallbackImage; }} alt={`Imagem ${index + 1} da passagem ${readableName(passage.name)}`} />) : <div className="portrait-placeholder"><BookOpen size={44} /><span>PASSAGEM<br />SEM ILUSTRAÇÃO</span></div>}</div>
             <div className="story-copy original-story"><p className="scene-kicker">REGISTRO ORIGINAL · {passage.tags.join(" · ") || "NARRATIVA"}</p><h2>{readableName(passage.name)}</h2><div className="story-text">{storyText.split("\n\n").map((paragraph, index) => <p key={`${paragraph.slice(0, 20)}-${index}`}>{paragraph}</p>)}</div><div className="choice-list">{options.slice(0, 8).map((option) => <button key={`${option.label}-${option.target}`} onClick={() => goTo(option.target)}>{option.label}</button>)}</div>{options.length > 8 && <p className="more-options">+ {options.length - 8} escolhas adicionais nesta passagem</p>}</div>
           </div>
           <div className="panel-footer"><span className="passage-progress">{passage.pid} / {passages.length} · {options.length} caminhos disponíveis</span><span className="choice-hint"><Swords size={15} /> avance pelas escolhas da passagem</span></div>

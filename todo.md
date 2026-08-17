@@ -16,4 +16,6 @@
 - [x] Catalogar as imagens autorais do painel Pinterest Quimera.
 - [x] Enviar os assets autorais para o armazenamento do projeto.
 - [x] Associar imagens Pinterest às passagens e ao mapa sem gerar novas imagens.
+- [x] Extrair todas as imagens de cada passagem mantendo a ordem original.
+- [x] Renderizar múltiplas imagens lado a lado com fallback responsivo.
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.

@@ -20,6 +20,10 @@
         "$moedas",
         "$vida",
         "$vontade"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/fb/15/8a/fb158afc280d63039445ee6f24a49ca3.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -33,7 +37,11 @@
         "Avançar|Vagou pela Estrada",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/83/2f/c2/832fc2413d710155b057d88119a90b84.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "3",
@@ -47,7 +55,12 @@
         "Continuar|Vila Om Sin Nacem",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/7a/73/df/7a73dfbe7d54ff4459aeb680dc5cfa12.jpg",
+        "https://i.pinimg.com/736x/0f/4b/45/0f4b455cbf82af602e4f0078d0f0681f.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "4",
@@ -61,7 +74,12 @@
         "Continuar|Vila Om Sin Nacem",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/736x/3d/42/f3/3d42f305a5cae4fc710850fcc2725750.jpg",
+        "https://i.pinimg.com/originals/69/16/45/69164543558372bd16e0d19acfae33f2.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "5",
@@ -75,7 +93,11 @@
         "R. Praia / Pensão",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://storage.googleapis.com/pai-images/0ce931c3bab144eaadefde00ac6df97b.jpeg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "6",
@@ -92,7 +114,13 @@
         "Vila Om Sin Nacem",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/c8/8c/a1/c88ca161be7c135e3e5496d08063dc55.jpg",
+        "https://i.pinimg.com/originals/ff/25/af/ff25afaa17d0f60cf382c48c16236895.jpg",
+        "https://i.pinimg.com/originals/d1/93/4d/d1934dc658487e0285d20b51af05b9d4.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "7",
@@ -100,7 +128,8 @@
       "tags": [],
       "text": "<<cacheaudio \"music\" \"Steampunk Music.mp4\">>",
       "links": [],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "8",
@@ -118,7 +147,8 @@
         "$tempo",
         "$vida",
         "$vontade"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "9",
@@ -130,7 +160,8 @@
         "$v1",
         "$v2",
         "$v3"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "10",
@@ -140,7 +171,8 @@
       "links": [],
       "variables": [
         "$v3"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "11",
@@ -165,6 +197,14 @@
         "_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_2",
         "_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_3",
         "_v7_a_wold_panterawoman_clerk_serving_drinks_behind_3"
+      ],
+      "images": [
+        "https://cdn.leonardo.ai/users/41d776f7-6d49-496b-89c2-ccf86ea17bbf/generations/d97d6b6a-b246-4a66-8644-e13d841cd1c3/DreamShaper_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_0.jpg",
+        "https://storage.googleapis.com/pai-images/71696282b1d84ed7a890bde866e2047f.jpeg",
+        "https://cdn.leonardo.ai/users/41d776f7-6d49-496b-89c2-ccf86ea17bbf/generations/7aab3129-904b-40cb-9dc2-e34f96ea4226/DreamShaper_v7_a_wold_panterawoman_clerk_serving_drinks_behind_3.jpg?w=512",
+        "https://cdn.leonardo.ai/users/41d776f7-6d49-496b-89c2-ccf86ea17bbf/generations/eca38242-8012-4403-a701-c83052a48272/DreamShaper_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_2.jpg",
+        "https://cdn.leonardo.ai/users/41d776f7-6d49-496b-89c2-ccf86ea17bbf/generations/d97d6b6a-b246-4a66-8644-e13d841cd1c3/DreamShaper_v7_Tall_and_thin_wolfman_ranger_in_brown_leather_j_3.jpg?w=512",
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
       ]
     },
     {
@@ -182,6 +222,9 @@
       ],
       "variables": [
         "$moedas"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -196,7 +239,8 @@
         "Conversar com alguém |Sozinho na mesa",
         "Voltar |Foi a Taverna"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "14",
@@ -212,7 +256,10 @@
         "Foi ao Centrinho do Antigo Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/3a/64/85/3a6485c64b9f45a7bc4c113f55ea9915.jpg"
+      ]
     },
     {
       "pid": "15",
@@ -232,7 +279,8 @@
         "Ver se encontra alguém por ai|personagens aleatórios",
         "Um velho jabuti para ao lado de Ender |Jabuti"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "16",
@@ -255,7 +303,12 @@
         "Parte Norte do Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/ed/1e/d5/ed1ed5473a998f3216774c7c8d01c2a6.jpg",
+        "https://i.pinimg.com/originals/2c/2d/38/2c2d384bafdca04db94edbf05cd06e13.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "17",
@@ -285,7 +338,8 @@
       ],
       "variables": [
         "$moedas"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "18",
@@ -298,7 +352,8 @@
         "sozinho na mesa |Sozinho na mesa",
         "hall |Foi a Taverna"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "19",
@@ -312,7 +367,8 @@
         "Lagarto",
         "Hall|Foi a Taverna"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "20",
@@ -325,7 +381,8 @@
         "Voltar à mesa |Sozinho na mesa",
         "Voltar para o hall |Foi a Taverna"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "21",
@@ -338,7 +395,8 @@
         "Voltar à mesa |Sozinho na mesa",
         "Voltar para o hall |Foi a Taverna"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "22",
@@ -350,7 +408,8 @@
       "links": [
         "Voltar |Foi a Taverna"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "23",
@@ -363,7 +422,8 @@
         "Voltar |Foi a Taverna",
         "ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "24",
@@ -378,6 +438,9 @@
       ],
       "variables": [
         "$vida"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -396,7 +459,8 @@
       ],
       "variables": [
         "$chave"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "26",
@@ -415,6 +479,10 @@
       "variables": [
         "$destreza",
         "$força"
+      ],
+      "images": [
+        "https://i.ibb.co/G33YHHx/Default-A-medieval-albino-werewolf-full-body-showing-teeth-and-2.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -427,7 +495,8 @@
       "links": [
         "Picada no mato"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "28",
@@ -437,7 +506,8 @@
       "links": [
         "Voltar |Foi a Taverna"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "29",
@@ -447,7 +517,8 @@
       "links": [
         "Voltar |Saída da Vila Om Sin"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "30",
@@ -462,6 +533,10 @@
       ],
       "variables": [
         "$vida"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/be/fe/64/befe64adba5f903de184557acff97125.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -478,6 +553,11 @@
       ],
       "variables": [
         "$ladrao"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/f3/ab/00/f3ab007ba3d457da91868bff72caa863.jpg",
+        "https://i.pinimg.com/originals/52/ed/fc/52edfc2c18e6cd0b3967e3a9d5fe2547.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -494,7 +574,8 @@
       ],
       "variables": [
         "$vida"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "33",
@@ -514,6 +595,9 @@
       ],
       "variables": [
         "$tempo"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -530,6 +614,9 @@
       ],
       "variables": [
         "$vida"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -549,6 +636,10 @@
       "variables": [
         "$ladrao",
         "$tempo"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/77/1b/ee/771beec1ebf2baa6bf6d871c8e975925.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -564,6 +655,9 @@
       ],
       "variables": [
         "$tempo"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -580,6 +674,9 @@
       ],
       "variables": [
         "$moedas"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -595,6 +692,9 @@
       ],
       "variables": [
         "$ladrao"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -608,7 +708,10 @@
         "Quem|Tamivi",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "40",
@@ -625,6 +728,9 @@
         "$adaga",
         "$ladrao",
         "$tempo"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -643,6 +749,9 @@
         "$ladrao",
         "$notas",
         "$tempo"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -656,7 +765,8 @@
         "Foi a Taverna",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "43",
@@ -666,7 +776,8 @@
       "links": [
         "Alerta! Alguém está te procurando!"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "44",
@@ -682,6 +793,10 @@
       ],
       "variables": [
         "$moedas"
+      ],
+      "images": [
+        "https://i.pinimg.com/736x/75/3a/f1/753af125b7547eb7db0f1900c36200a8.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -699,6 +814,10 @@
       ],
       "variables": [
         "$moedas"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/4b/61/63/4b61638667241d02c57440096b1f8cf8.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -714,6 +833,10 @@
       ],
       "variables": [
         "$vontade"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/74/a6/05/74a605010f841d5db0d769f55519e9d4.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -730,6 +853,10 @@
       ],
       "variables": [
         "$vontade"
+      ],
+      "images": [
+        "https://i.ibb.co/C8BqywG/Default-617-5000-Resultados-de-traduo-Resultado-da-traduo-A-grou-3.webp",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -742,7 +869,10 @@
       "links": [
         "Menu"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "49",
@@ -756,7 +886,11 @@
         "O Mundo Quimera",
         "Começar o Jogo|Introdução "
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/fd/82/48/fd8248657797d67662bf63df6396748c.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "50",
@@ -772,6 +906,9 @@
       ],
       "variables": [
         "$moedas"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -786,7 +923,10 @@
         "Continuar pela estrada do Ducado|Estrada do Ducado 2",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "52",
@@ -801,7 +941,10 @@
         "Estrada do Ducado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "53",
@@ -818,6 +961,9 @@
       ],
       "variables": [
         "$adaga"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -835,6 +981,9 @@
       ],
       "variables": [
         "$ladrao"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -848,7 +997,10 @@
         "Atributos",
         "Menu"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "56",
@@ -861,7 +1013,10 @@
         "comércio",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "57",
@@ -875,7 +1030,10 @@
         "comércio",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "58",
@@ -892,6 +1050,9 @@
       "variables": [
         "$destreza",
         "$força"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -906,7 +1067,10 @@
         "Introdução ",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "60",
@@ -920,7 +1084,10 @@
         "Derrotou Tamivi",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "61",
@@ -937,7 +1104,8 @@
         "$força",
         "$moedas",
         "$vontade"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "62",
@@ -953,7 +1121,8 @@
       "variables": [
         "$moedas",
         "$vontade"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "63",
@@ -971,7 +1140,8 @@
         "$moedas",
         "$vida",
         "$vontade"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "64",
@@ -988,7 +1158,8 @@
         "$força",
         "$moedas",
         "$vida"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "65",
@@ -1002,7 +1173,8 @@
         "voltar|balcão",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "66",
@@ -1018,7 +1190,8 @@
       ],
       "variables": [
         "$tempo"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "67",
@@ -1030,7 +1203,8 @@
       "links": [
         "aceitar segunda chance"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "68",
@@ -1044,7 +1218,10 @@
         "Cosmogonia",
         "Menu"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/94/00/9c/94009cc04e5da433405ffbcf3b02661d.jpg"
+      ]
     },
     {
       "pid": "69",
@@ -1056,7 +1233,8 @@
       "links": [
         "O Mundo Quimera"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "70",
@@ -1068,7 +1246,10 @@
       "links": [
         "O Mundo Quimera"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/94/32/57/9432575321cae34c54e842034721f2cd.jpg"
+      ]
     },
     {
       "pid": "71",
@@ -1082,7 +1263,11 @@
         "Não aceitou sua proposta",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.ibb.co/vdZ930T/Default-617-5000-Resultados-de-traduo-Resultado-da-traduo-A-grou-1.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "72",
@@ -1098,6 +1283,9 @@
       "variables": [
         "$vontade",
         "_D7HvVRg"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -1111,7 +1299,10 @@
         "Vila Om Sin Nacem",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "74",
@@ -1125,6 +1316,9 @@
       ],
       "variables": [
         "$faca"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/eb/0d/a8/eb0da8edd954602490c2b57a55868e9a.jpg"
       ]
     },
     {
@@ -1139,6 +1333,9 @@
       ],
       "variables": [
         "$escudo"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/6c/8f/c3/6c8fc3043a84e992c59dc7b783de9e11.jpg"
       ]
     },
     {
@@ -1153,6 +1350,9 @@
       ],
       "variables": [
         "$espada"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/b5/bf/ef/b5bfef482178a5ddcb63b849ed577b63.jpg"
       ]
     },
     {
@@ -1169,7 +1369,11 @@
         "Voltar|Foi ao Centrinho do Antigo Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/64/d9/35/64d935cd200ed76cc7b8fdebcf23657a.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "78",
@@ -1184,7 +1388,11 @@
         "Voltar|Poções",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/78/bb/9c/78bb9cf74ed9be5a059c547bf4797699.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "79",
@@ -1199,7 +1407,11 @@
         "Voltar|Poções",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/c8/a2/ec/c8a2ec074325a9f4002b66bd3a6fe1d8.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "80",
@@ -1214,7 +1426,11 @@
         "Voltar|Poções",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/0e/dd/de/0eddde1b25202d126f2fb646ddeeabd8.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "81",
@@ -1226,7 +1442,8 @@
       "links": [
         "Voltar|Poções"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "82",
@@ -1238,7 +1455,8 @@
       "links": [
         "Voltar|Poções"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "83",
@@ -1250,7 +1468,8 @@
       "links": [
         "Voltar|Poções"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "84",
@@ -1262,7 +1481,8 @@
       "links": [
         "Voltar|Poções"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "85",
@@ -1274,7 +1494,8 @@
       "links": [
         "Voltar|Poções"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "86",
@@ -1286,7 +1507,8 @@
       "links": [
         "Voltar|Poções"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "87",
@@ -1299,7 +1521,8 @@
         "Vocês são daqui?",
         "Vila Om Sin Nacem"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "88",
@@ -1309,7 +1532,8 @@
       ],
       "text": "(go-to: (either: \"Elefante\", \"Gavião\", \"Mulher lagarto\", \"Macaco velho\",\"Macaca\", \"Mulher de capuz\", \"vazio 1\", \"vazio 2\" ))\n\n",
       "links": [],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "89",
@@ -1321,7 +1545,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "90",
@@ -1333,7 +1558,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "91",
@@ -1345,7 +1571,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "92",
@@ -1357,7 +1584,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "93",
@@ -1369,7 +1597,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "94",
@@ -1381,7 +1610,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "95",
@@ -1393,7 +1623,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "96",
@@ -1405,7 +1636,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "97",
@@ -1417,7 +1649,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "98",
@@ -1431,7 +1664,8 @@
       ],
       "variables": [
         "$chave"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "99",
@@ -1443,7 +1677,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "100",
@@ -1455,7 +1690,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "101",
@@ -1469,7 +1705,8 @@
       ],
       "variables": [
         "$tempo"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "102",
@@ -1482,7 +1719,8 @@
         "fundos|fundos",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "103",
@@ -1500,6 +1738,12 @@
       ],
       "variables": [
         "$resgate"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/5e/4a/56/5e4a56d6a28475a9906f34cd4346a146.jpg",
+        "https://i.pinimg.com/originals/6d/c4/b3/6dc4b319c36acdc790f11db2dbdaf180.jpg",
+        "https://i.pinimg.com/originals/a9/25/89/a92589c544706090b6608647bcfcd4f2.jpg",
+        "https://i.pinimg.com/originals/9a/10/7f/9a107f94884405001f25c789723d3c3e.jpg"
       ]
     },
     {
@@ -1514,7 +1758,10 @@
         "Entrar|quarto",
         "corredor|corredor"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/5e/88/a6/5e88a626d78ea723b462f16f4bef22a4.jpg"
+      ]
     },
     {
       "pid": "105",
@@ -1529,7 +1776,8 @@
       ],
       "variables": [
         "$chave_do_Quintal"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "106",
@@ -1537,7 +1785,8 @@
       "tags": [],
       "text": "",
       "links": [],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "107",
@@ -1545,7 +1794,8 @@
       "tags": [],
       "text": "",
       "links": [],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "108",
@@ -1558,7 +1808,10 @@
         "Ancião Macaco",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "109",
@@ -1576,6 +1829,9 @@
       "variables": [
         "$destreza",
         "$ladrao"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -1592,7 +1848,8 @@
       ],
       "variables": [
         "$chave_do_Quintal"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "111",
@@ -1608,7 +1865,8 @@
         "entrar na casa",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "112",
@@ -1620,7 +1878,8 @@
       "links": [
         "corredor"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "113",
@@ -1632,7 +1891,8 @@
       "links": [
         "corredor"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "114",
@@ -1644,7 +1904,8 @@
       "links": [
         "corredor"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "115",
@@ -1656,7 +1917,8 @@
       "links": [
         "corredor"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "116",
@@ -1670,7 +1932,8 @@
       ],
       "variables": [
         "$força"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "117",
@@ -1684,7 +1947,12 @@
         "estante",
         "descer|entrar na casa"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/f0/c3/2b/f0c32b86efe6200898a0489eb8f40c0a.jpg",
+        "https://i.pinimg.com/originals/55/a8/fd/55a8fd1cdcc5476a467e072ff7d58694.jpg",
+        "https://i.pinimg.com/originals/24/fc/88/24fc88f13ae8ce783ebd953d032be039.jpg"
+      ]
     },
     {
       "pid": "118",
@@ -1700,7 +1968,8 @@
         "dormitório|quarto4",
         "mesanino"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "119",
@@ -1712,7 +1981,10 @@
       "links": [
         "mesanino"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/1e/95/b8/1e95b89853a4a600db48d15f745f65f1.jpg"
+      ]
     },
     {
       "pid": "120",
@@ -1724,7 +1996,8 @@
       "links": [
         "corredor2"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "121",
@@ -1736,7 +2009,8 @@
       "links": [
         "corredor2"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "122",
@@ -1748,7 +2022,8 @@
       "links": [
         "corredor2"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "123",
@@ -1760,7 +2035,8 @@
       "links": [
         "corredor2"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "124",
@@ -1777,7 +2053,11 @@
         "Ponte",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "125",
@@ -1793,7 +2073,11 @@
         "Nas Redondesas do Castelo do Lord Ós",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "126",
@@ -1808,7 +2092,10 @@
         "Leste - Entrada da Vila|Vila Om Sin Nacem",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "127",
@@ -1831,7 +2118,11 @@
         "Rua Central do Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/7f/91/7e/7f917ef64ab72775bf76c8b6d6ddc7e6.jpg",
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "128",
@@ -1849,7 +2140,10 @@
         "Voltar|Rua do Condado/1",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "129",
@@ -1863,7 +2157,10 @@
         "Muralha Sul",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "130",
@@ -1881,7 +2178,10 @@
         "Entrada Oeste do Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "131",
@@ -1898,7 +2198,10 @@
         "Voltar|Rua do Condado/2",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "132",
@@ -1912,7 +2215,11 @@
         "Rua da Praia/1",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "133",
@@ -1927,7 +2234,10 @@
         "Brejo das Capivaras",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "134",
@@ -1940,7 +2250,10 @@
         "R. Torre / Moinhos",
         "Caminho subindo a montanha"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "135",
@@ -1954,7 +2267,10 @@
         "Parte Sul do Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "136",
@@ -1968,7 +2284,10 @@
         "R. Moinhos / Visconde",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "137",
@@ -1983,7 +2302,10 @@
         "R. Moinhos / Visconde",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "138",
@@ -1996,7 +2318,10 @@
         "R. Pensão / Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "139",
@@ -2011,7 +2336,10 @@
         "Aglomerado de casas 3",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "140",
@@ -2026,7 +2354,10 @@
         "Rua da Pensão / 3",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "141",
@@ -2041,7 +2372,10 @@
         "Voltar|R.Visconde / Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "142",
@@ -2057,7 +2391,10 @@
         "R. Torre / Moinhos",
         "R. Moinhos / Visconde"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "143",
@@ -2073,7 +2410,10 @@
         "Aglomerado de casas 3",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "144",
@@ -2091,7 +2431,10 @@
         "Torre Antiga",
         "Barracão"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "145",
@@ -2106,7 +2449,8 @@
         "Rua do Visconde / 3",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "146",
@@ -2119,7 +2463,8 @@
         "R. Pensão / Colina",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "147",
@@ -2138,7 +2483,10 @@
         "Ruinas",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "148",
@@ -2152,7 +2500,10 @@
         "R. Pensão / Colina",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "149",
@@ -2169,7 +2520,10 @@
         "R. Pensão / Colina",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "150",
@@ -2183,7 +2537,11 @@
         "Foi ao Centrinho do Antigo Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/45/a7/65/45a765d010ea5caf1b1ab890ced63dcc.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "151",
@@ -2197,7 +2555,11 @@
         "Voltar|Foi ao Centrinho do Antigo Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/f1/90/a8/f190a884ca10604367ac4a30711ef386.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "152",
@@ -2210,7 +2572,10 @@
         "Óleo de Carvalho",
         "Voltar|Foi ao Centrinho do Antigo Condado"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "153",
@@ -2223,7 +2588,8 @@
         "Falar com ele|Capanga Lagarto",
         "Voltar ao centrinho|Foi ao Centrinho do Antigo Condado"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "154",
@@ -2237,7 +2603,11 @@
         "Voltar|Foi ao Centrinho do Antigo Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/21/00/b7/2100b7c8f870841e983c6e2be69d5395.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "155",
@@ -2250,7 +2620,10 @@
         "Rua da Praia/2",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "156",
@@ -2265,7 +2638,11 @@
         "Entrada da Vila|Vila Om Sin Nacem",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "157",
@@ -2281,7 +2658,11 @@
         "R. Praia / Pensão",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "158",
@@ -2293,7 +2674,10 @@
         "Entrada Leste do Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "159",
@@ -2306,7 +2690,8 @@
         "Escadas",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "160",
@@ -2317,7 +2702,8 @@
         "Rua C",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "161",
@@ -2328,7 +2714,8 @@
         "Rua do Visconde / 3",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "162",
@@ -2340,7 +2727,8 @@
         "Rua dos Moinhos/2",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "163",
@@ -2354,7 +2742,10 @@
         "Norte|Muralha Norte",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "164",
@@ -2368,7 +2759,10 @@
         "Fundos da taverna|fundos",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "165",
@@ -2384,7 +2778,10 @@
         "Rua do Visconde / 1",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "166",
@@ -2398,7 +2795,11 @@
         "Porto Om Sin",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "167",
@@ -2409,7 +2810,8 @@
         "Pensão do Castelo Abandonado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "168",
@@ -2420,7 +2822,8 @@
         "Segundo Andar",
         "Pensão do Castelo Abandonado"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "169",
@@ -2432,7 +2835,8 @@
         "Corredor 1 Pensão",
         "Escadas"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "170",
@@ -2444,7 +2848,8 @@
         "Corredor 2 Pensão",
         "Segundo Andar"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "171",
@@ -2455,7 +2860,8 @@
         "Terceiro Andar",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "172",
@@ -2466,7 +2872,8 @@
         "Quarto Vago 1",
         "Segundo Andar"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "173",
@@ -2477,7 +2884,8 @@
         "Quarto Vago 2",
         "Terceiro Andar"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "174",
@@ -2488,7 +2896,8 @@
         "Corredor 1 Pensão",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "175",
@@ -2499,7 +2908,8 @@
         "Corredor 2 Pensão",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "176",
@@ -2511,7 +2921,10 @@
         "Parte Norte do Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "177",
@@ -2523,7 +2936,10 @@
         "Entrada Oeste do Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "178",
@@ -2535,7 +2951,10 @@
         "Parte Sul do Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "179",
@@ -2549,7 +2968,8 @@
       "variables": [
         "$descanso",
         "$tempo"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "180",
@@ -2560,7 +2980,8 @@
         "Casa do Dono da Taverna",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "181",
@@ -2572,6 +2993,10 @@
       ],
       "variables": [
         "$peixe"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/ae/d8/cb/aed8cba5d4dc0ab9a41361aa0a020b0a.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -2584,6 +3009,10 @@
       ],
       "variables": [
         "$pão"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/92/fc/81/92fc81523eeb979a6a40d82a48ff185b.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -2596,6 +3025,10 @@
       ],
       "variables": [
         "$carne"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/bf/52/af/bf52af5923f121d69c7bc31b8cdb2dd1.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -2608,6 +3041,9 @@
       ],
       "variables": [
         "$óleodecarvalho"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -2619,7 +3055,8 @@
         "R. Torre / Moinhos",
         "Rua dos Moinhos/1"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "186",
@@ -2630,7 +3067,8 @@
         "R. Torre / Moinhos",
         "Rua dos Moinhos/1"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "187",
@@ -2641,7 +3079,8 @@
         "Mina abandonada",
         "Rua da Torre/3"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "188",
@@ -2651,7 +3090,8 @@
       "links": [
         "Caminho subindo a montanha"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "189",
@@ -2662,7 +3102,10 @@
         "Vila Om Sin Nacem",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "190",
@@ -2673,7 +3116,8 @@
         "Rua da Torre/2",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "191",
@@ -2687,7 +3131,11 @@
         "Pensão do Castelo Abandonado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg",
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "192",
@@ -2698,7 +3146,8 @@
         "R. Moinhos / Visconde",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "193",
@@ -2708,7 +3157,8 @@
       "links": [
         "R. Moinhos / Visconde"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "194",
@@ -2716,7 +3166,8 @@
       "tags": [],
       "text": "",
       "links": [],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "195",
@@ -2737,7 +3188,8 @@
         "_ferido",
         "_inimigo",
         "_modificadorForça"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "196",
@@ -2747,7 +3199,8 @@
       "links": [
         "Voltar|Sistema de Combate"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "197",
@@ -2763,6 +3216,9 @@
         "$botão",
         "$nota",
         "_087LaGCKv4ERiameIPPgyV"
+      ],
+      "images": [
+        "https://lh4.googleusercontent.com/eXO2N3cFmEVg0gP2taAU3htWKq3etuLO4aik6_087LaGCKv4ERiameIPPgyV-ig4zllVUyurx7I1rlSrsCBfJUasCJ2b5qZpxjk5zXqL75ySunAefM8GdJRzQD-MHm6bIA=w1280"
       ]
     },
     {
@@ -2771,7 +3227,8 @@
       "tags": [],
       "text": "",
       "links": [],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "199",
@@ -2783,7 +3240,8 @@
         "Torre Abandonada",
         "Rua da Pensão / 3"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "200",
@@ -2794,7 +3252,8 @@
         "caminho altenativo",
         "Rua C"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "201",
@@ -2804,7 +3263,8 @@
       "links": [
         "balcão"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "202",
@@ -2817,7 +3277,8 @@
       ],
       "variables": [
         "$missão"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "203",
@@ -2846,6 +3307,9 @@
         "$tempo",
         "$vida",
         "$vontade"
+      ],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
       ]
     },
     {
@@ -2857,7 +3321,8 @@
       "variables": [
         "$poçãoVontade",
         "$vontade"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "205",
@@ -2868,7 +3333,8 @@
       "variables": [
         "$força",
         "$poçãoForça"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "206",
@@ -2879,7 +3345,8 @@
       "variables": [
         "$poçãoVida",
         "$vida"
-      ]
+      ],
+      "images": []
     },
     {
       "pid": "207",
@@ -2890,7 +3357,8 @@
         "Vocês viram alguém suspeito por aqui, com um capuz, portando uma espada?",
         "Vocês são daqui?"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "208",
@@ -2900,7 +3368,8 @@
       "links": [
         "Vocês são daqui?"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "209",
@@ -2912,7 +3381,8 @@
         "Queria encontrar o ladrão de minha adaga",
         "Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "210",
@@ -2924,7 +3394,8 @@
         "Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?",
         "Vila Om Sin Nacem"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "211",
@@ -2936,7 +3407,8 @@
         "Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?",
         "Vila Om Sin Nacem"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "212",
@@ -2948,7 +3420,8 @@
         "Queria encontrar o ladrão de minha adaga",
         "Vila Om Sin Nacem"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "213",
@@ -2960,7 +3433,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "214",
@@ -2972,7 +3446,8 @@
       "links": [
         "voltar|ENCONTROS"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "215",
@@ -2980,7 +3455,8 @@
       "tags": [],
       "text": "<!--Cria um link com o nome da passagem randomizada anteriormente, isto é, já mostra a passagem que foi randomizada-->\n##(link-goto: (either:\"1\",\"A1\"))\n\n<!--Cria um link nomeado(qq nome), que leva a uma passagem randomizada posteriormente, isto é, não mostra para qual passagem será a próxima-->\n#(link:\"ir para\")[(go-to:(either:\"1\",\"A1\", \"2\"))]",
       "links": [],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "216",
@@ -2988,7 +3464,8 @@
       "tags": [],
       "text": "2",
       "links": [],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "217",
@@ -2996,7 +3473,8 @@
       "tags": [],
       "text": "1",
       "links": [],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "218",
@@ -3006,7 +3484,8 @@
       "links": [
         "A1"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "219",
@@ -3017,7 +3496,10 @@
         "Estrada do Ducado 2",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/57/53/57/575357451dc6b7adec4c84a4d2c2a879.jpg"
+      ]
     },
     {
       "pid": "220",
@@ -3025,7 +3507,8 @@
       "tags": [],
       "text": "",
       "links": [],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "221",
@@ -3035,7 +3518,8 @@
       "links": [
         "Voltar|Foi a Taverna"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "222",
@@ -3045,7 +3529,8 @@
       "links": [
         "Voltar|Lutas e apostas"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "223",
@@ -3061,7 +3546,10 @@
         "Foi ao Centrinho do Antigo Condado",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "224",
@@ -3071,7 +3559,8 @@
       "links": [
         "Vila Om Sin Nacem"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "225",
@@ -3081,7 +3570,8 @@
       "links": [
         "fundos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "226",
@@ -3091,7 +3581,8 @@
       "links": [
         "fundos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "227",
@@ -3104,7 +3595,10 @@
         "Oeste do Castelo",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "228",
@@ -3117,7 +3611,10 @@
         "Oeste do Castelo",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "229",
@@ -3130,7 +3627,10 @@
         "Norte do Castelo",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "230",
@@ -3143,7 +3643,10 @@
         "Norte do Castelo",
         "Atributos"
       ],
-      "variables": []
+      "variables": [],
+      "images": [
+        "https://i.pinimg.com/originals/d7/22/0c/d7220c38cf976ad1e5bc9d70929db01b.jpg"
+      ]
     },
     {
       "pid": "231",
@@ -3155,7 +3658,8 @@
         "Corredor Leste",
         "Corredor Oeste"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "232",
@@ -3166,7 +3670,8 @@
         "Hall do 1º Andar",
         "Hall do 2º Andar"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "233",
@@ -3180,7 +3685,8 @@
         "Escritório do Lord Ós",
         "Sala de Jantar Principal"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "234",
@@ -3194,7 +3700,8 @@
         "Aposentos dos subordinados",
         "Cozinha Principal"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "235",
@@ -3204,7 +3711,8 @@
       "links": [
         "Corredor Leste"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "236",
@@ -3214,7 +3722,8 @@
       "links": [
         "Corredor Oeste"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "237",
@@ -3226,7 +3735,8 @@
         "Corredor Oeste",
         "Sala de Jantar Principal"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "238",
@@ -3239,7 +3749,8 @@
         "Salão Principal",
         "Área de limpesa da cozinha com saída para o pátio"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "239",
@@ -3251,7 +3762,8 @@
         "Varanda da sala de jantar",
         "Corredor Leste"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "240",
@@ -3262,7 +3774,8 @@
         "Área de limpesa da cozinha com saída para o pátio",
         "Varanda da sala de jantar"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "241",
@@ -3274,7 +3787,8 @@
         "Pátio dos Fundos",
         "Aposentos dos subordinados"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "242",
@@ -3286,7 +3800,8 @@
         "Escritório do Lord Ós",
         "Pátio dos Fundos"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "243",
@@ -3297,7 +3812,8 @@
         "Área de limpesa da cozinha com saída para o pátio",
         "Corredor Oeste"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "244",
@@ -3309,7 +3825,8 @@
         "Corredor Leste",
         "Escada para os Porões do Castelo"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "245",
@@ -3320,7 +3837,8 @@
         "Escadaria Principal",
         "Corredor do 2º Andar"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "246",
@@ -3330,7 +3848,8 @@
       "links": [
         "Hall do 2º Andar"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "247",
@@ -3341,7 +3860,8 @@
         "Escritório do Lord Ós",
         "Corredor do Porão"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     },
     {
       "pid": "248",
@@ -3351,7 +3871,8 @@
       "links": [
         "Escada para os Porões do Castelo"
       ],
-      "variables": []
+      "variables": [],
+      "images": []
     }
   ]
 }
