@@ -31,4 +31,9 @@
 - [x] Mostrar somente destinos reais e contextuais com quantidade variável.
 - [x] Centralizar o mapa numerado no mesmo eixo visual do texto.
 - [x] Centralizar imagens inline das passagens no mesmo eixo dos textos narrativos.
+- [ ] Aplicar paleta fantástica de pergaminho, azul-petróleo, verde musgo e ouro antigo.
+- [ ] Aplicar tipografia, textura e molduras de atlas.
+- [ ] Refinar painéis, escolhas, mapa, busca, atributos e notas.
+- [ ] Adicionar estados de perigo, descoberta e microanimações.
+- [ ] Validar responsividade e integridade narrativa após o redesign.
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.

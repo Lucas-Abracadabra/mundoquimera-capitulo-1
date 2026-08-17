@@ -1,5 +1,6 @@
 /* Direção Quimera em Blocos: atlas narrativo, contornos de tinta, cores sólidas e estado sempre legível. */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=EB+Garamond:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -145,3 +146,72 @@ button:disabled { cursor: not-allowed; }
 /* Imagens das passagens: centralizadas no bloco narrativo, preservando largura e altura originais. */
 .inline-story-content .original-inline-image { width: 100%; text-align: center; }
 .inline-story-content .original-inline-image img { display: block; margin-left: auto; margin-right: auto; }
+
+/* Atlas Fantástico de Quimera — pergaminho, tinta cartográfica e metal envelhecido. */
+:root { --ink: #202522; --paper: #e8d8b8; --paper-light: #f7f0df; --petrol: #15556b; --petrol-deep: #0d3544; --moss: #53632b; --gold: #c49a45; --gold-light: #e1bd68; --wine: #762f32; --discovery: #5c7955; }
+html { scroll-behavior: smooth; }
+body { background: radial-gradient(circle at 18% 12%, rgba(255,255,255,.42), transparent 30%), repeating-linear-gradient(0deg, rgba(72,51,28,.035) 0 1px, transparent 1px 4px), var(--paper); color: var(--ink); font-family: 'EB Garamond', Georgia, serif; }
+button, input { font-family: 'EB Garamond', Georgia, serif; }
+.quimera-shell { max-width: 1180px; padding: 26px 22px 44px; }
+.topbar { background: linear-gradient(135deg, #34451f, var(--moss) 56%, #647431); border: 4px solid var(--ink); box-shadow: 8px 8px 0 rgba(32,37,34,.88), inset 0 -2px 0 rgba(225,189,104,.8); color: var(--paper-light); border-radius: 2px; position: relative; overflow: hidden; }
+.topbar::after { content: '✦  ❖  ✦'; position: absolute; right: 22px; bottom: 8px; color: rgba(225,189,104,.55); letter-spacing: 16px; font-family: 'Cormorant Garamond', serif; }
+.eyebrow, .scene-kicker, .dossier-tag, .panel-toolbar, .route-code, .state-pill, .chapter-meta, .status-strip, .field-note, .map-record, .count-badge, .directory-heading, .location-card small, .visited-chips, .passage-progress, .choice-hint { font-family: 'Space Mono', monospace; }
+.eyebrow { color: var(--gold-light); letter-spacing: .16em; }
+.brand-lockup h1, .story-copy h2, .tool-heading h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; letter-spacing: -.035em; }
+.brand-lockup h1 { color: var(--paper-light); text-shadow: 2px 2px 0 var(--ink); }
+.game-frame { filter: drop-shadow(7px 8px 0 rgba(32,37,34,.88)); }
+.dynamic-panel { background: var(--petrol); border: 4px solid var(--ink); box-shadow: inset 0 0 0 2px rgba(225,189,104,.55); }
+.panel-toolbar { background: var(--petrol-deep); border-bottom: 2px solid var(--gold); color: var(--paper-light); }
+.panel-toolbar svg { color: var(--gold-light); }
+.state-pill { background: var(--gold); border-color: var(--ink); color: var(--ink); }
+.panel-content { background: radial-gradient(circle at 80% 18%, rgba(225,189,104,.08), transparent 24%), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px), var(--petrol); background-size: auto, 28px 28px, auto; }
+.story-copy { color: var(--paper-light); }
+.story-copy h2 { color: var(--gold-light); text-shadow: 2px 2px 0 var(--petrol-deep); }
+.story-text { font-size: 1.18rem; line-height: 1.62; }
+.field-note { color: var(--gold-light); border-color: var(--gold-light); transform: rotate(1deg); background: rgba(13,53,68,.35); }
+.original-inline-image { position: relative; }
+.original-inline-image::before { content: '✦'; position: absolute; left: calc(50% - 14px); top: -13px; color: var(--gold-light); font-size: 17px; z-index: 1; }
+.original-inline-image img { border: 3px solid var(--gold); outline: 1px solid var(--ink); box-shadow: 5px 5px 0 var(--petrol-deep); }
+.inline-choice button, .choice-list button, .primary-action, .note-entry button { background: linear-gradient(#e1bd68, #b88935); border: 3px solid var(--ink); color: var(--ink); box-shadow: 4px 4px 0 var(--ink); font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 700; letter-spacing: .02em; }
+.inline-choice button:hover, .choice-list button:hover, .primary-action:hover, .note-entry button:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 4px 6px 0 var(--ink); }
+.inline-choice button:focus-visible, .tab:focus-visible, .location-card:focus-visible { outline: 3px solid var(--gold-light); outline-offset: 3px; }
+.panel-footer { background: #1a3032; border-top: 2px solid var(--gold); color: var(--paper-light); }
+.tabbar { background: transparent; gap: 8px; }
+.tab { background: rgba(232,216,184,.9); color: var(--ink); border: 3px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); font-family: 'Cormorant Garamond', serif; font-size: 1.12rem; font-weight: 700; }
+.tab.active { background: var(--gold-light); color: var(--ink); transform: translateY(-2px); box-shadow: 3px 5px 0 var(--ink); }
+.tool-panel { background: rgba(247,240,223,.96); border: 3px solid var(--ink); box-shadow: 5px 5px 0 rgba(32,37,34,.9), inset 0 0 0 1px var(--gold); }
+.tool-panel::before { content: 'QUIMERA · REGISTRO DE CAMPO'; display: block; color: var(--wine); font: 700 .68rem 'Space Mono', monospace; letter-spacing: .16em; margin-bottom: 16px; }
+.dossier-tag { background: var(--gold); border-color: var(--ink); color: var(--ink); }
+.tool-heading { border-bottom-color: var(--wine); }
+.tool-heading h2 { color: var(--petrol-deep); }
+.location-card, .directory-item, .visited-chips span { background: linear-gradient(145deg, #d7aa4d, var(--gold)); border: 3px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); color: var(--ink); }
+.location-card:hover, .directory-item:hover { background: var(--gold-light); transform: translateY(-2px); }
+.location-card.selected { background: var(--discovery); color: var(--paper-light); }
+.context-location, .selected-location { border-left: 5px solid var(--gold); background: rgba(196,154,69,.16); }
+.empty-context { border: 2px dashed var(--wine); color: var(--wine); }
+.map-view .numbered-map { background: #d6c29b; border: 4px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); padding: 12px; }
+.map-view .numbered-map img { border: 2px solid var(--ink); }
+.attribute-card, .notes-list, .note-row { background: #efe1c2; border-color: var(--ink); }
+.attribute-card.primary { background: linear-gradient(135deg, #d2b467, #e8d8b8); }
+.meter { background: #c8baa0; border-color: var(--ink); }
+.meter i { background: var(--wine); }
+.meter .meter-will { background: var(--petrol); }
+.note-row { border-left: 5px solid var(--wine); }
+.status-strip { background: #1b2b2c; border: 3px solid var(--ink); box-shadow: 5px 5px 0 var(--ink); color: var(--paper-light); }
+.status-strip strong { color: var(--gold-light); }
+.seal-mark { background: var(--gold); color: var(--ink); border: 2px solid var(--ink); }
+@media (prefers-reduced-motion: no-preference) { .topbar, .dynamic-panel, .tool-panel { animation: parchment-in .45s cubic-bezier(.23,1,.32,1) both; } .inline-choice, .location-card, .attribute-card, .note-row { animation: ink-rise .32s cubic-bezier(.23,1,.32,1) both; } }
+@keyframes parchment-in { from { opacity: .2; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes ink-rise { from { opacity: .35; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Atmosfera da cena: o estado do mundo aparece sem revelar a consequência. */
+.atmosphere-pill { color: var(--ink); background: var(--gold); border-color: var(--ink); }
+.atmosphere-pill.danger { background: #b45f53; color: var(--paper-light); }
+.atmosphere-pill.encounter { background: #8c9b57; color: var(--ink); }
+.atmosphere-pill.record { background: #b8a68b; color: var(--ink); }
+.atmosphere-pill.exploration { background: var(--gold-light); color: var(--ink); }
+.atmosphere-danger .panel-toolbar { border-bottom-color: #c67868; }
+.atmosphere-danger .story-copy h2 { color: #e3a08c; }
+.atmosphere-danger .inline-choice button { background: linear-gradient(#c77968, #91423f); color: var(--paper-light); }
+.atmosphere-encounter .panel-toolbar { border-bottom-color: #aebd69; }
+.atmosphere-record .panel-toolbar { border-bottom-color: #d1bb8e; }

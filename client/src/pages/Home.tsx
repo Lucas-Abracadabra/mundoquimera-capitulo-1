@@ -221,6 +221,7 @@ export default function Home() {
   const contextualChoices = options.filter((option) => { const targetPassage = byName.get(normalizeName(option.target)); if (!targetPassage || isMechanicalPassage(option.target) || /^Atributos$/i.test(option.label) || /^Atributos$/i.test(option.target)) return false; const tags = targetPassage.tags.map((tag) => tag.toUpperCase()); const isMenu = tags.includes("MENU") || /menu/i.test(targetPassage.name); const isSameScene = normalizeName(targetPassage.name) === normalizeName(passage.name); const hasMapContext = tags.some((tag) => ["E-1", "TARTARUGAS", "ANDAR-PELA-VILA", "BALCÃO", "LOJA", "LADRAO", "CASA-2", "ESTABELECIMENTO", "FIM"].includes(tag)); return !isMenu && !isSameScene && hasMapContext; });
   const currentLocation = readableName(passage.name);
   const visitedNames = visited.map((item) => readableName(item));
+  const atmosphere = passage.tags.some((tag) => /LADRAO|COMBATE|PERIGO/i.test(tag)) ? { label: "PERIGO", tone: "danger" } : passage.tags.some((tag) => /TARTARUGAS|ESTABELECIMENTO|LOJA/i.test(tag)) ? { label: "ENCONTRO", tone: "encounter" } : passage.tags.some((tag) => /FIM|MENU/i.test(tag)) ? { label: "REGISTRO", tone: "record" } : { label: "EXPLORAÇÃO", tone: "exploration" };
 
 
   return (
@@ -231,8 +232,8 @@ export default function Home() {
       </header>
 
       <section className="game-frame">
-        <div className="dynamic-panel">
-          <div className="panel-toolbar"><span><Compass size={16} /> {passage.tags[0] || "Rota"}</span><span>Passagem {passage.pid} · {readableName(passage.name)}</span><span className="route-code">VISITADAS {visited.length} · VARIÁVEIS {Object.keys(vars).length}</span><span className="state-pill"><Sparkles size={14} /> original</span></div>
+        <div className={`dynamic-panel atmosphere-${atmosphere.tone}`}>
+          <div className="panel-toolbar"><span><Compass size={16} /> {passage.tags[0] || "Rota"}</span><span>Passagem {passage.pid} · {readableName(passage.name)}</span><span className="route-code">VISITADAS {visited.length} · VARIÁVEIS {Object.keys(vars).length}</span><span className={`state-pill atmosphere-pill ${atmosphere.tone}`}><Sparkles size={14} /> {atmosphere.label}</span></div>
           <div className="panel-content inline-story-layout"><div className="field-note">FICHA DE CAMPO<br /><strong>{String(passage.pid).padStart(2, "0")}</strong><br />texto preservado</div>
             
             <div className="story-copy original-story inline-story-content"><p className="scene-kicker">REGISTRO ORIGINAL · {passage.tags.join(" · ") || "NARRATIVA"}</p><h2>{readableName(passage.name)}</h2><div className="story-text">{contentBlocks.map((block, index) => block.kind === "image" ? <div className="original-inline-image" key={`image-${index}`}><img src={block.src} width={block.width} height={block.height} style={{ width: block.width ? `${block.width}px` : undefined, height: block.height ? `${block.height}px` : undefined }} onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = fallbackImage; }} alt={`Imagem original ${index + 1} de ${readableName(passage.name)}`} /></div> : block.kind === "choice" ? <div className="inline-choice" key={`choice-${index}`}><button onClick={() => goTo(block.option.target)}>{block.option.label}</button></div> : block.text.split("\n\n").map((paragraph, paragraphIndex) => <p key={`${index}-${paragraphIndex}-${paragraph.slice(0, 18)}`}>{paragraph}</p>))}</div>{options.length > 8 && <p className="more-options">+ {options.length - 8} escolhas adicionais nesta passagem</p>}</div>

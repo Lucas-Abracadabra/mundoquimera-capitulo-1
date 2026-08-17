@@ -57,3 +57,10 @@ Amarelo-lima de mapa antigo: `#f2f52b`, usado na aba ativa e em decisões de bus
 ## Style Decisions
 
 A interface deve manter uma pista cartográfica ou de dossiê em toda tela principal: códigos de rota, fichas de campo, selos, etiquetas de folha ou divisores de registro. A imagem de personagem é tratada como evidência de expedição em moldura preta, e nenhum título de navegação deve parecer placeholder; cada rótulo deve indicar lugar, ação ou consequência concreta.
+
+
+## Atualização visual — Atlas Fantástico
+
+A implementação consolidada mantém a abordagem **Quimera em Blocos**, aprofundando-a como um atlas fantástico editorial. O sistema final usa pergaminho, azul-petróleo, verde-musgo, ouro antigo e vinho de perigo; Cormorant Garamond e EB Garamond substituem a sensação genérica da interface; Space Mono fica reservado a códigos e metadados. Molduras de tinta, sombras deslocadas, textura cartográfica e selos de registro tornam a interface tátil sem prejudicar a leitura.
+
+Os estados de atmosfera agora identificam a cena como **PERIGO**, **ENCONTRO**, **REGISTRO** ou **EXPLORAÇÃO** a partir das tags já existentes no storyfile. Essas mudanças são apenas visuais e não alteram nenhuma variável, passagem, escolha ou texto original.
