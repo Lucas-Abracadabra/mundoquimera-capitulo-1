@@ -37,4 +37,5 @@
 - [ ] Adicionar estados de perigo, descoberta e microanimações.
 - [ ] Validar responsividade e integridade narrativa após o redesign.
 - [ ] Corrigir o início para abrir no Menu Principal antes da Introdução.
+- [ ] Remover resíduos visíveis de macros e sintaxe Twine no texto renderizado.
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.
