@@ -49,6 +49,6 @@
 - [x] Tornar o repositório de releases público para permitir downloads anônimos.
 - [x] Validar acesso público aos seis artefatos publicados.
 - [x] Destacar automaticamente o instalador compatível com o sistema do jogador.
-- [ ] Diagnosticar a abertura lenta ou falha de inicialização dos instaladores.
-- [ ] Regenerar e revalidar os instaladores após a correção.
+- [x] Diagnosticar a abertura lenta ou falha de inicialização dos instaladores.
+- [x] Regenerar e revalidar os instaladores após a correção; release v1.0.4 publicado e seis links verificados.
 - [x] Documentar instalação, distribuição e limitações de assinatura.
