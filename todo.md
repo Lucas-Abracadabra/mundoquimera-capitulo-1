@@ -45,4 +45,6 @@
 - [x] Configurar o empacotamento desktop multiplataforma.
 - [ ] Gerar artefatos instaláveis para Windows, macOS e Linux; Linux AppImage e Debian já validados localmente.
 - [x] Adicionar botão e painel de downloads no Menu Principal.
+- [ ] Publicar releases multiplataforma e conectar os links reais ao painel.
+- [ ] Destacar automaticamente o instalador compatível com o sistema do jogador.
 - [x] Documentar instalação, distribuição e limitações de assinatura.
