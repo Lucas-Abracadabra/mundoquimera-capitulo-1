@@ -29,4 +29,6 @@
 - [x] Mapear pontos numerados com locais e referências do storyfile.
 - [x] Remover o índice livre de 248 passagens da Busca.
 - [x] Mostrar somente destinos reais e contextuais com quantidade variável.
+- [x] Centralizar o mapa numerado no mesmo eixo visual do texto.
+- [x] Centralizar imagens inline das passagens no mesmo eixo dos textos narrativos.
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.

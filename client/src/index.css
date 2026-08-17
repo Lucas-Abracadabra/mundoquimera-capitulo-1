@@ -135,3 +135,13 @@ button:disabled { cursor: not-allowed; }
 .inline-choice button:hover { transform: translate(2px, 2px); box-shadow: 2px 2px 0 #1d2425; }
 .inline-choice button:active { transform: translate(4px, 4px); box-shadow: 0 0 0 #1d2425; }
 @media (max-width: 760px) { .inline-choice { margin: 10px 6px 10px 0; }.inline-choice button { padding: 9px 12px; font-size: .95rem; } }
+
+/* O mapa numerado acompanha o eixo central do texto, não a coluna lateral do painel. */
+.map-view .numbered-map { grid-column: 1 / -1; justify-self: center; width: min(100%, 736px); margin: 0 auto; }
+.map-view .numbered-map img { display: block; width: 100%; height: auto; max-width: 736px; margin: 0 auto; object-fit: contain; }
+.map-view .tool-copy { grid-column: 1 / -1; width: min(100%, 860px); margin: 0 auto; text-align: center; }
+@media (max-width: 760px) { .map-view .numbered-map { width: 100%; }.map-view .numbered-map img { width: 100%; } }
+
+/* Imagens das passagens: centralizadas no bloco narrativo, preservando largura e altura originais. */
+.inline-story-content .original-inline-image { width: 100%; text-align: center; }
+.inline-story-content .original-inline-image img { display: block; margin-left: auto; margin-right: auto; }
