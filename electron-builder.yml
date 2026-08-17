@@ -15,10 +15,6 @@ mac:
   target:
     - dmg
     - zip
-dmg:
-  artifactName: Mundo-Quimera-Capitulo-1-${version}-${arch}.${ext}
-zip:
-  artifactName: Mundo-Quimera-Capitulo-1-${version}-${arch}.${ext}
 win:
   target:
     - nsis

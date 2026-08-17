@@ -6,11 +6,11 @@ import storyData from "@/data/storyMap.json";
 const mapImage = "/manus-storage/quimera-map-numbered_c7c8104b.jpg";
 const markImage = "/manus-storage/quimera-mark_94657664.png";
 const pinterestFallback = "/manus-storage/pin-002_6a91b29b.jpg";
-const desktopReleaseBase = "https://github.com/Lucas-Abracadabra/mundoquimera-capitulo-1/releases/download/v1.0.1";
+const desktopReleaseBase = "https://github.com/Lucas-Abracadabra/mundoquimera-capitulo-1/releases/download/v1.0.2";
 const desktopDownloads = [
-  { key: "windows", label: "Windows", detail: "Instalador .exe", href: `${desktopReleaseBase}/Mundo-Quimera-Capitulo-1-setup-1.0.1-x64.exe` },
-  { key: "macos", label: "macOS", detail: "Arquivo .dmg", href: `${desktopReleaseBase}/Mundo-Quimera-Capitulo-1-1.0.1-x64.dmg` },
-  { key: "linux", label: "Linux", detail: "AppImage", href: `${desktopReleaseBase}/Mundo-Quimera-Capitulo-1-1.0.1-x86_64.AppImage` },
+  { key: "windows", label: "Windows", detail: "Instalador .exe", href: `${desktopReleaseBase}/Mundo-Quimera-Capitulo-1-setup-1.0.2-x64.exe` },
+  { key: "macos", label: "macOS", detail: "Arquivo .dmg", href: `${desktopReleaseBase}/Mundo-Quimera-Capitulo-1-1.0.2-x64.dmg` },
+  { key: "linux", label: "Linux", detail: "AppImage", href: `${desktopReleaseBase}/Mundo-Quimera-Capitulo-1-1.0.2-x86_64.AppImage` },
 ];
 const pinterestAssetByKey: Record<string, string> = {
   "e99fa784fb4d32c16628ebd94d314cff.jpg": "/manus-storage/pin-001_89593a53.jpg",
