@@ -41,3 +41,4 @@
 - [x] Auditar automaticamente as 248 passagens em busca de resíduos raros entre colchetes e outros marcadores.
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.
 - [ ] Exibir no mapa um marcador dinâmico da posição atual de Ender, iniciando no ponto numerado 1.
+- [x] Remover a faixa lateral bege e ocupar toda a largura da tela.

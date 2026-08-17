@@ -230,3 +230,10 @@ button, input { font-family: 'EB Garamond', Georgia, serif; }
 @media (prefers-reduced-motion: no-preference) { .map-marker { animation: marker-pulse 1.9s ease-in-out infinite; } }
 @keyframes marker-pulse { 0%, 100% { box-shadow: 0 0 0 4px rgba(247,240,223,.85), 4px 4px 0 var(--ink); } 50% { box-shadow: 0 0 0 7px rgba(225,189,104,.42), 4px 4px 0 var(--ink); } }
 @media (max-width: 640px) { .map-marker { width: 34px; height: 34px; font-size: .78rem; } .map-marker strong { transform: translateY(11px); font-size: .58rem; } .map-record { font-size: .72rem; gap: 6px 8px; } }
+
+/* Tela cheia do atlas: o fundo externo acompanha o mundo do jogo, sem faixa lateral sobrando. */
+html, body, #root { width: 100%; min-width: 320px; min-height: 100%; }
+body { background: var(--petrol-deep); }
+.quimera-shell { width: 100%; max-width: none; min-height: 100vh; margin: 0; background: var(--petrol-deep); padding-inline: clamp(12px, 2.2vw, 32px); }
+.topbar, .game-frame, .tabbar, .tool-panel, .status-strip { width: 100%; }
+@media (max-width: 640px) { .quimera-shell { padding-inline: 8px; } }
