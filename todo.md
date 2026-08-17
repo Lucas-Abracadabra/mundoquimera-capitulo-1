@@ -21,5 +21,8 @@
 - [x] Substituir URLs externos por assets permanentes quando disponíveis.
 - [x] Restaurar imagens inteiras, proporcionais e empilhadas na ordem original.
 - [x] Preservar posição, largura e altura originais das imagens dentro do texto de cada passagem.
-- [ ] Restaurar estilo visual dos botões das escolhas narrativas.
+- [x] Restaurar estilo visual dos botões das escolhas narrativas.
+- [x] Centralizar imagens no eixo do texto.
+- [x] Remover o botão de Atributos do cabeçalho.
+- [x] Corrigir erro ao abrir Atributos pela barra inferior.
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.

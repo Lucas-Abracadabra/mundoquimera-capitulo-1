@@ -178,7 +178,7 @@ function parseOriginalContent(raw: string, vars: Record<string, Value>, visited:
       const parts = inner.split(/\||->/);
       const target = (parts.length > 1 ? parts[parts.length - 1] : parts[0]).trim();
       const label = (parts.length > 1 ? parts.slice(0, -1).join("|") : parts[0]).trim();
-      if (target && !isMechanicalPassage(target)) blocks.push({ kind: "choice", option: { label: label || target, target: normalizeName(target) } });
+      if (target && !isMechanicalPassage(target) && !/^Atributos$/i.test(target) && !/^Atributos$/i.test(label)) blocks.push({ kind: "choice", option: { label: label || target, target: normalizeName(target) } });
     }
     cursor = index + token.length;
   }
@@ -223,7 +223,7 @@ export default function Home() {
     <main className="quimera-shell">
       <header className="topbar">
         <div className="brand-lockup"><img src={markImage} alt="Marca de Mundo Quimera" className="brand-mark" /><div><span className="eyebrow">MUNDO QUIMERA · STORYFILE ORIGINAL</span><h1>1 — {readableName(passage.name)}</h1></div></div>
-        <div className="chapter-meta"><span>CAPÍTULO 1 · {passages.length} PASSAGENS</span><strong>Ender</strong><button className="attribute-launcher" onClick={() => setTool("atributos")}><Shield size={15} /> Atributos</button></div>
+        <div className="chapter-meta"><span>CAPÍTULO 1 · {passages.length} PASSAGENS</span><strong>Ender</strong></div>
       </header>
 
       <section className="game-frame">
