@@ -53,4 +53,6 @@
 - [x] Regenerar e revalidar os instaladores após a correção; release v1.0.4 publicado e seis links verificados.
 - [x] Adicionar tela de carregamento inicial ao aplicativo desktop; release v1.0.5 publicado.
 - [x] Preparar configuração e documentação de assinatura digital; certificados ainda necessários para assinar.
+- [x] Auditar o executável Windows, o instalador NSIS e o ASAR publicado; o pacote usava `/assets` absolutos incompatíveis com `file://`.
+- [x] Reproduzir a inicialização no pacote desktop Linux com DevTools; o React renderizou após gerar assets relativos.
 - [x] Documentar instalação, distribuição e limitações de assinatura.

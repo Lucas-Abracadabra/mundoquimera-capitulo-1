@@ -206,6 +206,8 @@ function vitePluginStorageProxy(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
+  // O desktop Electron carrega index.html via file://; assets relativos evitam caminhos /assets no disco raiz.
+  base: "./",
   plugins,
   resolve: {
     alias: {
