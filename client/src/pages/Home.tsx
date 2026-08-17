@@ -3,9 +3,16 @@ import { useMemo, useState } from "react";
 import { BookOpen, Compass, FileText, Map as MapIcon, Search, Shield, Sparkles, Swords } from "lucide-react";
 import storyData from "@/data/storyMap.json";
 
-const mapImage = "/manus-storage/quimera-map-bg_59444783.jpg";
+const mapImage = "/manus-storage/pin-003_9ea90622.jpg";
 const markImage = "/manus-storage/quimera-mark_94657664.png";
-const fallbackImage = "/manus-storage/ender-portrait_74343876.png";
+const pinterestFallback = "/manus-storage/pin-002_6a91b29b.jpg";
+const pinterestAssetByKey: Record<string, string> = {
+  "7a73dfbe7d54ff4459aeb680dc5cfa12.jpg": "/manus-storage/pin-003_9ea90622.jpg",
+  "ff25afaa17d0f60cf382c48c16236895.jpg": "/manus-storage/pin-015_f5a63017.jpg",
+  "0f4b455cbf82af602e4f0078d0f0681f.jpg": "/manus-storage/pin-016_fe8a9417.jpg",
+  "3d42f305a5cae4fc710850fcc2725750.jpg": "/manus-storage/pin-019_21848454.jpg",
+};
+const fallbackImage = pinterestFallback;
 
 type Value = number | string | boolean;
 type Tab = "busca" | "mapa" | "notas" | "atributos";
@@ -123,7 +130,12 @@ function cleanStoryText(raw: string, vars: Record<string, Value>, visited: strin
     .replace(/\s+\n/g, "\n")
     .trim();
 }
-function firstImage(raw: string) { return raw.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1] ?? null; }
+function firstImage(raw: string) {
+  const source = raw.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1] ?? null;
+  if (!source) return null;
+  const key = source.split("/").pop() ?? "";
+  return pinterestAssetByKey[key] ?? source;
+}
 function readableName(name: string) { return name.replace(/Timérius|Timério|Timéius/g, "Ender").replace(/\s+/g, " ").trim() || "Passagem"; }
 
 export default function Home() {

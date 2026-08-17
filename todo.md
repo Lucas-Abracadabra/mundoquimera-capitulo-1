@@ -13,3 +13,6 @@
 - [x] Criar painel visual para variáveis, atributos, recursos e inventário.
 - [x] Validar atualização do painel após escolhas do jogador.
 - [x] Alinhar Atributos, Mapa, Busca e Notas lado a lado na barra inferior.
+- [x] Catalogar as imagens autorais do painel Pinterest Quimera.
+- [x] Enviar os assets autorais para o armazenamento do projeto.
+- [x] Associar imagens Pinterest às passagens e ao mapa sem gerar novas imagens.
