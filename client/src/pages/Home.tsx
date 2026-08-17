@@ -133,13 +133,39 @@ function resolveConditionals(raw: string, vars: Record<string, Value>, visited: 
   }
   return text;
 }
+function stripTwineMacros(input: string) {
+  let output = "";
+  let index = 0;
+  while (index < input.length) {
+    if (input[index] === "(") {
+      let depth = 0;
+      let close = -1;
+      for (let cursor = index; cursor < input.length; cursor += 1) {
+        if (input[cursor] === "(") depth += 1;
+        if (input[cursor] === ")") {
+          depth -= 1;
+          if (depth === 0) { close = cursor; break; }
+        }
+      }
+      if (close >= 0) {
+        const command = input.slice(index + 1, close).trim();
+        if (/^[a-z][\w-]*\s*:/i.test(command)) { index = close + 1; continue; }
+      }
+    }
+    output += input[index];
+    index += 1;
+  }
+  return output;
+}
+
 function cleanStoryText(raw: string, vars: Record<string, Value>, visited: string[]) {
-  return resolveConditionals(raw, vars, visited)
+  return stripTwineMacros(resolveConditionals(raw, vars, visited))
     .replace(/<img[^>]*>/gi, "")
     .replace(/<!--[\\s\\S]*?-->/g, "")
     .replace(/<<[\s\S]*?>>/g, "")
-    .replace(/\((?:set|button|click|link-goto|link-rerun|link-reveal|link-repeat|link|go-to|goto|replace|append|else-if|else|if|either|history|text-colour|bg|meter|cacheaudio|random|prompt|display|print|toggle|audio|stop)[^)]*\)/gi, "")
     .replace(/\[\[[^\]]+\]\]/g, "")
+    .replace(/(?<!\[)\[([^\]\n]+)\](?!\])/g, "$1")
+    .replace(/\*{1,3}([^*\n]+)\*{1,3}/g, "$1")
     .replace(/==>\s*<==/g, "")
     .replace(/=>\s*<===/g, "")
     .replace(/^\s*(?:==>|=>)+\s*$/gm, "")

@@ -37,5 +37,6 @@
 - [ ] Adicionar estados de perigo, descoberta e microanimações.
 - [ ] Validar responsividade e integridade narrativa após o redesign.
 - [ ] Corrigir o início para abrir no Menu Principal antes da Introdução.
-- [ ] Remover resíduos visíveis de macros e sintaxe Twine no texto renderizado.
+- [x] Remover resíduos visíveis de macros e sintaxe Twine no texto renderizado.
+- [x] Auditar automaticamente as 248 passagens em busca de resíduos raros entre colchetes e outros marcadores.
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.

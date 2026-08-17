@@ -1,0 +1,9093 @@
+{
+  "passageCount": 248,
+  "affectedPassages": 241,
+  "summary": {
+    "macro_parenthesis": 915,
+    "macro_unknown": 994,
+    "double_bracket": 646,
+    "passage_marker": 405,
+    "variable_reference": 296,
+    "macro_angle": 13,
+    "orphan_bracket": 77,
+    "markdown_emphasis": 17
+  },
+  "rows": [
+    {
+      "pid": "1",
+      "name": "Introdução ",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 9,
+          "samples": [
+            "(set: $vontade to 7)",
+            "(set: $força to 7)",
+            "(set: $intelecto to 7)",
+            "(set: $descanso to 3)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 9,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Avançar|Roubaram sua Adaga de Prata]]",
+            "[[Voltar para o Menu|Menu]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 4,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 6,
+          "samples": [
+            "$vontade",
+            "$força",
+            "$intelecto",
+            "$descanso"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "2",
+      "name": "Roubaram sua Adaga de Prata",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Avançar|Vagou pela Estrada]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "3",
+      "name": "Vagou pela Estrada",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[tartarugas|Se aproximou das Tartarugas]]",
+            "[[Continuar|Vila Om Sin Nacem]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "4",
+      "name": "Se aproximou das Tartarugas",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Falar algo|Falou com as Tartarugas]]",
+            "[[Continuar|Vila Om Sin Nacem]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "5",
+      "name": "Saída da Vila Om Sin",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Continuar pela estrada em direção a capital |Estrada para a capital]]",
+            "[[R. Praia / Pensão]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "6",
+      "name": "Falou com as Tartarugas",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 8,
+          "samples": [
+            "(click: \"moeda\")",
+            "(button:)",
+            "(click: \"convencê-la\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 8,
+          "samples": [
+            "(click:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 6,
+          "samples": [
+            "[[Uma moeda de cobre|Pagou 1 Moeda]]",
+            "[[Duas moedas de cobre|Pagou 2 Moedas]]",
+            "[[Insistir um pouco|Usou 1 de Vontade]]",
+            "[[Ser mais contundente|Usou 2 de Vontade]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "7",
+      "name": "StoryInit",
+      "findings": [
+        {
+          "name": "macro_angle",
+          "count": 1,
+          "samples": [
+            "<<cacheaudio \"music\" \"Steampunk Music.mp4\">>"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "8",
+      "name": "Variáveis",
+      "findings": [
+        {
+          "name": "macro_angle",
+          "count": 9,
+          "samples": [
+            "<<set $forca = 7>>",
+            "<<set $destreza = 5>>",
+            "<<set $vontade = 5>>",
+            "<<set $intelecto = 5>>"
+          ]
+        },
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(set: $vida to 10)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(set:"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 10,
+          "samples": [
+            "$vida",
+            "$forca",
+            "$destreza",
+            "$vontade"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "9",
+      "name": "dados",
+      "findings": [
+        {
+          "name": "macro_angle",
+          "count": 3,
+          "samples": [
+            "<<set $v1 = \"1\">>",
+            "<<set $v2 = \"olá\">>",
+            "<<set $v3 =  $v1 +$v2>>"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 6,
+          "samples": [
+            "$v1",
+            "$v2",
+            "$v3"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "10",
+      "name": " $v3",
+      "findings": [
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$v3"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "11",
+      "name": "Foi a Taverna",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 14,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,(hsl:0,0,0.5333,0.4)",
+            "(if: $tempo > 10)",
+            "(if: $tempo < 1)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 17,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(hsl:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 8,
+          "samples": [
+            "[[Alerta! Alguém está te procurando!]]",
+            "[[ Sentar|Sentar]]",
+            "[[balcão|balcão]]",
+            "[[gata|Gâmia]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 2,
+          "samples": [
+            "[Taverna da Guilda Burlesca]",
+            "[Sempre a mesma bagunça na Guilda Burlesca.]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 4,
+          "samples": [
+            "$tempo"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "12",
+      "name": "Estrada para a capital",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Tem cinquenta moedas de cobre |Passar pelo guarda]]",
+            "[[Não tem cinquenta moedas de cobre, muito menos uma de ouro |Não tem moedas]]",
+            "[[Volltar para a Vila Om Sin|Saída da Vila Om Sin]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$moedas"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "13",
+      "name": "Sentar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Beber algo |Beber]]",
+            "[[Conversar com alguém |Sozinho na mesa]]",
+            "[[Voltar |Foi a Taverna]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "14",
+      "name": "Loja",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Faca]]",
+            "[[Escudo]]",
+            "[[Espada velha]]",
+            "[[Foi ao Centrinho do Antigo Condado]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "15",
+      "name": "ENCONTROS",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(if: (history:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 12,
+          "samples": [
+            "(if:",
+            "(history:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 9,
+          "samples": [
+            "[[História do local |História]]",
+            "[[pista do gavião]]",
+            "[[pista do elefante]]",
+            "[[pista da mulher lagarto]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "16",
+      "name": "fundos",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 17,
+          "samples": [
+            "(if: (history:)",
+            "(button:)",
+            "(else-if:(history:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 23,
+          "samples": [
+            "(if:",
+            "(history:",
+            "(button:",
+            "(else-if:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 12,
+          "samples": [
+            "[[capivara]]",
+            "[[capivara - Sem adaga]]",
+            "[[voltar|Foi a Taverna]]",
+            "[[senhora|Senhora vaca]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "17",
+      "name": "balcão",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 27,
+          "samples": [
+            "(if: $moedas < 2)",
+            "(else-if: $moedas < 3)",
+            "(button:)",
+            "(else-if: $moedas < 4)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 29,
+          "samples": [
+            "(if:",
+            "(else-if:",
+            "(button:",
+            "(else:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 17,
+          "samples": [
+            "[[ovos|ovos]]",
+            "[[Cerveja|cerveja]]",
+            "[[vinho|vinho]]",
+            "[[carne|carne]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[Ender não pode comer nem beber nada. Não tem dinheiro suficiente.]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 4,
+          "samples": [
+            "$moedas"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "18",
+      "name": "Beber",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[sozinho na mesa |Sozinho na mesa]]",
+            "[[hall |Foi a Taverna]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "19",
+      "name": "Sozinho na mesa",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Coruja]]",
+            "[[Lagarto]]",
+            "[[Hall|Foi a Taverna]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "20",
+      "name": "Coruja",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Voltar à mesa |Sozinho na mesa]]",
+            "[[Voltar para o hall |Foi a Taverna]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "21",
+      "name": "Lagarto",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Voltar à mesa |Sozinho na mesa]]",
+            "[[Voltar para o hall |Foi a Taverna]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "22",
+      "name": "História",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar |Foi a Taverna]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "23",
+      "name": "Jabuti",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Voltar |Foi a Taverna]]",
+            "[[ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "24",
+      "name": "Senhora vaca",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(set: $vida to $vida +1 )",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[contunar explorando e comendo a maça.|continuar com a maça]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 3,
+          "samples": [
+            "$vida"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "25",
+      "name": "Picada no mato",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 7,
+          "samples": [
+            "(if: $chave is 1)",
+            "(button:)",
+            "(else:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 7,
+          "samples": [
+            "(if:",
+            "(button:",
+            "(else:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[casa 2|casa2]]",
+            "[[Timérius tentar forçar a abertura do portão |Portão]]",
+            "[[Rua do Visconde / 3]]",
+            "[[Rua da Pensão / 3]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$chave"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "26",
+      "name": "Tamivi",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 12,
+          "samples": [
+            "(if: (history:)",
+            "(click: \"tartarugas\")",
+            "(set: $força to $força + 1)",
+            "(set: $destreza to $destreza + 1)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 13,
+          "samples": [
+            "(if:",
+            "(history:",
+            "(click:",
+            "(set:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Voltar |fundos]]",
+            "[[conversar com ele |Falar com o ladrão]]",
+            "[[Atacá-lo sem conversar |Atacar]]",
+            "[[Sistema de Combate]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 3,
+          "samples": [
+            "[Quando o viu, Ender teve certeza. Pela descrição feita pelas tartarugas]",
+            "[1 ponto]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 4,
+          "samples": [
+            "$força",
+            "$destreza"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "27",
+      "name": "Portão",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Picada no mato]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "28",
+      "name": "fundos 2",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar |Foi a Taverna]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "29",
+      "name": "Não tem moedas",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar |Saída da Vila Om Sin]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "30",
+      "name": "Falar com o ladrão",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(text-colour:yellow)",
+            "(set: $vida to $vida - 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(text-colour:",
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Voltar|fundos]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Timérius PERDE 1 de vida***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$vida"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Timérius PERDE 1 de vida***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "31",
+      "name": "Atacar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(set: $ladrao to $ladrao + 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[ataca|Ataca de cima pra baixo]]",
+            "[[espera|Tomar cuidado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$ladrao"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "32",
+      "name": "Ataca de cima pra baixo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(set: $vida to $vida - 1)",
+            "(text-colour:yellow)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Timérius fugiu de Tamivi]]",
+            "[[Continuar o embate|Continua mesmo ferido]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Timério PERDEU um ponto de vida***]"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$vida"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Timério PERDEU um ponto de vida***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "33",
+      "name": "Tomar cuidado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 9,
+          "samples": [
+            "(set: $tempo to $tempo +1 )",
+            "(text-colour:yellow)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 9,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 7,
+          "samples": [
+            "[[Esperar|esperar]]",
+            "[[Atacá-lo|Ataca pelo flanco]]",
+            "[[Desaquilibrá-lo|Desequilibra Tamivi]]",
+            "[[Puxar|Pegar bolsa de moedas]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Seu tempo passou***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$tempo"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Seu tempo passou***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "34",
+      "name": "esperar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(set: $vida = $vida - 1)",
+            "(text-colour:yellow)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Mesmo com uma dor lancinante que fez escorrer uma lágrima no canto do olho, Timérius partiu para cima do ladino|Continua mesmo ferido]]",
+            "[[Não parecia ser tão facil assim derrotar o adversário. Timérius resolveu sair dalí para se recompor|Timérius fugiu de Tamivi]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***PERDEU um ponto de vida***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$vida"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***PERDEU um ponto de vida***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "35",
+      "name": "Continua mesmo ferido",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 8,
+          "samples": [
+            "(set: $tempo to $tempo +1 )",
+            "(set: $ladrao = $ladrao + 1)",
+            "(text-colour:yellow)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 8,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Atacá-lo|Ataca pelo flanco]]",
+            "[[Desaquilibrá-lo|Desequilibra Tamivi]]",
+            "[[Puxar|Pegar bolsa de moedas]]",
+            "[[Tentar acertar|Timérius recupera a adaga]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Seu tempo passou***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 4,
+          "samples": [
+            "$tempo",
+            "$ladrao"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Seu tempo passou***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "36",
+      "name": "Timérius fugiu de Tamivi",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(set: $tempo to $tempo +1 )",
+            "(text-colour:yellow)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Voltar para os fundos |fundos]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Seu tempo passou***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$tempo"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Seu tempo passou***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "37",
+      "name": "Pegar bolsa de moedas",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(set: $moedas = $moedas +25)",
+            "(text-colour:yellow)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Tentar acertar|Timérius recupera a adaga]]",
+            "[[Desistir|fundos]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***GANHOU vinte e cinco moedas de cobre***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$moedas"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***GANHOU vinte e cinco moedas de cobre***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "38",
+      "name": "Ataca pelo flanco",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(set: $ladrao = $ladrao + 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[taverna|Foi a Taverna]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$ladrao"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "39",
+      "name": "continuar com a maça",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Quem|Tamivi]]",
+            "[[Atributos]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "40",
+      "name": "Desequilibra Tamivi",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(set: $ladrao to $ladrao + 1)",
+            "(set: $tempo to $tempo +1)",
+            "(set: $adaga to 1)",
+            "(text-colour:yellow)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[fundos]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Seu tempo passou***]"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 5,
+          "samples": [
+            "$ladrao",
+            "$tempo",
+            "$adaga"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Seu tempo passou***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "41",
+      "name": "Timérius recupera a adaga",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(set: $notas\n(set: $ladrao to $ladrao + 1)",
+            "(set: $tempo to $tempo +1)",
+            "(set: $adaga to 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[fundos]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 6,
+          "samples": [
+            "$notas",
+            "$ladrao",
+            "$tempo",
+            "$adaga"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "42",
+      "name": "Alerta! Alguém está te procurando!",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[insistir]]",
+            "[[Estrada para a capital]]",
+            "[[Foi a Taverna]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "43",
+      "name": "insistir",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Alerta! Alguém está te procurando!]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "44",
+      "name": "Pagou 1 Moeda",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(set: $moedas to $moedas - 1)",
+            "(text-colour:yellow)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Insistir|Usou 1 de Vontade]]",
+            "[[Vila Om Sin Nacem]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Timérius gastou uma moedas de cobre***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$moedas"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Timérius gastou uma moedas de cobre***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "45",
+      "name": "Pagou 2 Moedas",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(set: $moedas to $moedas - 2)",
+            "(text-colour:yellow)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(set:",
+            "(text-colour:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Gastar 1 ponto de Vontade|Usou 1 de Vontade]]",
+            "[[Gastar 2 pontos de Vontade|Usou 2 de Vontade]]",
+            "[[Voltar|Falou com as Tartarugas]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Timérius gastou duas moedas de cobre***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$moedas"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Timérius gastou duas moedas de cobre***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "46",
+      "name": "Usou 1 de Vontade",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(set: $vontade to $vontade - 1)",
+            "(text-colour:yellow)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Vila Om Sin Nacem]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Timérius gastou um ponto de Vontande***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$vontade"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Timérius gastou um ponto de Vontande***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "47",
+      "name": "Usou 2 de Vontade",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(set: $vontade to $vontade - 2)",
+            "(text-colour:yellow)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Vila Om Sin Nacem]]",
+            "[[Conversar mais|Conversou mais com a Tartaruga]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Timérius gastou dois pontos de Vontande***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$vontade"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Timérius gastou dois pontos de Vontande***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "48",
+      "name": "Como jogar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Menu]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "49",
+      "name": "Menu",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Como jogar]]",
+            "[[O Mundo Quimera]]",
+            "[[Começar o Jogo|Introdução ]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "50",
+      "name": "Passar pelo guarda",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(if: $moedas > 50)",
+            "(button:)",
+            "(else:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(if:",
+            "(button:",
+            "(else:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Estrada do Ducado|Estrada do Ducado]]",
+            "[[Voltar|Estrada para a capital]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$moedas"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "51",
+      "name": "Estrada do Ducado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Explorar a área|comércio]]",
+            "[[Continuar pela estrada do Ducado|Estrada do Ducado 2]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "52",
+      "name": "comércio",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[comprar alguma coisa]]",
+            "[[Um ancião macaco o observa de longe. Ender se lembra o que a velha tartaruga lhe falou.|Ancião Macaco]]",
+            "[[Estrada do Ducado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "53",
+      "name": "Estrada do Ducado 2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(if: (history:)",
+            "(button:)",
+            "(else-if: $adaga = 1)",
+            "(else:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 7,
+          "samples": [
+            "(if:",
+            "(history:",
+            "(button:",
+            "(else-if:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Fim do capítulo 1]]",
+            "[[ladrão 1]]",
+            "[[ladrão 2]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$adaga"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "54",
+      "name": "ladrão 2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(if: $ladrao is 3)",
+            "(button:)",
+            "(else:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(if:",
+            "(button:",
+            "(else:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[atacar|atacar]]",
+            "[[Atacar|atacar2]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$ladrao"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "55",
+      "name": "Fim do capítulo 1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Atributos]]",
+            "[[Menu]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "56",
+      "name": "comprar alguma coisa",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[comércio]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "57",
+      "name": "Ancião Macaco",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[jogo]]",
+            "[[comércio]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "58",
+      "name": "conversou com as tartarugas",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(set: $força to $força + 1)",
+            "(set: $destreza to $destreza + 1)",
+            "(text-colour:yellow)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(set:",
+            "(text-colour:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Voltar|Tamivi]]",
+            "[[Atacar o meliante|Atacar]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Timérius ganha um ponto de força e um ponto de destreza***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 4,
+          "samples": [
+            "$força",
+            "$destreza"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Timérius ganha um ponto de força e um ponto de destreza***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "59",
+      "name": "atacar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Introdução ]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "60",
+      "name": "atacar2",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Derrotou Tamivi]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "61",
+      "name": "vinho",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(set: $moedas = $moedas - 3)",
+            "(set: $força = $força + 1)",
+            "(set: $vontade = $vontade + 2)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[balcão|balcão]]",
+            "[[hall|Foi a Taverna]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 9,
+          "samples": [
+            "$moedas",
+            "$força",
+            "$vontade"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "62",
+      "name": "cerveja",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(set: $moedas = $moedas - 2)",
+            "(set: $vontade = $vontade + 2)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[balcão|balcão]]",
+            "[[hall|Foi a Taverna]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 6,
+          "samples": [
+            "$moedas",
+            "$vontade"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "63",
+      "name": "carne",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(set: $moedas = $moedas - 5)",
+            "(set: $vida = $vida + 2)",
+            "(set: $força = $força + 1)",
+            "(set: $vontade = $vontade + 2)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[balcão|balcão]]",
+            "[[hall|Foi a Taverna]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 12,
+          "samples": [
+            "$moedas",
+            "$vida",
+            "$força",
+            "$vontade"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "64",
+      "name": "ovos",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(set: $moedas = $moedas - 2)",
+            "(set: $vida = $vida + 1)",
+            "(set: $força = $força + 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[balcão|balcão]]",
+            "[[hall|Foi a Taverna]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 9,
+          "samples": [
+            "$moedas",
+            "$vida",
+            "$força"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "65",
+      "name": "trabalho 1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[aceitar|trabalho]]",
+            "[[voltar|balcão]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "66",
+      "name": "aceitar trabalho",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(set: $tempo to $tempo +1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Aceitar Trabalho|trabalho]]",
+            "[[voltar|balcão]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$tempo"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "67",
+      "name": "segunda chance",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[aceitar segunda chance]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "68",
+      "name": "O Mundo Quimera",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[História de Timérius]]",
+            "[[Cosmogonia]]",
+            "[[Menu]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 4,
+          "samples": [
+            "=>",
+            "<==",
+            "==>"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "69",
+      "name": "Cosmogonia",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[O Mundo Quimera]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "70",
+      "name": "História de Timérius",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[O Mundo Quimera]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "71",
+      "name": "Conversou mais com a Tartaruga",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Aceitou sua proposta]]",
+            "[[Não aceitou sua proposta]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "72",
+      "name": "Aceitou sua proposta",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(text-colour:yellow)",
+            "(set: $vontade to $vontade + 2)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(text-colour:",
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Vila Om Sin Nacem]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Timérius GANHOU dois pontos de Vontande***]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$vontade"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Timérius GANHOU dois pontos de Vontande***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "73",
+      "name": "Não aceitou sua proposta",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Vila Om Sin Nacem]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "74",
+      "name": "Faca",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(set: $faca = 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Loja]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$faca"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "75",
+      "name": "Escudo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(set: $escudo = 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Loja]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$escudo"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "76",
+      "name": "Espada velha",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(set: $espada = 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Loja]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$espada"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "77",
+      "name": "Poções",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Poção de Força]]",
+            "[[Poção de Destreza]]",
+            "[[Poção de Vida]]",
+            "[[Voltar|Foi ao Centrinho do Antigo Condado]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "78",
+      "name": "Poção de Força",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(click:\"Comprar Poção?\")",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(click:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Sim|sim2]]",
+            "[[Não|não2]]",
+            "[[Voltar|Poções]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "79",
+      "name": "Poção de Destreza",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(click:\"Comprar Poção?\")",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(click:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Sim|sim3]]",
+            "[[Não|não3]]",
+            "[[Voltar|Poções]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "80",
+      "name": "Poção de Vida",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(click:\"Comprar Poção?\")",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(click:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Sim|sim1]]",
+            "[[Não|não1]]",
+            "[[Voltar|Poções]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "81",
+      "name": "sim1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Poções]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "82",
+      "name": "não1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Poções]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "83",
+      "name": "sim2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Poções]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "84",
+      "name": "não2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Poções]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "85",
+      "name": "sim3",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Poções]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "86",
+      "name": "não3",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Poções]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "87",
+      "name": "Conversou com as Capivaras",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 7,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Onde as pessoas costumam ir por aqui?]]",
+            "[[Vocês viram alguém suspeito por aqui, com um capuz, portando uma espada?]]",
+            "[[Vocês são daqui?]]",
+            "[[Vila Om Sin Nacem]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "88",
+      "name": "personagens aleatórios",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(go-to: (either: \"Elefante\", \"Gavião\", \"Mulher lagarto\", \"Macaco velho\",\"Macaca\", \"Mulher de capuz\", \"vazio 1\", \"vazio 2\" )"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(go-to:",
+            "(either:"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "89",
+      "name": "Elefante",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "90",
+      "name": "Gavião",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "91",
+      "name": "Mulher lagarto",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "92",
+      "name": "Macaca",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "93",
+      "name": "Mulher de capuz",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "94",
+      "name": "Macaco velho",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "95",
+      "name": "pista do gavião",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "96",
+      "name": "pista da mulher lagarto",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "97",
+      "name": "pista do elefante",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "98",
+      "name": "pista do macaco velho",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(set; $chave to 1)"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$chave"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "99",
+      "name": "pista da macaca",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "100",
+      "name": "pista da mulher de capuz",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "101",
+      "name": "aceitar segunda chance",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(set: $tempo to $tempo +1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|balcão]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$tempo"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "102",
+      "name": "casa",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[fundos|fundos]]",
+            "[[Atributos]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "103",
+      "name": "casa2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(button:)",
+            "(if: $resgate is true)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(button:",
+            "(if:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[entra na casa|entrar na casa]]",
+            "[[percorrer o quintal|percorrer o quintal]]",
+            "[[Picada no mato]]",
+            "[[caminho altenativo]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$resgate"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "104",
+      "name": "entrar na casa",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[mesanino]]",
+            "[[Entrar|quarto]]",
+            "[[corredor|corredor]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "105",
+      "name": "percorrer o quintal",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(set: $chave_do_Quintal to 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Entrar na casa|entrar na casa]]",
+            "[[Escalar]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$chave_do_Quintal"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "108",
+      "name": "jogo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Ancião Macaco]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "109",
+      "name": "ladrão 1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(text-colour:yellow)",
+            "(set: $destreza = $destreza + 1)",
+            "(if: $ladrao is 3)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(text-colour:",
+            "(set:",
+            "(if:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[atacar|atacar]]",
+            "[[Atacar|atacar2]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[***Por Ender ter recuperado a sua adaga, ganha 2 pontos de Destreza*** ]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 3,
+          "samples": [
+            "$destreza",
+            "$ladrao"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 1,
+          "samples": [
+            "***Por Ender ter recuperado a sua adaga, ganha 2 pontos de Destreza***"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "110",
+      "name": "quarto",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(if: $chave_do_Quintal > 0)",
+            "(button:)",
+            "(else:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(if:",
+            "(button:",
+            "(else:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Usar a chave]]",
+            "[[Introdução ]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$chave_do_Quintal"
+          ]
+        },
+        {
+          "name": "markdown_emphasis",
+          "count": 2,
+          "samples": [
+            "*Fim de Jogo*",
+            "*Voltar para a (button:)[[Introdução ]]*"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "111",
+      "name": "corredor",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[cozinha]]",
+            "[[banheiro]]",
+            "[[quarto1]]",
+            "[[entrar na casa]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "112",
+      "name": "Usar a chave",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[corredor]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "113",
+      "name": "cozinha",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[corredor]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "114",
+      "name": "banheiro",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[corredor]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "115",
+      "name": "quarto1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[corredor]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "116",
+      "name": "Escalar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(set: $força = $força - 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[corredor]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$força"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "117",
+      "name": "mesanino",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[corredor|corredor2]]",
+            "[[estante]]",
+            "[[descer|entrar na casa]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "118",
+      "name": "corredor2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[quarto|quarto2]]",
+            "[[Outro|quarto3]]",
+            "[[banheiro|banheiro2]]",
+            "[[dormitório|quarto4]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "119",
+      "name": "estante",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[mesanino]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "120",
+      "name": "quarto2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[corredor2]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "121",
+      "name": "quarto3",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[corredor2]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "122",
+      "name": "banheiro2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[corredor2]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "123",
+      "name": "quarto4",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[corredor2]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "124",
+      "name": "Vila Om Sin Nacem",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 13,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,(hsl:0,0,0.5333,0.4)",
+            "(text-colour:green)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 17,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(hsl:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 6,
+          "samples": [
+            "[[conversar com as capivaras|Conversou com as Capivaras]]",
+            "[[rua da praia - 2|Rua da Praia/1]]",
+            "[[rua do Condado - 3|Rua do Condado/1]]",
+            "[[Senhora Hipopótamo]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 3,
+          "samples": [
+            "[Vila Om Sin Nacem]",
+            "[(button:)[Om Sin Nacem]",
+            "[(dialog:\"Há cinquenta anos, viveu nessa região o Visconde Om Sin Nacem, um gavião muito respeitado e admirado. Depois de seu falecimento, toda a região foi dividida e vendida em lotes pelos funcionários de seu castelo, generosamente escolhidos seus herdeiros. Além do que, o Visconde não tinha nenhum parente próximo, ou que gostasse a ponto de deixar sua riquesa.\")]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "125",
+      "name": "Rua Central do Condado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 14,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,(hsl:0,0,0.5333,0.4)",
+            "(button:)",
+            "(click: \"Sobre o lugar - 1\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 18,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(hsl:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 7,
+          "samples": [
+            "[[Entrada Leste do Condado]]",
+            "[[Entrada Oeste do Condado]]",
+            "[[Centrinho do Condado|Foi ao Centrinho do Antigo Condado]]",
+            "[[Parte Norte do Condado]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 4,
+          "samples": [
+            "[Rua Central do Antigo Condado]",
+            "[Sobre o lugar - 1]",
+            "[(dialog:\"A rua central do antigo condado se extende de leste a oeste no interior das muralhas. O terreno e a vegetação são semelhantes ao resto da região. Como se fosse um grande bosque habitado. Entre as árvores, lá estão as residências dos distintos moradores.\")]",
+            "[Sobre o lugar - 2]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "126",
+      "name": "Rua do Condado/1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Oeste - Direção do Condado|R. Condado / Torre]]",
+            "[[Leste - Entrada da Vila|Vila Om Sin Nacem]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "127",
+      "name": "Foi ao Centrinho do Antigo Condado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 15,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,(hsl:0,0,0.5333,0.4)",
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 17,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(hsl:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 12,
+          "samples": [
+            "[[Rua Central do Condado]]",
+            "[[loja de armas|Loja]]",
+            "[[Poções]]",
+            "[[peixaria]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[Centrinho do Condado.]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "128",
+      "name": "R. Condado / Torre",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Entrada Leste do Condado]]",
+            "[[esquerda|Rua da Torre/1]]",
+            "[[direita|Rua da Torre/2]]",
+            "[[Voltar|Rua do Condado/1]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "129",
+      "name": "Entrada Leste do Condado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Voltar|R. Condado / Torre]]",
+            "[[Rua Central do Condado]]",
+            "[[Muralha Leste]]",
+            "[[Muralha Sul]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "130",
+      "name": "R.Visconde / Condado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Subir|Rua do Visconde / 2]]",
+            "[[Descer|Rua do Visconde / 1]]",
+            "[[Rua do Condado/2]]",
+            "[[Entrada Oeste do Condado]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "131",
+      "name": "R. Pensão / Condado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Rua 3|Rua da Pensão / 2]]",
+            "[[esquerda|Rua da Pensão / 1]]",
+            "[[Voltar|Rua do Condado/2]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "132",
+      "name": "Rua da Torre/1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[R. Condado / Torre]]",
+            "[[Rua da Praia/1]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "133",
+      "name": "Rua da Torre/2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[R. Torre / Moinhos]]",
+            "[[R. Condado / Torre]]",
+            "[[Brejo das Capivaras]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "134",
+      "name": "Rua da Torre/3",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[R. Torre / Moinhos]]",
+            "[[Caminho subindo a montanha]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "135",
+      "name": "Rua do Visconde / 1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Voltar|R.Visconde / Condado]]",
+            "[[Parte Sul do Condado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "136",
+      "name": "Rua do Visconde / 2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[R.Visconde / Condado]]",
+            "[[R. Moinhos / Visconde]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "137",
+      "name": "Rua do Visconde / 3",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Dono|Casa do Dono da Taverna]]",
+            "[[Picada|Picada no mato]]",
+            "[[R. Moinhos / Visconde]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "138",
+      "name": "Rua da Pensão / 1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[R. Pensão / Condado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "139",
+      "name": "Rua da Pensão / 2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[R. Pensão / Condado]]",
+            "[[R.Moinhos / Pensão]]",
+            "[[Aglomerado de casas 3]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "140",
+      "name": "R. Pensão / Colina",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[R.Moinhos / Pensão]]",
+            "[[Rua C]]",
+            "[[Rua da Pensão / 3]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "141",
+      "name": "Rua do Condado/2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[R. Pensão / Condado]]",
+            "[[Voltar|R.Visconde / Condado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "142",
+      "name": "Rua dos Moinhos/1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Torre Antiga]]",
+            "[[Barracão]]",
+            "[[R. Torre / Moinhos]]",
+            "[[R. Moinhos / Visconde]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "143",
+      "name": "Rua dos Moinhos/2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[R. Moinhos / Visconde]]",
+            "[[R.Moinhos / Pensão]]",
+            "[[Aglomerado de casas 3]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "144",
+      "name": "R. Torre / Moinhos",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Rua B|Rua dos Moinhos/1]]",
+            "[[Rua 1|Rua da Torre/3]]",
+            "[[Rua da Torre/2]]",
+            "[[Torre Antiga]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "145",
+      "name": "Casa do Dono da Taverna",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Cama]]",
+            "[[Cozinha]]",
+            "[[Rua do Visconde / 3]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "146",
+      "name": "Rua C",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[R. Pensão / Colina]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "147",
+      "name": "R. Moinhos / Visconde",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 7,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 7,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 6,
+          "samples": [
+            "[[Rua dos Moinhos/1]]",
+            "[[Rua dos Moinhos/2]]",
+            "[[Rua do Visconde / 2]]",
+            "[[Rua do Visconde / 3]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "148",
+      "name": "Rua da Pensão / 3",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Picada no mato]]",
+            "[[R. Pensão / Colina]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "149",
+      "name": "R.Moinhos / Pensão",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Rua dos Moinhos/2]]",
+            "[[Rua da Pensão / 2]]",
+            "[[R. Pensão / Colina]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "150",
+      "name": "açougue",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[comprar carne]]",
+            "[[Foi ao Centrinho do Antigo Condado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "151",
+      "name": "padaria",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[comprar pão]]",
+            "[[Voltar|Foi ao Centrinho do Antigo Condado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "152",
+      "name": "mercearia",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Óleo de Carvalho]]",
+            "[[Voltar|Foi ao Centrinho do Antigo Condado]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "153",
+      "name": "Lutas e apostas",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Falar com ele|Capanga Lagarto]]",
+            "[[Voltar ao centrinho|Foi ao Centrinho do Antigo Condado]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "154",
+      "name": "peixaria",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Comprar peixe]]",
+            "[[Voltar|Foi ao Centrinho do Antigo Condado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "155",
+      "name": "Porto Om Sin",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Rua da Praia/2]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "156",
+      "name": "Rua da Praia/1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Norte - Rua da Torre|Rua da Torre/1]]",
+            "[[ Rua da Praia|Rua da Praia/2]]",
+            "[[Entrada da Vila|Vila Om Sin Nacem]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "157",
+      "name": "Rua da Praia / 3",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Parte Sul do Condado]]",
+            "[[Rua do Visconde / 1]]",
+            "[[Rua da Praia/2]]",
+            "[[R. Praia / Pensão]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "158",
+      "name": "Muralha Leste",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Parte Norte do Condado]]",
+            "[[Entrada Leste do Condado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "159",
+      "name": "Pensão do Castelo Abandonado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[R. Praia / Pensão]]",
+            "[[Portaria]]",
+            "[[Escadas]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "160",
+      "name": "Aglomerado de Casas 1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Rua C]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "161",
+      "name": "Aldeia dos Felinos",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Rua do Visconde / 3]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "162",
+      "name": "Aglomerado de casas 3",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Rua da Pensão / 2]]",
+            "[[Rua dos Moinhos/2]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "163",
+      "name": "Entrada Oeste do Condado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Rua Central do Condado]]",
+            "[[cruzamento|R.Visconde / Condado]]",
+            "[[Muralha Oeste]]",
+            "[[Norte|Muralha Norte]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "164",
+      "name": "Parte Norte do Condado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Rua Central do Condado]]",
+            "[[Muralha Norte]]",
+            "[[Muralha Leste]]",
+            "[[Fundos da taverna|fundos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "165",
+      "name": "Parte Sul do Condado",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 8,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 8,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 7,
+          "samples": [
+            "[[Rua Central do Condado]]",
+            "[[Rua da Praia/2]]",
+            "[[Rua da Praia / 3]]",
+            "[[Muralha Sul]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "166",
+      "name": "Rua da Praia/2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Leste - Início da rua da Praia|Rua da Praia/1]]",
+            "[[Norte - Entrada Sul do Condado|Parte Sul do Condado]]",
+            "[[Oeste - Final da rua da Praia|Rua da Praia / 3]]",
+            "[[Porto Om Sin]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "167",
+      "name": "Portaria",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Pensão do Castelo Abandonado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "168",
+      "name": "Escadas",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Segundo Andar]]",
+            "[[Pensão do Castelo Abandonado]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "169",
+      "name": "Segundo Andar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Terceiro Andar]]",
+            "[[Corredor 1 Pensão]]",
+            "[[Escadas]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "170",
+      "name": "Terceiro Andar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Torre]]",
+            "[[Corredor 2 Pensão]]",
+            "[[Segundo Andar]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "171",
+      "name": "Torre",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Terceiro Andar]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "172",
+      "name": "Corredor 1 Pensão",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Quarto Vago 1]]",
+            "[[Segundo Andar]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "173",
+      "name": "Corredor 2 Pensão",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Quarto Vago 2]]",
+            "[[Terceiro Andar]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "174",
+      "name": "Quarto Vago 1",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Corredor 1 Pensão]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "175",
+      "name": "Quarto Vago 2",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Corredor 2 Pensão]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "176",
+      "name": "Muralha Norte",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Entrada Oeste do Condado]]",
+            "[[Parte Norte do Condado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "177",
+      "name": "Muralha Oeste",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Parte Sul do Condado]]",
+            "[[Entrada Oeste do Condado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "178",
+      "name": "Muralha Sul",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Entrada Leste do Condado]]",
+            "[[Parte Sul do Condado]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "179",
+      "name": "Cama",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(set: $tempo = $tempo + 1)",
+            "(set: $descanso = 5)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Casa do Dono da Taverna]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 3,
+          "samples": [
+            "$tempo",
+            "$descanso"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "180",
+      "name": "Cozinha",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Casa do Dono da Taverna]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "181",
+      "name": "Comprar peixe",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(set: $peixe = 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Foi ao Centrinho do Antigo Condado]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$peixe"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "182",
+      "name": "comprar pão",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(set: $pão = 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Foi ao Centrinho do Antigo Condado]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$pão"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "183",
+      "name": "comprar carne",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(set: $carne = 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Foi ao Centrinho do Antigo Condado]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$carne"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "184",
+      "name": "Óleo de Carvalho",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(set: $óleodecarvalho to 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[mercearia]]"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 1,
+          "samples": [
+            "$óleodecarvalho"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "185",
+      "name": "Torre Antiga",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[R. Torre / Moinhos]]",
+            "[[Rua dos Moinhos/1]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "186",
+      "name": "Barracão",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[R. Torre / Moinhos]]",
+            "[[Rua dos Moinhos/1]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "187",
+      "name": "Caminho subindo a montanha",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Mina abandonada]]",
+            "[[Rua da Torre/3]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "188",
+      "name": "Mina abandonada",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Caminho subindo a montanha]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "189",
+      "name": "Ponte",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Vila Om Sin Nacem]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "190",
+      "name": "Brejo das Capivaras",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Rua da Torre/2]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "191",
+      "name": "R. Praia / Pensão",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 6,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Saída da Vila Om Sin]]",
+            "[[Rua da Pensão / 1]]",
+            "[[Rua da Praia / 3]]",
+            "[[Pensão do Castelo Abandonado]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "192",
+      "name": "Aglomerado 5",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[R. Moinhos / Visconde]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "193",
+      "name": "Ruinas",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[R. Moinhos / Visconde]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "195",
+      "name": "Sistema de Combate",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 23,
+          "samples": [
+            "(set: _chances to 3)",
+            "(set: _ferido to 0)",
+            "(set: _inimigo to 1)",
+            "(set: _modificadorForça to 1)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 24,
+          "samples": [
+            "(set:",
+            "(if:",
+            "(link-rerun:",
+            "(random:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 6,
+          "samples": [
+            "[[fundos]]",
+            "[[voltar|fundos]]",
+            "[[[Acertou!!!|Ganhou]]",
+            "[[Timérius foge dalí.->fundos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 5,
+          "samples": [
+            "[_combate]",
+            "[Timéius tem (text-colour:red)[_ferido]",
+            "[Conseguiu se aproximar o bastante para fazer um ataque baixo, que foi prontamente defendido pelo lobo branco escondido pelo capuz. Porém, ao fazê-lo, o inimigo deixou sua guarda do lado esquerdo do corpo desprotegido. Por um momento, Timérius vislumbrou uma pequena sacola de moedas no cinto do meliante. Era possível que fosse fruto de outros roubos.]",
+            "[_ferido]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "196",
+      "name": "Ganhou",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Sistema de Combate]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "197",
+      "name": "Untitled Passage",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(set: $nota to \"oi,\")",
+            "(set: $nota to $nota + \" \" + \"tchau\")",
+            "(set: $nota to $nota + \" \" + \"ei\")",
+            "(link-rerun: \"Arma:\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 7,
+          "samples": [
+            "(set:",
+            "(dropdown:",
+            "(link-rerun:",
+            "(checkbox:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Ir->ir]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[  $arma]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 10,
+          "samples": [
+            "$nota",
+            "$arma",
+            "$botão"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "199",
+      "name": "caminho altenativo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[casa2]]",
+            "[[Torre Abandonada]]",
+            "[[Rua da Pensão / 3]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "200",
+      "name": "Torre Abandonada",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[caminho altenativo]]",
+            "[[Rua C]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "201",
+      "name": "Conversar sobre o trabalho",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[balcão]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "202",
+      "name": "trabalho",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(set: $missão to $missão + 1)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(set:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Taverna|Foi a Taverna]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 2,
+          "samples": [
+            "$missão"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "203",
+      "name": "Atributos",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 90,
+          "samples": [
+            "(bg:(hsl:60,0.8039,0.5,0.2)",
+            "(if: $descanso is 3)",
+            "(else-if: $descanso is 2)",
+            "(else-if: $descanso is 1)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 121,
+          "samples": [
+            "(b4r:",
+            "(b4r-colour:",
+            "(hsl:",
+            "(bg:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Usar Poção|Tomar poção de vontade]]",
+            "[[Usar Poção|Tomar poção de força]]",
+            "[[Usar Poção|Tomar poção de vida]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 33,
+          "samples": [
+            "[Atributos Atuais]",
+            "[Timérius está (if: $descanso is 3)[descansado]",
+            "[um pouco cansado]",
+            "[ muito cansado]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 14,
+          "samples": [
+            "==>",
+            "<==",
+            "=>"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 119,
+          "samples": [
+            "$descanso",
+            "$vida",
+            "$vontade",
+            "$força"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "204",
+      "name": "Tomar poção de vontade",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(set: $poçãoVontade to $poçãoVontade -1)",
+            "(if: $vontade <= 9)",
+            "(set: $vontade to $vontade +1)",
+            "(link-undo: \" voltar \")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(set:",
+            "(if:",
+            "(link-undo:"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[(set: $vontade to $vontade +1)]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 1,
+          "samples": [
+            "=>"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 6,
+          "samples": [
+            "$poçãoVontade",
+            "$vontade"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "205",
+      "name": "Tomar poção de força",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(set: $poçãoForça to $poçãoForça -1)",
+            "(if: $força <= 9)",
+            "(set: $força to $força +1)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(set:",
+            "(if:"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[(set: $força to $força +1)]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 1,
+          "samples": [
+            "=>"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 6,
+          "samples": [
+            "$poçãoForça",
+            "$força"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "206",
+      "name": "Tomar poção de vida",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(set: $poçãoVida to $poçãoVida -1)",
+            "(if: $vida <= 9)",
+            "(set: $vida to $vida +1)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(set:",
+            "(if:"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[(set: $vida to $vida +1)]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 1,
+          "samples": [
+            "=>"
+          ]
+        },
+        {
+          "name": "variable_reference",
+          "count": 6,
+          "samples": [
+            "$poçãoVida",
+            "$vida"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "207",
+      "name": "Onde as pessoas costumam ir por aqui?",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Vocês viram alguém suspeito por aqui, com um capuz, portando uma espada?]]",
+            "[[Vocês são daqui?]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[Elas vão por todos os lugares, ué.]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "208",
+      "name": "Vocês viram alguém suspeito por aqui, com um capuz, portando uma espada?",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Vocês são daqui?]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "209",
+      "name": "Vocês são daqui?",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff)",
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 6,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.]]",
+            "[[Queria encontrar o ladrão de minha adaga]]",
+            "[[Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[Oh! Sim! Somos daqui mesmo. O que quer saber?]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "210",
+      "name": "Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 9,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff)",
+            "(if:(history:)",
+            "(else:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 12,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(if:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Queria encontrar o ladrão de minha adaga]]",
+            "[[Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?]]",
+            "[[Vila Om Sin Nacem]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[Você pode ir até a Pensão do Castelo Abandonado.]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "211",
+      "name": "Queria encontrar o ladrão de minha adaga",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 9,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff)",
+            "(if:(history:)",
+            "(else:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 12,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(if:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.]]",
+            "[[Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?]]",
+            "[[Vila Om Sin Nacem]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[talvez na taverna da Guilda Burlesca você possa saber de algo.]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "212",
+      "name": "Eu preciso conseguir dinheiro para passar pelo portão de entrada do Ducado. Vocês sabem como conseguir dinheiro por aqui?",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 9,
+          "samples": [
+            "(text-colour:black)",
+            "(bg:(gradient: 0, 0,#ffffff,0.5,#888888,1,#ffffff)",
+            "(if:(history:)",
+            "(else:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 12,
+          "samples": [
+            "(text-colour:",
+            "(bg:",
+            "(gradient:",
+            "(if:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Eu venho de muito longe e gostaria de encontrar um lugar barato e confortável para passar algumas noites.]]",
+            "[[Queria encontrar o ladrão de minha adaga]]",
+            "[[Vila Om Sin Nacem]]"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[Converse com a dona da taverna.]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "213",
+      "name": "vazio 1",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "214",
+      "name": "vazio 2",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[voltar|ENCONTROS]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "215",
+      "name": "link & GoTo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(link-goto: (either:\"1\",\"A1\")",
+            "(link:\"ir para\")",
+            "(go-to:(either:\"1\",\"A1\", \"2\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(link-goto:",
+            "(either:",
+            "(link:",
+            "(go-to:"
+          ]
+        },
+        {
+          "name": "orphan_bracket",
+          "count": 1,
+          "samples": [
+            "[(go-to:(either:\"1\",\"A1\", \"2\"))]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "218",
+      "name": "A1",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[A1]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "219",
+      "name": "Derrotou Tamivi",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Estrada do Ducado 2]]",
+            "[[Atributos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "221",
+      "name": "Gâmia",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Foi a Taverna]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "222",
+      "name": "Capanga Lagarto",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Voltar|Lutas e apostas]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "223",
+      "name": "Nas Redondesas do Castelo do Lord Ós",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 8,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 8,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 7,
+          "samples": [
+            "[[Sul do Castelo]]",
+            "[[Leste do Castelo]]",
+            "[[Norte do Castelo]]",
+            "[[Oeste do Castelo]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 4,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "224",
+      "name": "Senhora Hipopótamo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Vila Om Sin Nacem]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "225",
+      "name": "capivara",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[fundos]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "226",
+      "name": "capivara - Sem adaga",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[fundos]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "227",
+      "name": "Sul do Castelo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Nas Redondesas do Castelo do Lord Ós]]",
+            "[[Leste do Castelo]]",
+            "[[Oeste do Castelo]]",
+            "[[Atributos]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "228",
+      "name": "Norte do Castelo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Nas Redondesas do Castelo do Lord Ós]]",
+            "[[Leste do Castelo]]",
+            "[[Oeste do Castelo]]",
+            "[[Atributos]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "229",
+      "name": "Leste do Castelo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Nas Redondesas do Castelo do Lord Ós]]",
+            "[[Sul do Castelo]]",
+            "[[Norte do Castelo]]",
+            "[[Atributos]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "230",
+      "name": "Oeste do Castelo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)",
+            "(click: \"MAPA\")"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:",
+            "(click:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Nas Redondesas do Castelo do Lord Ós]]",
+            "[[Sul do Castelo]]",
+            "[[Norte do Castelo]]",
+            "[[Atributos]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "231",
+      "name": "Hall do 1º Andar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Escadaria Principal]]",
+            "[[Corredor Leste]]",
+            "[[Corredor Oeste]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "232",
+      "name": "Escadaria Principal",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Hall do 1º Andar]]",
+            "[[Hall do 2º Andar]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "233",
+      "name": "Corredor Leste",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 5,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 5,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Hall do 1º Andar]]",
+            "[[Sala de Recepções Leste]]",
+            "[[Salão Principal]]",
+            "[[Escritório do Lord Ós]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "234",
+      "name": "Corredor Oeste",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 5,
+          "samples": [
+            "[[Hall do 1º Andar]]",
+            "[[Sala de Recepções Oeste]]",
+            "[[Salão Principal]]",
+            "[[Aposentos dos subordinados]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "235",
+      "name": "Sala de Recepções Leste",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Corredor Leste]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "236",
+      "name": "Sala de Recepções Oeste",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Corredor Oeste]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "237",
+      "name": "Salão Principal",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Corredor Leste]]",
+            "[[Corredor Oeste]]",
+            "[[Sala de Jantar Principal]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "238",
+      "name": "Cozinha Principal",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 4,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 4,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 4,
+          "samples": [
+            "[[Sala de Recepções Oeste]]",
+            "[[Corredor Oeste]]",
+            "[[Salão Principal]]",
+            "[[Área de limpesa da cozinha com saída para o pátio]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "239",
+      "name": "Sala de Jantar Principal",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Salão Principal]]",
+            "[[Varanda da sala de jantar]]",
+            "[[Corredor Leste]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "240",
+      "name": "Pátio dos Fundos",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Área de limpesa da cozinha com saída para o pátio]]",
+            "[[Varanda da sala de jantar]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "241",
+      "name": "Área de limpesa da cozinha com saída para o pátio",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Cozinha Principal]]",
+            "[[Pátio dos Fundos]]",
+            "[[Aposentos dos subordinados]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "242",
+      "name": "Varanda da sala de jantar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Sala de Jantar Principal]]",
+            "[[Escritório do Lord Ós]]",
+            "[[Pátio dos Fundos]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "243",
+      "name": "Aposentos dos subordinados",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Área de limpesa da cozinha com saída para o pátio]]",
+            "[[Corredor Oeste]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "244",
+      "name": "Escritório do Lord Ós",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 3,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 3,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 3,
+          "samples": [
+            "[[Varanda da sala de jantar]]",
+            "[[Corredor Leste]]",
+            "[[Escada para os Porões do Castelo]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "245",
+      "name": "Hall do 2º Andar",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Escadaria Principal]]",
+            "[[Corredor do 2º Andar]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "246",
+      "name": "Corredor do 2º Andar",
+      "findings": [
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Hall do 2º Andar]]"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "247",
+      "name": "Escada para os Porões do Castelo",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 2,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 2,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 2,
+          "samples": [
+            "[[Escritório do Lord Ós]]",
+            "[[Corredor do Porão]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "248",
+      "name": "Corredor do Porão",
+      "findings": [
+        {
+          "name": "macro_parenthesis",
+          "count": 1,
+          "samples": [
+            "(button:)"
+          ]
+        },
+        {
+          "name": "macro_unknown",
+          "count": 1,
+          "samples": [
+            "(button:"
+          ]
+        },
+        {
+          "name": "double_bracket",
+          "count": 1,
+          "samples": [
+            "[[Escada para os Porões do Castelo]]"
+          ]
+        },
+        {
+          "name": "passage_marker",
+          "count": 2,
+          "samples": [
+            "==>",
+            "<=="
+          ]
+        }
+      ]
+    }
+  ]
+}
