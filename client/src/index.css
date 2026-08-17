@@ -128,3 +128,10 @@ button:disabled { cursor: not-allowed; }
 .original-inline-image img { display: block; width: auto; height: auto; max-width: 100%; max-height: none; object-fit: contain; object-position: center; }
 .inline-choice { display: inline-flex; margin: 10px 8px 10px 0; }
 @media (max-width: 760px) { .inline-story-content { max-width: none; }.original-inline-image img { max-width: 100%; } }
+
+/* Escolhas narrativas: interação visível, mantendo a posição original no fluxo. */
+.inline-choice { display: inline-flex; margin: 14px 10px 14px 0; vertical-align: middle; }
+.inline-choice button { border: 3px solid #1d2425; background: #f2f52b; color: #1d2425; font-weight: 700; padding: 11px 16px; box-shadow: 4px 4px 0 #1d2425; transition: transform .16s ease, box-shadow .16s ease; }
+.inline-choice button:hover { transform: translate(2px, 2px); box-shadow: 2px 2px 0 #1d2425; }
+.inline-choice button:active { transform: translate(4px, 4px); box-shadow: 0 0 0 #1d2425; }
+@media (max-width: 760px) { .inline-choice { margin: 10px 6px 10px 0; }.inline-choice button { padding: 9px 12px; font-size: .95rem; } }
