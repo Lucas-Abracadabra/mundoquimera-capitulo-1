@@ -6,6 +6,12 @@ import storyData from "@/data/storyMap.json";
 const mapImage = "/manus-storage/quimera-map-numbered_c7c8104b.jpg";
 const markImage = "/manus-storage/quimera-mark_94657664.png";
 const pinterestFallback = "/manus-storage/pin-002_6a91b29b.jpg";
+const desktopReleaseBase = "https://github.com/Lucas-Abracadabra/mundoquimera-capitulo-1/releases/download/v1.0.0";
+const desktopDownloads = [
+  { key: "windows", label: "Windows", detail: "Instalador .exe", href: `${desktopReleaseBase}/Mundo-Quimera-Capitulo-1-setup-1.0.0-x64.exe` },
+  { key: "macos", label: "macOS", detail: "Arquivo .dmg", href: `${desktopReleaseBase}/Mundo-Quimera-Capitulo-1-1.0.0-x64.dmg` },
+  { key: "linux", label: "Linux", detail: "AppImage", href: `${desktopReleaseBase}/Mundo-Quimera-Capitulo-1-1.0.0-x86_64.AppImage` },
+];
 const pinterestAssetByKey: Record<string, string> = {
   "e99fa784fb4d32c16628ebd94d314cff.jpg": "/manus-storage/pin-001_89593a53.jpg",
   "24fc88f13ae8ce783ebd953d032be039.jpg": "/manus-storage/pin-002_6a91b29b.jpg",
@@ -235,6 +241,12 @@ export default function Home() {
   const [noteDraft, setNoteDraft] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
   const [showDownloads, setShowDownloads] = useState(false);
+  const [platform, setPlatform] = useState("other");
+
+  useEffect(() => {
+    const userAgent = navigator.userAgent.toLowerCase();
+    setPlatform(userAgent.includes("win") ? "windows" : userAgent.includes("mac") ? "macos" : userAgent.includes("linux") ? "linux" : "other");
+  }, []);
 
   const passage = byName.get(passageName) ?? initialPassage;
   const options = useMemo(() => parseLinks(passage), [passage]);
@@ -281,7 +293,7 @@ export default function Home() {
           <div className="panel-footer"><span className="passage-progress">{passage.pid} / {passages.length} · {options.length} caminhos disponíveis</span><span className="choice-hint"><Swords size={15} /> avance pelas escolhas da passagem</span></div>
         </div>
 
-        {passageName.trim() === "Menu" && <section className="download-dossier" aria-label="Downloads do aplicativo"><div className="download-dossier-head"><div><p className="scene-kicker">VERSÃO DE CAMPO</p><h2>Levar Quimera com você</h2><p>O aplicativo desktop está sendo preparado para Windows, macOS e Linux.</p></div><button className="download-trigger" onClick={() => setShowDownloads((current) => !current)} aria-expanded={showDownloads}><Download size={18} /> {showDownloads ? "Fechar downloads" : "Baixar aplicativo"}</button></div>{showDownloads && <div className="download-grid">{[{ label: "Windows", detail: "Instalador .exe e versão portátil", status: "Em preparação" }, { label: "macOS", detail: "Arquivo .dmg e pacote .zip", status: "Em preparação" }, { label: "Linux", detail: "AppImage e pacote .deb", status: "Pacotes validados localmente" }].map((item) => <div className="download-card" key={item.label}><div><strong>{item.label}</strong><span>{item.detail}</span></div><small>{item.status}</small></div>)}<p className="download-note">Os links de download serão ativados assim que os artefatos forem publicados. Nenhum botão aponta para um arquivo inexistente.</p></div>}</section>}
+        {passageName.trim() === "Menu" && <section className="download-dossier" aria-label="Downloads do aplicativo"><div className="download-dossier-head"><div><p className="scene-kicker">VERSÃO DE CAMPO</p><h2>Levar Quimera com você</h2><p>O aplicativo desktop está sendo preparado para Windows, macOS e Linux.</p></div><button className="download-trigger" onClick={() => setShowDownloads((current) => !current)} aria-expanded={showDownloads}><Download size={18} /> {showDownloads ? "Fechar downloads" : "Baixar aplicativo"}</button></div>{showDownloads && <div className="download-grid">{desktopDownloads.map((item) => <div className={`download-card ${platform === item.key ? "recommended" : ""}`} key={item.key}><div><strong>{item.label}{platform === item.key && <em> recomendado</em>}</strong><span>{item.detail}</span></div><a href={item.href} target="_blank" rel="noreferrer" className="download-card-link"><Download size={14} /> Baixar</a></div>)}<p className="download-note">{platform !== "other" ? `Seu sistema foi identificado como ${desktopDownloads.find((item) => item.key === platform)?.label ?? "desktop"}.` : "Escolha o pacote correspondente ao seu sistema."} Os arquivos são publicados pela release oficial do projeto.</p></div>}</section>}
 
         <nav className="tabbar" aria-label="Ferramentas de exploração"><button className={tab === "atributos" ? "tab active" : "tab"} onClick={() => setTool("atributos")}><Shield size={20} />Atributos</button><button className={tab === "mapa" ? "tab active" : "tab"} onClick={() => setTool("mapa")}><MapIcon size={20} />Mapa</button><button className={tab === "busca" ? "tab active" : "tab"} onClick={() => setTool("busca")}><Search size={20} />Busca</button><button className={tab === "notas" ? "tab active" : "tab"} onClick={() => setTool("notas")}><FileText size={20} />Notas</button></nav>
 
