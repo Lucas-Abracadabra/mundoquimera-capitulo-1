@@ -99,3 +99,8 @@ button:disabled { cursor: not-allowed; }
 .inventory-card b { font-family: monospace; text-transform: uppercase; font-size: .7rem; }
 @media (max-width: 900px) { .attribute-layout { grid-template-columns: 1fr; } }
 @media (max-width: 760px) { .attribute-launcher { display: none; } }
+
+/* Barra inferior compacta: quatro ferramentas na mesma linha. */
+.tabbar { grid-template-columns: 1fr .72fr 1fr 1fr; gap: 6px; }
+.tab { min-width: 0; padding: 10px 8px; font-size: clamp(.9rem, 1.8vw, 1.55rem); gap: 6px; }
+@media (max-width: 760px) { .tabbar { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; }.tab { min-height: 58px; padding: 8px 4px; font-size: clamp(.72rem, 2.6vw, 1rem); gap: 3px; }.tab svg { width: 15px; height: 15px; } }

@@ -12,3 +12,4 @@
 - [x] Separar o botão de atributos das escolhas narrativas.
 - [x] Criar painel visual para variáveis, atributos, recursos e inventário.
 - [x] Validar atualização do painel após escolhas do jogador.
+- [x] Alinhar Atributos, Mapa, Busca e Notas lado a lado na barra inferior.
