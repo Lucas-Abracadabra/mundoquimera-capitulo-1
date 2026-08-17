@@ -7,10 +7,27 @@ const mapImage = "/manus-storage/pin-003_9ea90622.jpg";
 const markImage = "/manus-storage/quimera-mark_94657664.png";
 const pinterestFallback = "/manus-storage/pin-002_6a91b29b.jpg";
 const pinterestAssetByKey: Record<string, string> = {
+  "e99fa784fb4d32c16628ebd94d314cff.jpg": "/manus-storage/pin-001_89593a53.jpg",
+  "24fc88f13ae8ce783ebd953d032be039.jpg": "/manus-storage/pin-002_6a91b29b.jpg",
   "7a73dfbe7d54ff4459aeb680dc5cfa12.jpg": "/manus-storage/pin-003_9ea90622.jpg",
+  "8d06bfc0fdfee8ddefd6bdb369a03daa.jpg": "/manus-storage/pin-004_fb292038.jpg",
+  "1cb80d2f0ec1e062dd3394a309b57cc9.jpg": "/manus-storage/pin-006_f69e3175.jpg",
+  "9432575321cae34c54e842034721f2cd.jpg": "/manus-storage/pin-008_c4762673.jpg",
+  "ed1ed5473a998f3216774c7c8d01c2a6.jpg": "/manus-storage/pin-009_e891692f.jpg",
+  "726d7a2bde4a934e61572f206ed7dbef.jpg": "/manus-storage/pin-010_7a4d1638.jpg",
+  "74a605010f841d5db0d769f55519e9d4.jpg": "/manus-storage/pin-012_8d76d177.jpg",
+  "2da8655a2921d3985334c1ee7130e2bb.jpg": "/manus-storage/pin-013_7004f96e.jpg",
+  "a92589c544706090b6608647bcfcd4f2.jpg": "/manus-storage/pin-014_f3377de8.jpg",
   "ff25afaa17d0f60cf382c48c16236895.jpg": "/manus-storage/pin-015_f5a63017.jpg",
   "0f4b455cbf82af602e4f0078d0f0681f.jpg": "/manus-storage/pin-016_fe8a9417.jpg",
+  "778df78ee8001831f3b60a21271713e3.jpg": "/manus-storage/pin-017_418a1755.jpg",
+  "5e4a56d6a28475a9906f34cd4346a146.jpg": "/manus-storage/pin-018_801b226a.jpg",
   "3d42f305a5cae4fc710850fcc2725750.jpg": "/manus-storage/pin-019_21848454.jpg",
+  "52edfc2c18e6cd0b3967e3a9d5fe2547.jpg": "/manus-storage/pin-020_3d6d22f1.jpg",
+  "55a8fd1cdcc5476a467e072ff7d58694.jpg": "/manus-storage/pin-021_8b18f6c3.jpg",
+  "1e95b89853a4a600db48d15f745f65f1.jpg": "/manus-storage/pin-022_202a1d23.jpg",
+  "5e88a626d78ea723b462f16f4bef22a4.jpg": "/manus-storage/pin-023_2a525ac4.jpg",
+  "771beec1ebf2baa6bf6d871c8e975925.jpg": "/manus-storage/pin-024_d6a57322.jpg",
 };
 const fallbackImage = pinterestFallback;
 

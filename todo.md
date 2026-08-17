@@ -18,4 +18,6 @@
 - [x] Associar imagens Pinterest às passagens e ao mapa sem gerar novas imagens.
 - [x] Extrair todas as imagens de cada passagem mantendo a ordem original.
 - [x] Renderizar múltiplas imagens lado a lado com fallback responsivo.
+- [x] Substituir URLs externos por assets permanentes quando disponíveis.
+- [x] Restaurar imagens inteiras, proporcionais e empilhadas na ordem original.
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.

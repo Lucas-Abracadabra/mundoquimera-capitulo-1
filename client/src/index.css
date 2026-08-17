@@ -115,3 +115,8 @@ button:disabled { cursor: not-allowed; }
 .image-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .image-gallery img { min-width: 0; }
 @media (max-width: 420px) { .image-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Imagens originais: inteiras, proporcionais e empilhadas como no storyfile. */
+.scene-portrait.image-gallery { display: flex; flex-direction: column; align-items: stretch; gap: 10px; width: 100%; overflow: visible; }
+.scene-portrait.image-gallery img, .scene-portrait:not(.image-gallery) img { width: 100%; height: auto; max-height: none; aspect-ratio: auto; object-fit: contain; object-position: center; display: block; }
+@media (max-width: 760px) { .scene-portrait.image-gallery { gap: 8px; } .scene-portrait.image-gallery img, .scene-portrait:not(.image-gallery) img { width: 100%; height: auto; } }
