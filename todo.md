@@ -43,8 +43,10 @@
 - [ ] Exibir no mapa um marcador dinâmico da posição atual de Ender, iniciando no ponto numerado 1.
 - [x] Remover a faixa lateral bege e ocupar toda a largura da tela.
 - [x] Configurar o empacotamento desktop multiplataforma.
-- [ ] Gerar artefatos instaláveis para Windows, macOS e Linux; Linux AppImage e Debian já validados localmente.
+- [x] Gerar artefatos instaláveis para Windows, macOS e Linux; seis instaladores publicados e validados na release v1.0.3.
 - [x] Adicionar botão e painel de downloads no Menu Principal.
-- [ ] Publicar releases multiplataforma e conectar os links reais ao painel.
-- [ ] Destacar automaticamente o instalador compatível com o sistema do jogador.
+- [x] Publicar releases multiplataforma e conectar os links reais ao painel.
+- [x] Tornar o repositório de releases público para permitir downloads anônimos.
+- [x] Validar acesso público aos seis artefatos publicados.
+- [x] Destacar automaticamente o instalador compatível com o sistema do jogador.
 - [x] Documentar instalação, distribuição e limitações de assinatura.
