@@ -215,3 +215,18 @@ button, input { font-family: 'EB Garamond', Georgia, serif; }
 .atmosphere-danger .inline-choice button { background: linear-gradient(#c77968, #91423f); color: var(--paper-light); }
 .atmosphere-encounter .panel-toolbar { border-bottom-color: #aebd69; }
 .atmosphere-record .panel-toolbar { border-bottom-color: #d1bb8e; }
+
+/* Marcador de posição: camada de navegação sobre o mapa autoral, sem recortar ou editar a imagem. */
+.map-stage { position: relative; display: block; width: 100%; overflow: visible; }
+.map-stage > img { display: block; width: 100%; height: auto; }
+.map-marker { position: absolute; z-index: 3; display: grid; place-items: center; width: 42px; height: 42px; transform: translate(-50%, -50%); border: 3px solid var(--ink); border-radius: 50%; background: var(--wine); color: var(--paper-light); box-shadow: 0 0 0 4px rgba(247,240,223,.85), 4px 4px 0 var(--ink); font: 700 1rem 'Space Mono', monospace; pointer-events: none; }
+.map-marker::after { content: ''; position: absolute; inset: -9px; border: 2px solid var(--gold-light); border-radius: 50%; opacity: .9; }
+.map-marker-core { position: absolute; width: 9px; height: 9px; border-radius: 50%; background: var(--gold-light); box-shadow: 0 0 12px var(--gold-light); }
+.map-marker strong { position: relative; z-index: 2; transform: translateY(13px); padding: 2px 4px; border: 2px solid var(--ink); background: var(--gold-light); color: var(--ink); font-size: .68rem; line-height: 1; }
+.map-view .tool-copy { margin-top: 24px; }
+.map-record { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 12px; border: 2px solid var(--ink); background: rgba(196,154,69,.2); }
+.map-record strong { color: var(--wine); font-size: .66rem; letter-spacing: .08em; }
+.map-record span { color: var(--petrol-deep); font-weight: 700; }
+@media (prefers-reduced-motion: no-preference) { .map-marker { animation: marker-pulse 1.9s ease-in-out infinite; } }
+@keyframes marker-pulse { 0%, 100% { box-shadow: 0 0 0 4px rgba(247,240,223,.85), 4px 4px 0 var(--ink); } 50% { box-shadow: 0 0 0 7px rgba(225,189,104,.42), 4px 4px 0 var(--ink); } }
+@media (max-width: 640px) { .map-marker { width: 34px; height: 34px; font-size: .78rem; } .map-marker strong { transform: translateY(11px); font-size: .58rem; } .map-record { font-size: .72rem; gap: 6px 8px; } }
