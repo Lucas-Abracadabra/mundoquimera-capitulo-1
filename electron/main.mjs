@@ -12,7 +12,7 @@ function createWindow() {
     minWidth: 960,
     minHeight: 720,
     backgroundColor: '#0d3544',
-    show: false,
+    show: true,
     autoHideMenuBar: true,
     title: 'Mundo Quimera — Capítulo 1',
     webPreferences: {
@@ -22,7 +22,6 @@ function createWindow() {
     },
   });
 
-  window.once('ready-to-show', () => window.show());
   window.webContents.setWindowOpenHandler(({ url }) => {
     if (url.startsWith('https://') || url.startsWith('http://')) shell.openExternal(url);
     return { action: 'deny' };
