@@ -1,5 +1,5 @@
 // Direção Quimera em Blocos: o aplicativo apresenta o storyfile original como um atlas narrativo, mantendo texto, caminhos e variáveis.
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { BookOpen, Compass, FileText, Map as MapIcon, Search, Shield, Sparkles, Swords } from "lucide-react";
 import storyData from "@/data/storyMap.json";
 
@@ -152,6 +152,10 @@ export default function Home() {
   const storyText = cleanStoryText(passage.text, vars, visited);
   const image = firstImage(passage.text);
   const locationIndex = Math.max(0, originalLocations.findIndex((name) => name === passageName));
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [passageName]);
 
   function goTo(target: string) {
     const nextPassage = byName.get(target);
