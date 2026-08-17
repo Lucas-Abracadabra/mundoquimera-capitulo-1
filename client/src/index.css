@@ -120,3 +120,11 @@ button:disabled { cursor: not-allowed; }
 .scene-portrait.image-gallery { display: flex; flex-direction: column; align-items: stretch; gap: 10px; width: 100%; overflow: visible; }
 .scene-portrait.image-gallery img, .scene-portrait:not(.image-gallery) img { width: 100%; height: auto; max-height: none; aspect-ratio: auto; object-fit: contain; object-position: center; display: block; }
 @media (max-width: 760px) { .scene-portrait.image-gallery { gap: 8px; } .scene-portrait.image-gallery img, .scene-portrait:not(.image-gallery) img { width: 100%; height: auto; } }
+
+/* Fluxo original do Twine: cada imagem permanece no ponto do texto em que foi escrita. */
+.inline-story-layout { display: block; }
+.inline-story-content { max-width: 860px; margin: 0 auto; }
+.original-inline-image { display: block; margin: 14px 0; line-height: 0; }
+.original-inline-image img { display: block; width: auto; height: auto; max-width: 100%; max-height: none; object-fit: contain; object-position: center; }
+.inline-choice { display: inline-flex; margin: 10px 8px 10px 0; }
+@media (max-width: 760px) { .inline-story-content { max-width: none; }.original-inline-image img { max-width: 100%; } }

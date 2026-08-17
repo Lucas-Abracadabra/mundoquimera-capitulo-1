@@ -35,6 +35,7 @@ type Value = number | string | boolean;
 type Tab = "busca" | "mapa" | "notas" | "atributos";
 type Passage = { pid: string; name: string; tags: string[]; text: string; links: string[]; variables: string[]; images?: string[] };
 type LinkOption = { label: string; target: string };
+type ContentBlock = { kind: "text"; text: string } | { kind: "image"; src: string; width?: number; height?: number } | { kind: "choice"; option: LinkOption };
 
 const passages = storyData.passages as Passage[];
 const initialPassage = passages.find((passage) => passage.name.trim() === "Introdução") ?? passages[0];
@@ -155,6 +156,36 @@ function passageImages(passage: Passage) {
   return (passage.images ?? []).map(resolveImage);
 }
 function readableName(name: string) { return name.replace(/Timérius|Timério|Timéius/g, "Ender").replace(/\s+/g, " ").trim() || "Passagem"; }
+function parseOriginalContent(raw: string, vars: Record<string, Value>, visited: string[]) {
+  const blocks: ContentBlock[] = [];
+  const tokenPattern = /<img\b[^>]*>|\[\[[^\]]+\]\]/gi;
+  let cursor = 0;
+  let match: RegExpExecArray | null;
+  while ((match = tokenPattern.exec(raw)) !== null) {
+    const token = match[0];
+    const index = match.index;
+    const text = cleanStoryText(raw.slice(cursor, index), vars, visited);
+    if (text.trim()) blocks.push({ kind: "text", text });
+    if (/^<img/i.test(token)) {
+      const src = token.match(/\bsrc=["']([^"']+)["']/i)?.[1];
+      if (src) {
+        const widthValue = token.match(/\bwidth=["']?(\d+)/i)?.[1];
+        const heightValue = token.match(/\b(?:height|heigth)=["']?(\d+)/i)?.[1];
+        blocks.push({ kind: "image", src: resolveImage(src), width: widthValue ? Number(widthValue) : undefined, height: heightValue ? Number(heightValue) : undefined });
+      }
+    } else {
+      const inner = token.slice(2, -2);
+      const parts = inner.split(/\||->/);
+      const target = (parts.length > 1 ? parts[parts.length - 1] : parts[0]).trim();
+      const label = (parts.length > 1 ? parts.slice(0, -1).join("|") : parts[0]).trim();
+      if (target && !isMechanicalPassage(target)) blocks.push({ kind: "choice", option: { label: label || target, target: normalizeName(target) } });
+    }
+    cursor = index + token.length;
+  }
+  const tail = cleanStoryText(raw.slice(cursor), vars, visited);
+  if (tail.trim()) blocks.push({ kind: "text", text: tail });
+  return blocks;
+}
 
 export default function Home() {
   const [passageName, setPassageName] = useState(initialPassage.name.trim());
@@ -168,7 +199,7 @@ export default function Home() {
   const passage = byName.get(passageName) ?? initialPassage;
   const options = useMemo(() => parseLinks(passage), [passage]);
   const storyText = cleanStoryText(passage.text, vars, visited);
-  const images = passageImages(passage);
+  const contentBlocks = parseOriginalContent(passage.text, vars, visited);
   const locationIndex = Math.max(0, originalLocations.findIndex((name) => name === passageName));
 
   useEffect(() => {
@@ -198,9 +229,9 @@ export default function Home() {
       <section className="game-frame">
         <div className="dynamic-panel">
           <div className="panel-toolbar"><span><Compass size={16} /> {passage.tags[0] || "Rota"}</span><span>Passagem {passage.pid} · {readableName(passage.name)}</span><span className="route-code">VISITADAS {visited.length} · VARIÁVEIS {Object.keys(vars).length}</span><span className="state-pill"><Sparkles size={14} /> original</span></div>
-          <div className="panel-content"><div className="field-note">FICHA DE CAMPO<br /><strong>{String(passage.pid).padStart(2, "0")}</strong><br />texto preservado</div>
-            <div className={images.length > 1 ? "scene-portrait image-gallery" : "scene-portrait"}>{images.length > 0 ? images.map((image, index) => <img key={`${image}-${index}`} src={image} onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = fallbackImage; }} alt={`Imagem ${index + 1} da passagem ${readableName(passage.name)}`} />) : <div className="portrait-placeholder"><BookOpen size={44} /><span>PASSAGEM<br />SEM ILUSTRAÇÃO</span></div>}</div>
-            <div className="story-copy original-story"><p className="scene-kicker">REGISTRO ORIGINAL · {passage.tags.join(" · ") || "NARRATIVA"}</p><h2>{readableName(passage.name)}</h2><div className="story-text">{storyText.split("\n\n").map((paragraph, index) => <p key={`${paragraph.slice(0, 20)}-${index}`}>{paragraph}</p>)}</div><div className="choice-list">{options.slice(0, 8).map((option) => <button key={`${option.label}-${option.target}`} onClick={() => goTo(option.target)}>{option.label}</button>)}</div>{options.length > 8 && <p className="more-options">+ {options.length - 8} escolhas adicionais nesta passagem</p>}</div>
+          <div className="panel-content inline-story-layout"><div className="field-note">FICHA DE CAMPO<br /><strong>{String(passage.pid).padStart(2, "0")}</strong><br />texto preservado</div>
+            
+            <div className="story-copy original-story inline-story-content"><p className="scene-kicker">REGISTRO ORIGINAL · {passage.tags.join(" · ") || "NARRATIVA"}</p><h2>{readableName(passage.name)}</h2><div className="story-text">{contentBlocks.map((block, index) => block.kind === "image" ? <div className="original-inline-image" key={`image-${index}`}><img src={block.src} width={block.width} height={block.height} style={{ width: block.width ? `${block.width}px` : undefined, height: block.height ? `${block.height}px` : undefined }} onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = fallbackImage; }} alt={`Imagem original ${index + 1} de ${readableName(passage.name)}`} /></div> : block.kind === "choice" ? <div className="inline-choice" key={`choice-${index}`}><button onClick={() => goTo(block.option.target)}>{block.option.label}</button></div> : block.text.split("\n\n").map((paragraph, paragraphIndex) => <p key={`${index}-${paragraphIndex}-${paragraph.slice(0, 18)}`}>{paragraph}</p>))}</div>{options.length > 8 && <p className="more-options">+ {options.length - 8} escolhas adicionais nesta passagem</p>}</div>
           </div>
           <div className="panel-footer"><span className="passage-progress">{passage.pid} / {passages.length} · {options.length} caminhos disponíveis</span><span className="choice-hint"><Swords size={15} /> avance pelas escolhas da passagem</span></div>
         </div>
