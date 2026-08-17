@@ -42,3 +42,6 @@
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.
 - [ ] Exibir no mapa um marcador dinâmico da posição atual de Ender, iniciando no ponto numerado 1.
 - [x] Remover a faixa lateral bege e ocupar toda a largura da tela.
+- [x] Configurar o empacotamento desktop multiplataforma.
+- [ ] Gerar artefatos instaláveis para Windows, macOS e Linux; Linux AppImage e Debian já validados localmente.
+- [x] Documentar instalação, distribuição e limitações de assinatura.

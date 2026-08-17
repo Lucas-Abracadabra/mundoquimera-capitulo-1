@@ -1,0 +1,52 @@
+name: Build Mundo Quimera Desktop
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build ${{ matrix.platform }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: windows
+            os: windows-latest
+            args: --win nsis portable
+          - platform: macos
+            os: macos-latest
+            args: --mac dmg zip
+          - platform: linux
+            os: ubuntu-latest
+            args: --linux AppImage deb
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.4.1
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build web application
+        run: pnpm run build
+      - name: Build desktop artifacts
+        run: pnpm exec electron-builder ${{ matrix.args }} --config electron-builder.yml
+      - name: Upload installers
+        uses: actions/upload-artifact@v4
+        with:
+          name: mundo-quimera-${{ matrix.platform }}
+          path: release/*
+          if-no-files-found: error

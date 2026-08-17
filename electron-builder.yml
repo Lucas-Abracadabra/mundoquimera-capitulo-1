@@ -1,0 +1,35 @@
+appId: br.manus.mundoquimera.capitulo1
+productName: Mundo Quimera Capitulo 1
+artifactName: Mundo-Quimera-Capitulo-1-${version}-${os}-${arch}.${ext}
+directories:
+  output: release
+  buildResources: electron/resources
+files:
+  - dist/public/**/*
+  - electron/main.mjs
+asar: true
+compression: maximum
+publish: null
+mac:
+  category: public.app-category.games
+  target:
+    - dmg
+    - zip
+win:
+  target:
+    - nsis
+    - portable
+  publish: null
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+linux:
+  maintainer: contato@mundoquimera.local
+  category: Game
+  target:
+    - AppImage
+    - deb
+  synopsis: Jogo narrativo de exploração em Quimera
+  description: Mundo Quimera — Capítulo 1, uma aventura narrativa de exploração e investigação.

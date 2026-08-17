@@ -3,11 +3,21 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
+  "author": {
+    "name": "Mundo Quimera",
+    "email": "contato@mundoquimera.local"
+  },
+  "description": "Jogo narrativo de exploração e investigação em Quimera.",
+  "homepage": "https://mundoquim-wexspi3v.manus.space",
+  "main": "electron/main.mjs",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
+    "desktop:prepare": "pnpm run build",
+    "desktop:dir": "pnpm run desktop:prepare && electron-builder --dir",
+    "desktop:build": "pnpm run desktop:prepare && electron-builder --win --mac --linux",
     "check": "tsc --noEmit",
     "format": "prettier --write ."
   },
@@ -76,6 +86,8 @@
     "@vitejs/plugin-react": "^5.0.4",
     "add": "^2.0.6",
     "autoprefixer": "^10.4.20",
+    "electron": "^37.0.0",
+    "electron-builder": "^26.0.0",
     "esbuild": "^0.25.0",
     "pnpm": "^10.15.1",
     "postcss": "^8.4.47",
