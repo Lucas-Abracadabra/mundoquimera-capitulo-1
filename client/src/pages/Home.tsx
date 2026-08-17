@@ -38,7 +38,7 @@ type LinkOption = { label: string; target: string };
 type ContentBlock = { kind: "text"; text: string } | { kind: "image"; src: string; width?: number; height?: number } | { kind: "choice"; option: LinkOption };
 
 const passages = storyData.passages as Passage[];
-const initialPassage = passages.find((passage) => passage.name.trim() === "Introdução") ?? passages[0];
+const initialPassage = passages.find((passage) => passage.name.trim() === "Menu") ?? passages.find((passage) => passage.name.trim() === "Introdução") ?? passages[0];
 const byName = new Map<string, Passage>(passages.map((passage) => [passage.name.trim(), passage] as [string, Passage]));
 const originalLocations = ["Introdução", "Roubaram sua Adaga de Prata", "Vagou pela Estrada", "Se aproximou das Tartarugas", "Vila Om Sin Nacem", "Foi a Taverna", "fundos", "Loja"];
 

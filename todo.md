@@ -36,4 +36,5 @@
 - [ ] Refinar painéis, escolhas, mapa, busca, atributos e notas.
 - [ ] Adicionar estados de perigo, descoberta e microanimações.
 - [ ] Validar responsividade e integridade narrativa após o redesign.
+- [ ] Corrigir o início para abrir no Menu Principal antes da Introdução.
 - [ ] Retornar a página ao topo ao carregar uma nova passagem.
