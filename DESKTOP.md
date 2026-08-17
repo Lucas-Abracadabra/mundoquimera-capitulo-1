@@ -23,3 +23,9 @@ Os instaladores funcionam sem assinatura, mas o Windows e o macOS podem exibir a
 ## Download dentro do jogo
 
 Um botão de download pode ser adicionado ao Menu Principal depois que os artefatos forem publicados em uma página de releases. Ele deve apontar para os arquivos correspondentes ao sistema detectado, com uma alternativa para exibir todos os formatos.
+
+## Assinatura digital
+
+Os artefatos atuais são funcionais, mas ainda não estão assinados digitalmente. Para Windows, o workflow deve receber um certificado de assinatura de código e a senha por secrets do GitHub Actions, usando uma ferramenta como `signtool` ou a configuração de certificado do `electron-builder`. Para macOS, é necessário um certificado Developer ID Application, a identidade de assinatura, a notarização e os secrets correspondentes. Sem esses certificados, Windows Defender e Gatekeeper podem exibir avisos mesmo quando o aplicativo estiver correto.
+
+A tela de carregamento é local ao aplicativo e não depende da rede; depois dela, a interface do jogo é aberta a partir do build empacotado.

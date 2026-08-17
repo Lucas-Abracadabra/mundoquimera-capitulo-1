@@ -26,7 +26,11 @@ function createWindow() {
     if (url.startsWith('https://') || url.startsWith('http://')) shell.openExternal(url);
     return { action: 'deny' };
   });
-  window.loadFile(path.join(__dirname, '..', 'dist', 'public', 'index.html'));
+  const loadingPath = path.join(__dirname, 'loading.html');
+  const gamePath = path.join(__dirname, '..', 'dist', 'public', 'index.html');
+  window.loadFile(loadingPath).then(() => {
+    setTimeout(() => window.loadFile(gamePath), 180);
+  });
 }
 
 app.whenReady().then(() => {
